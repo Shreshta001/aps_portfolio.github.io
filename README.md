@@ -169,121 +169,6 @@ DSA and APS are not just for cracking interviews — they are core to building t
 
 ## 💼 Business Case Studies powered by DevQuest
 
-# 📊 Real-World Business Case Studies from Google using DSA & APS
-
-These case studies demonstrate how Google leverages **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** to solve real-world, large-scale challenges.
-
----
-
-## 1. 📺 YouTube Video Load Optimization Using Caching and LRU
-
-**Context:**  
-YouTube faced high latency during video buffering, especially in areas with poor internet.
-
-**Solution:**  
-Implemented **Least Recently Used (LRU)** caching at edge servers to store frequently accessed video chunks closer to users.
-
-**Algorithm Applied:**  
-- **LRU Cache:** Doubly linked list + HashMap → O(1) access and eviction
-
-**Benefits:**  
-- Faster video start times  
-- Reduced buffering  
-- Lower backbone traffic
-
-**Complexity:**  
-- **Time:** O(1) for get/put  
-- **Space:** O(capacity)
-
----
-
-## 2. 🖼️ Google Photos Duplicate Image Detection Using Hashing & Union-Find
-
-**Context:**  
-Needed efficient detection and management of duplicate uploads across user albums.
-
-**Solution:**  
-Used **Perceptual Hashing** and **Union-Find** to cluster similar images.
-
-**Algorithms Applied:**  
-- **Hashing:** Quick image signatures  
-- **Union-Find (Disjoint Set):** Grouping similar images
-
-**Benefits:**  
-- Reduced storage  
-- Better search performance
-
-**Complexity:**  
-- **Hashing:** O(1) avg  
-- **Union-Find:** Nearly O(1) with path compression
-
----
-
-## 3. 🔍 Google Ads Keyword Matching Using Trie & Backtracking
-
-**Context:**  
-Efficiently match billions of queries with advertiser keywords including wildcard support.
-
-**Solution:**  
-Used **Trie** for prefix matching + **Backtracking** for wildcard support.
-
-**Algorithms Applied:**  
-- **Trie:** Fast prefix storage and lookup  
-- **Backtracking:** Explore partial/wildcard matches
-
-**Benefits:**  
-- Accurate keyword targeting  
-- Higher click-through rates
-
-**Complexity:**  
-- **Trie:** O(L) where L = keyword length  
-- **Backtracking:** Optimized with pruning
-
----
-
-## 4. 🎥 Google Meet Video Quality Control Using Dynamic Programming
-
-**Context:**  
-Maintain good video quality during varying network conditions.
-
-**Solution:**  
-Used **Dynamic Programming** (similar to **Knapsack Problem**) to choose optimal video resolution under bandwidth constraints.
-
-**Algorithm Applied:**  
-- **DP Optimization:** Choose best bitrate/resolution combination
-
-**Benefits:**  
-- Stable video on poor connections  
-- Smart bandwidth use
-
-**Complexity:**  
-- **Time:** O(nW), where `n = levels`, `W = bandwidth`
-
----
-
-## 5. 🔠 Google Search Autocorrect Using Edit Distance & Trie
-
-**Context:**  
-Fix misspelled queries and suggest the right search terms in real-time.
-
-**Solution:**  
-Used **Edit Distance (Levenshtein)** and **Trie** for spelling correction and suggestions.
-
-**Algorithms Applied:**  
-- **Edit Distance:** Minimum edit transformation  
-- **Trie:** Efficient word suggestions from dictionary
-
-**Benefits:**  
-- Accurate autocorrect  
-- Improved search UX
-
-**Complexity:**  
-- **Edit Distance:** O(mn), where `m` and `n` are word lengths  
-- **Trie:** O(L) where `L = word length`
-
----
-
-
 ## 1. Optimizing Google Ads Allocation with the Assignment Problem 🎯
 
 **Overview:**  
@@ -482,6 +367,844 @@ A DP array where each index represents the minimal coins needed for that amount.
 View the coin change solution here:  
 [Coin Change Problem Implementation](https://github.com/yourusername/coin-change-problem)
 
+
+
+## 💼 Business Case Studies powered by DevQuest (Continued)
+
+---
+
+## 10. Minimizing Cost in Shortest Common Supersequence (SCS) 🚀
+
+**Overview:**  
+In data compression and genome sequencing, constructing a sequence that contains two input sequences as subsequences with minimum length is vital. The **Shortest Common Supersequence** problem finds this sequence, balancing cost and data completeness.
+
+**Application:**  
+Google applies SCS in DNA alignment, text merge, and autocomplete suggestions where minimal combined sequences enhance efficiency and relevance.
+
+- ⏳ **Time Complexity:** O(m × n), where *m* and *n* are the lengths of input sequences.  
+- 🧠 **Space Complexity:** O(m × n), for DP tables storing intermediate supersequence lengths.
+
+**Visual Representation:**  
+A DP matrix comparing two strings and progressively building the shortest supersequence length.
+
+![Shortest Common Supersequence](https://example.com/scs_image.png)
+
+**Code Snippet:**  
+Check out the full SCS implementation here:  
+[Shortest Common Supersequence Implementation](https://github.com/yourusername/shortest-common-supersequence)
+
+---
+
+## 11. Predicting Outcomes Using Urn Models 🎲
+
+**Overview:**  
+Urn models provide probabilistic frameworks for sampling and event prediction, useful in A/B testing, randomized algorithms, and decision-making under uncertainty.
+
+**Application:**  
+Google uses urn models in click prediction, randomized load balancing, and simulating user interaction probabilities for better product decisions.
+
+- ⏳ **Time Complexity:** Varies with model complexity; often linear for basic urn draws.  
+- 🧠 **Space Complexity:** Depends on number of states or draws simulated.
+
+**Visual Representation:**  
+Colored balls in urns representing different event probabilities and draws.
+
+![Urn Models](https://example.com/urn_model_image.png)
+
+**Code Snippet:**  
+Explore urn models simulation code here:  
+[Urn Models Implementation](https://github.com/yourusername/urn-models)
+
+---
+
+## 12. Efficient Mean, Median, Mode Computations for Real-time Analytics 📈
+
+**Overview:**  
+Real-time data streams require fast and accurate computation of descriptive statistics like mean, median, and mode for monitoring user behavior.
+
+**Application:**  
+Google’s analytics pipelines calculate these statistics on-the-fly using efficient incremental algorithms, aiding in anomaly detection and user engagement analysis.
+
+- ⏳ **Time Complexity:** O(1) per update for mean, O(log n) for median using heaps, O(1) average for mode with hashmaps.  
+- 🧠 **Space Complexity:** O(n) for storing data or frequency counts.
+
+**Visual Representation:**  
+Streaming data with sliding windows and real-time statistic updates.
+
+![Mean Median Mode](https://example.com/mean_median_mode_image.png)
+
+**Code Snippet:**  
+See incremental statistics algorithms here:  
+[Mean Median Mode Implementation](https://github.com/yourusername/mean-median-mode)
+
+---
+
+## 13. Using Pascal’s Triangle for Combinatorial Computations 🔢
+
+**Overview:**  
+Pascal’s Triangle provides fast combinatorial number calculations crucial in probability and binomial expansions.
+
+**Application:**  
+Google uses Pascal’s triangle to quickly compute combination counts in recommendation systems, search ranking, and data sampling.
+
+- ⏳ **Time Complexity:** O(n²) to build up to row *n*.  
+- 🧠 **Space Complexity:** O(n²), storing the triangle in memory.
+
+**Visual Representation:**  
+Classic triangular arrangement of binomial coefficients.
+
+![Pascal's Triangle](https://example.com/pascal_triangle_image.png)
+
+**Code Snippet:**  
+Check Pascal’s triangle generation code here:  
+[Pascal's Triangle Implementation](https://github.com/yourusername/pascals-triangle)
+
+---
+
+## 14. Modeling Catalan Numbers for Balanced Structures 🏗️
+
+**Overview:**  
+Catalan numbers count numerous structures like balanced parentheses, binary trees, and mountain ranges, fundamental in syntax parsing and code generation.
+
+**Application:**  
+Google leverages Catalan number insights in compiler design, UI layout balancing, and nested query optimization.
+
+- ⏳ **Time Complexity:** O(n²) for DP computation of *n*th Catalan number.  
+- 🧠 **Space Complexity:** O(n), storing intermediate counts.
+
+**Visual Representation:**  
+Dyck path lattice and balanced parentheses counting.
+
+![Catalan Numbers](https://example.com/catalan_numbers_image.png)
+
+**Code Snippet:**  
+Explore Catalan number calculation here:  
+[Catalan Numbers Implementation](https://github.com/yourusername/catalan-numbers)
+
+---
+
+## 15. Applying Fermat's Little Theorem for Modular Inverses 🔄
+
+**Overview:**  
+Computing modular inverses efficiently is crucial in cryptography and hashing algorithms.
+
+**Application:**  
+Google’s security and data integrity modules use Fermat’s little theorem to compute inverses modulo large primes, enabling fast modular division in cryptographic protocols.
+
+- ⏳ **Time Complexity:** O(log p) using fast exponentiation, where *p* is the prime modulus.  
+- 🧠 **Space Complexity:** O(1).
+
+**Visual Representation:**  
+Modular arithmetic cycle depiction and exponentiation.
+
+![Fermat's Little Theorem](https://example.com/fermat_little_theorem_image.png)
+
+**Code Snippet:**  
+See modular inverse implementation here:  
+[Fermat's Little Theorem Implementation](https://github.com/yourusername/fermat-modular-inverse)
+
+---
+
+## 16. Multiplicative Modular Inverse and Extended Euclidean Algorithm ⚙️
+
+**Overview:**  
+Finding modular inverses via Extended Euclidean Algorithm complements Fermat’s theorem for non-prime moduli.
+
+**Application:**  
+Google’s algorithms for cryptography and error correction use this for versatile modular inverse calculation.
+
+- ⏳ **Time Complexity:** O(log min(a, b)) for inputs *a*, *b*.  
+- 🧠 **Space Complexity:** O(1).
+
+**Visual Representation:**  
+Euclid’s algorithm stepwise GCD and inverse calculation.
+
+![Extended Euclidean Algorithm](https://example.com/extended_euclidean_image.png)
+
+**Code Snippet:**  
+Explore extended Euclidean algorithm here:  
+[Extended Euclidean Algorithm Implementation](https://github.com/yourusername/extended-euclidean)
+
+---
+
+## 17. XOR-Based Unique Element Identification in Duplicate Arrays 🔍
+
+**Overview:**  
+Identifying the unique element in arrays where all others appear twice efficiently is critical in data validation and error detection.
+
+**Application:**  
+Google uses XOR properties in data deduplication and fault tolerance to quickly detect unique or corrupted entries.
+
+- ⏳ **Time Complexity:** O(n) linear scan.  
+- 🧠 **Space Complexity:** O(1).
+
+**Visual Representation:**  
+Bitwise XOR operation highlighting unique number isolation.
+
+![XOR Unique Element](https://example.com/xor_unique_element_image.png)
+
+**Code Snippet:**  
+See XOR unique element finder here:  
+[XOR Unique Element Implementation](https://github.com/yourusername/xor-unique-element)
+
+---
+
+## 18. Search Optimization Using DFS and BFS 🌐
+
+**Overview:**  
+Depth-first and breadth-first search algorithms power crawling, indexing, and link analysis in large graphs like the web.
+
+**Application:**  
+Google’s search engine uses BFS for shortest path discovery and DFS for connected component detection and cycle detection in web graphs.
+
+- ⏳ **Time Complexity:** O(V + E), where *V* is vertices and *E* edges.  
+- 🧠 **Space Complexity:** O(V) for visited node tracking.
+
+**Visual Representation:**  
+Graph traversal layers and recursion stacks.
+
+![DFS BFS](https://example.com/dfs_bfs_image.png)
+
+**Code Snippet:**  
+Explore BFS and DFS code here:  
+[DFS and BFS Implementation](https://github.com/yourusername/dfs-bfs)
+
+---
+
+## 19. Best First Search for Efficient Pathfinding 🔎
+
+**Overview:**  
+Best First Search uses heuristics to find optimal paths efficiently, crucial in maps, route planning, and AI decision making.
+
+**Application:**  
+Google Maps and AI modules implement Best First Search and A* algorithms for real-time navigation.
+
+- ⏳ **Time Complexity:** O(E), depending on heuristic quality.  
+- 🧠 **Space Complexity:** O(V) for frontier and explored sets.
+
+**Visual Representation:**  
+Priority queue driven graph traversal with heuristic scoring.
+
+![Best First Search](https://example.com/best_first_search_image.png)
+
+**Code Snippet:**  
+See Best First Search implementation here:  
+[Best First Search Implementation](https://github.com/yourusername/best-first-search)
+
+---
+
+## 20. Stable Marriage Problem for Matching Algorithms 💍
+
+**Overview:**  
+Stable Marriage Problem finds stable matches in bipartite sets, essential in matchmaking systems and resource allocation.
+
+**Application:**  
+Google applies it in job matching platforms, ad auctions, and cloud resource assignment.
+
+- ⏳ **Time Complexity:** O(n²).  
+- 🧠 **Space Complexity:** O(n²).
+
+**Visual Representation:**  
+Preference lists and stable matching pairs.
+
+![Stable Marriage Problem](https://example.com/stable_marriage_image.png)
+
+**Code Snippet:**  
+Explore Gale-Shapley algorithm here:  
+[Stable Marriage Problem Implementation](https://github.com/yourusername/stable-marriage)
+
+---
+
+## 21. Johnson-Trotter Algorithm for Permutation Generation 🔄
+
+**Overview:**  
+Generating permutations efficiently is essential in testing and combinatorial optimization.
+
+**Application:**  
+Google uses permutation algorithms in search ranking tests, product feature combinations, and AI training data augmentation.
+
+- ⏳ **Time Complexity:** O(n!) total for generating all permutations.  
+- 🧠 **Space Complexity:** O(n).
+
+**Visual Representation:**  
+Permutation sequences with mobile elements.
+
+![Johnson-Trotter](https://example.com/johnson_trotter_image.png)
+
+**Code Snippet:**  
+See Johnson-Trotter permutation generation here:  
+[Johnson-Trotter Implementation](https://github.com/yourusername/johnson-trotter)
+
+---
+
+## 22. Kadane’s Algorithm for Maximum Subarray Sum 🧮
+
+**Overview:**  
+Kadane’s algorithm finds the contiguous subarray with maximum sum in linear time, vital for signal processing and financial analytics.
+
+**Application:**  
+Google uses it for anomaly detection in time series and optimizing revenue in ad bidding.
+
+- ⏳ **Time Complexity:** O(n).  
+- 🧠 **Space Complexity:** O(1).
+
+**Visual Representation:**  
+Array scanning with current max and global max tracking.
+
+![Kadane's Algorithm](https://example.com/kadane_algorithm_image.png)
+
+**Code Snippet:**  
+Check Kadane’s algorithm code here:  
+[Kadane’s Algorithm Implementation](https://github.com/yourusername/kadane-algorithm)
+
+---
+
+## 23. Union-Find Data Structure for Disjoint Sets 🔗
+
+**Overview:**  
+Union-Find efficiently manages disjoint sets, enabling quick union and find operations.
+
+**Application:**  
+Google uses Union-Find in clustering, network connectivity, and duplicate detection.
+
+- ⏳ **Time Complexity:** Amortized O(α(n)) per operation (α = inverse Ackermann function, very slow growing).  
+- 🧠 **Space Complexity:** O(n).
+
+**Visual Representation:**  
+Disjoint set forests with path compression.
+
+![Union-Find](https://example.com/union_find_image.png)
+
+**Code Snippet:**  
+Explore Union-Find implementation here:  
+[Union-Find Implementation](https://github.com/yourusername/union-find)
+
+---
+
+## 24. Knuth-Morris-Pratt (KMP) String Matching 🔍
+
+**Overview:**  
+KMP algorithm finds substrings in O(n) time using prefix functions, essential for fast text searching.
+
+**Application:**  
+Google’s search and text processing tools utilize KMP for indexing and query optimization.
+
+- ⏳ **Time Complexity:** O(n + m), where *n* is text length, *m* pattern length.  
+- 🧠 **Space Complexity:** O(m).
+
+**Visual Representation:**  
+Prefix function computation and pattern matching flow.
+
+![KMP Algorithm](https://example.com/kmp_algorithm_image.png)
+
+**Code Snippet:**  
+Check KMP implementation here:  
+[KMP Algorithm Implementation](https://github.com/yourusername/kmp)
+
+---
+
+## 25. Dijkstra’s Algorithm for Shortest Path Optimization 🚗
+
+**Overview:**  
+Dijkstra’s algorithm finds shortest paths in weighted graphs, foundational in navigation and routing.
+
+**Application:**  
+Google Maps and network routing protocols rely on Dijkstra for efficient pathfinding.
+
+- ⏳ **Time Complexity:** O(E + V log V) with priority queues.  
+- 🧠 **Space Complexity:** O(V).
+
+**Visual Representation:**  
+Graph with distance updates and priority queue states.
+
+![Dijkstra's Algorithm](https://example.com/dijkstra_algorithm_image.png)
+
+**Code Snippet:**  
+Explore Dijkstra implementation here:  
+[Dijkstra’s Algorithm Implementation](https://github.com/yourusername/dijkstra)
+
+---
+
+## 26. Floyd-Warshall Algorithm for All-Pairs Shortest Paths 🌍
+
+**Overview:**  
+Floyd-Warshall computes shortest paths between all pairs of vertices in weighted graphs.
+
+**Application:**  
+Google uses it in traffic prediction and network latency optimization.
+
+- ⏳ **Time Complexity:** O(V³).  
+- 🧠 **Space Complexity:** O(V²).
+
+**Visual Representation:**  
+Distance matrix updates across iterations.
+
+![Floyd-Warshall](https://example.com/floyd_warshall_image.png)
+
+**Code Snippet:**  
+See Floyd-Warshall implementation here:  
+[Floyd-Warshall Algorithm Implementation](https://github.com/yourusername/floyd-warshall)
+
+---
+## 💼 Business Case Studies powered by DevQuest (Continued)
+
+---
+
+## 27. CNN-Based RCCB Demosaicing with Multi-Loss Training 🎨
+
+**Overview:**  
+Demosaicing reconstructs full-color images from sensor data. Using a CNN with RCCB filter patterns and multiple loss functions (LPIPS, SSIM, Delta E, Huber loss) improves color accuracy and structural fidelity.
+
+**Application:**  
+Google’s camera pipelines leverage CNN-based demosaicing to enhance mobile photography, especially in custom sensor designs like RCCB for better green channel fidelity.
+
+- ⏳ **Time Complexity:** Depends on CNN architecture and dataset size (typically hours on GPUs).  
+- 🧠 **Space Complexity:** High due to CNN parameters and multi-loss backpropagation.
+
+**Visual Representation:**  
+Input RCCB mosaiced image → CNN → High-fidelity RGB output.
+
+**Code Snippet:**  
+Explore RCCB demosaicing model here:  
+[RCCB CNN Demosaicing](https://github.com/yourusername/rccb-demosaicing)
+
+---
+
+## 28. Online Learnable Color Correction Matrix (CCM) Estimation in CNNs 🎯
+
+**Overview:**  
+Integrating a learnable CCM within the CNN training loop enables dynamic color correction, adapting to varying lighting and sensor responses.
+
+**Application:**  
+Google’s imaging systems adaptively tune color correction in real-time for accurate color reproduction across devices and environments.
+
+- ⏳ **Time Complexity:** Additional overhead during training iterations for CCM optimization.  
+- 🧠 **Space Complexity:** Slight increase due to CCM parameters.
+
+**Visual Representation:**  
+Training loop updates CCM weights → Enhanced color output.
+
+**Code Snippet:**  
+Check online CCM integration here:  
+[Learnable CCM in CNN](https://github.com/yourusername/learnable-ccm)
+
+---
+
+## 29. Multi-Loss Optimization with White Balancing for Sensor Data ⚖️
+
+**Overview:**  
+Combining losses like LPIPS, SSIM, Delta E with white balancing ensures demosaiced images are structurally and chromatically accurate.
+
+**Application:**  
+Used in Google’s advanced camera pipelines to balance perceptual quality and color consistency in RAW to RGB conversions.
+
+- ⏳ **Time Complexity:** Increased due to multiple loss computations.  
+- 🧠 **Space Complexity:** O(batch size × image size) plus loss buffers.
+
+**Visual Representation:**  
+Loss landscape combining structural and color fidelity terms.
+
+**Code Snippet:**  
+See multi-loss training code here:  
+[Multi-Loss Demosaicing](https://github.com/yourusername/multi-loss-demosaicing)
+
+---
+
+## 30. PyTorch Pipeline for RCCB Sensor Image Processing with AMP ⚡
+
+**Overview:**  
+Implementing automated mixed precision (AMP) in PyTorch speeds up training while preserving accuracy for RCCB demosaicing CNNs.
+
+**Application:**  
+Google leverages AMP to reduce training time and memory usage for large-scale imaging models.
+
+- ⏳ **Time Complexity:** Reduced training time via mixed precision.  
+- 🧠 **Space Complexity:** Lower GPU memory footprint.
+
+**Visual Representation:**  
+FP16 precision for forward/backward passes with FP32 master weights.
+
+**Code Snippet:**  
+AMP-enabled training script here:  
+[RCCB Demosaicing with AMP](https://github.com/yourusername/rccb-amp-training)
+
+---
+
+## 31. Shuttle Network Simulation with MVC Architecture 🚌
+
+**Overview:**  
+Modeling a shuttle transport system for events using MVC architecture separates data (Model), UI (View), and logic (Controller) for maintainability.
+
+**Application:**  
+Google event management uses MVC for scalable simulation of transportation and logistics during large festivals.
+
+- ⏳ **Time Complexity:** Depends on simulation detail and number of vehicles.  
+- 🧠 **Space Complexity:** Based on network size and simulation state storage.
+
+**Visual Representation:**  
+MVC layers diagram and shuttle routing logic.
+
+**Code Snippet:**  
+See shuttle simulation MVC here:  
+[Shuttle Network MVC](https://github.com/yourusername/shuttle-mvc-simulation)
+
+---
+
+## 32. Dynamic Simulation with Time Slots and Double-Decker Bus Effects ⏰🚌
+
+**Overview:**  
+Adding time-of-day dynamics and vehicle type effects (like double-decker buses) to shuttle simulations captures real-world traffic variations and capacity constraints.
+
+**Application:**  
+Used for optimizing crowd flow and minimizing congestion at mega-events like music festivals.
+
+- ⏳ **Time Complexity:** Increased due to time-step based updates.  
+- 🧠 **Space Complexity:** Stores state across time slots.
+
+**Visual Representation:**  
+Time-slot based simulation showing traffic density changes.
+
+**Code Snippet:**  
+Dynamic time-slot simulation code here:  
+[Dynamic Shuttle Simulation](https://github.com/yourusername/dynamic-shuttle-simulation)
+
+---
+
+## 33. Emergency Evacuation Simulation with Transfer and Pollution Constraints 🚨🌿
+
+**Overview:**  
+Modeling emergency evacuation scenarios in shuttle networks considering pollution limits and transfer rules ensures safe and eco-friendly transport solutions.
+
+**Application:**  
+Google’s event safety protocols incorporate such simulations to prepare evacuation plans minimizing risk and environmental impact.
+
+- ⏳ **Time Complexity:** High due to complex constraints and scenario modeling.  
+- 🧠 **Space Complexity:** Large state space for multiple constraints and routes.
+
+**Visual Representation:**  
+Evacuation routes with pollution hotspots highlighted.
+
+**Code Snippet:**  
+Evacuation simulation model here:  
+[Emergency Evacuation Simulation](https://github.com/yourusername/emergency-evacuation)
+
+---
+
+## 34. MVC-Based Visualization Tools for Transport Simulations 📊
+
+**Overview:**  
+Visualization modules integrated in MVC provide real-time feedback and interactive dashboards for shuttle simulation results.
+
+**Application:**  
+Google’s internal tools use visualization to monitor transport logistics during large-scale events.
+
+- ⏳ **Time Complexity:** Depends on rendering frequency and data complexity.  
+- 🧠 **Space Complexity:** Memory for graphical data and UI elements.
+
+**Visual Representation:**  
+Dashboard screenshot showing shuttle positions and stats.
+
+**Code Snippet:**  
+Visualization integration here:  
+[Simulation Visualization MVC](https://github.com/yourusername/simulation-visualization)
+
+---
+
+## 35. Algorithmic Optimization and Real-World Constraints in Shuttle Routing 🚦
+
+**Overview:**  
+Balancing shuttle capacity, road pollution, junction transfers, and timing requires advanced optimization algorithms integrated within simulations.
+
+**Application:**  
+Google’s traffic management teams apply these optimizations for sustainable and efficient event transport solutions.
+
+- ⏳ **Time Complexity:** Algorithm-dependent; often NP-hard requiring heuristics.  
+- 🧠 **Space Complexity:** Based on network and vehicle data.
+
+**Visual Representation:**  
+Flowchart of optimization steps in shuttle routing.
+
+**Code Snippet:**  
+Optimization algorithm code here:  
+[Shuttle Routing Optimization](https://github.com/yourusername/shuttle-routing-optimization)
+
+
+
+
+## 10. Finding the Shortest Common Supersequence (SCS) ⏳
+
+*Overview:*  
+The Shortest Common Supersequence problem aims to find the shortest string that contains two given strings as subsequences. This is useful in data synchronization and merging version histories efficiently.
+
+*Application:*  
+Google’s version control systems and data merging tools use SCS to optimally combine changes from different document versions, minimizing duplication and preserving order.
+
+- ⏳ *Time Complexity:* O(m × n), where m and n are the lengths of the two strings.  
+- 🧠 *Space Complexity:* O(m × n), for the DP matrix.
+
+*Visual Representation:*  
+A DP table that builds the shortest supersequence length by comparing prefixes of two strings.
+
+![Shortest Common Supersequence](https://example.com/scs_image.png)
+
+*Code Snippet:*  
+Explore the SCS implementation here:  
+[Shortest Common Supersequence Implementation](https://github.com/yourusername/shortest-common-supersequence)
+
+---
+
+## 11. Urn Models in Probabilistic Programming 🎲
+
+*Overview:*  
+Urn models provide foundational intuition for probabilistic simulations and data science modeling, dealing with sampling and replacement scenarios.
+
+*Application:*  
+Google’s recommendation engines and A/B testing frameworks use urn models to simulate user behavior and estimate probabilities of different outcomes under various assumptions.
+
+- ⏳ *Time Complexity:* Depends on the simulation size, typically O(n) for n draws.  
+- 🧠 *Space Complexity:* O(1) or O(n) based on model and data storage.
+
+*Visual Representation:*  
+Visualize urns with colored balls representing outcomes, showing draw-with or without replacement.
+
+![Urn Models](https://example.com/urn_models_image.png)
+
+*Code Snippet:*  
+See urn model simulations here:  
+[Urn Models Implementation](https://github.com/yourusername/urn-models)
+
+---
+
+## 12. Analyzing Mean, Median, and Mode in Large Data Sets 📈
+
+*Overview:*  
+Understanding central tendency measures helps optimize algorithms that summarize and make decisions on big data.
+
+*Application:*  
+Google Analytics and data pipelines use efficient computation of mean, median, and mode to provide real-time insights and support business intelligence.
+
+- ⏳ *Time Complexity:* Mean is O(n), median can be O(n log n) (sorting), mode O(n) using hashing.  
+- 🧠 *Space Complexity:* O(n) for storing data or O(1) with streaming algorithms.
+
+*Visual Representation:*  
+Graphs showing distributions with highlighted mean, median, and mode points.
+
+![Mean Median Mode](https://example.com/mean_median_mode_image.png)
+
+*Code Snippet:*  
+Check out implementations here:  
+[Mean Median Mode Implementation](https://github.com/yourusername/mean-median-mode)
+
+---
+
+## 13. Exploring Catalan Numbers Through Dyck Paths 🎯
+
+*Overview:*  
+Catalan numbers count various combinatorial structures like balanced parentheses, binary search trees, and mountain ranges.
+
+*Application:*  
+Google’s code parsing tools and syntax validators utilize Catalan number properties to predict valid code block structures and help in autocomplete.
+
+- ⏳ *Time Complexity:* O(n²) or O(n) with closed-form formula for nth Catalan number.  
+- 🧠 *Space Complexity:* O(n) for DP storage.
+
+*Visual Representation:*  
+Dyck paths represented as lattice paths staying above diagonal, counting valid sequences.
+
+![Catalan Numbers](https://example.com/catalan_numbers_image.png)
+
+*Code Snippet:*  
+View Catalan number calculation code here:  
+[Catalan Numbers Implementation](https://github.com/yourusername/catalan-numbers)
+
+---
+
+## 14. Using Fermat’s Little Theorem in Modular Arithmetic 🔢
+
+*Overview:*  
+Fermat’s Little Theorem helps efficiently compute modular inverses, crucial for cryptographic and algorithmic computations.
+
+*Application:*  
+Google’s security algorithms rely on fast modular arithmetic for encryption, decryption, and error detection in large-scale data transfers.
+
+- ⏳ *Time Complexity:* O(log p) per modular inverse calculation using fast exponentiation.  
+- 🧠 *Space Complexity:* O(1) for calculations.
+
+*Visual Representation:*  
+Illustration of modular exponentiation and inverse calculation steps.
+
+![Fermat's Little Theorem](https://example.com/fermat_theorem_image.png)
+
+*Code Snippet:*  
+Explore modular inverse code here:  
+[Fermat's Little Theorem Implementation](https://github.com/yourusername/fermat-little-theorem)
+
+---
+
+## 15. Finding the Multiplicative Modular Inverse (MMI) 🧮
+
+*Overview:*  
+Computing the multiplicative modular inverse is key to solving modular equations and implementing cryptographic protocols.
+
+*Application:*  
+Google’s algorithms use MMI in hashing, secure multiparty computations, and blockchain-related computations.
+
+- ⏳ *Time Complexity:* O(log m) using Extended Euclidean Algorithm.  
+- 🧠 *Space Complexity:* O(1).
+
+*Visual Representation:*  
+Step-by-step Euclidean algorithm tree for GCD and inverse calculation.
+
+![Modular Inverse](https://example.com/modular_inverse_image.png)
+
+*Code Snippet:*  
+Check out MMI implementations here:  
+[Modular Inverse Implementation](https://github.com/yourusername/modular-inverse)
+
+---
+
+## 16. Graph Traversals: DFS and BFS Overview 🌐
+
+*Overview:*  
+Depth-First Search and Breadth-First Search are fundamental graph traversal algorithms essential for many applications.
+
+*Application:*  
+Google Search infrastructure uses DFS and BFS for crawling web graphs and analyzing connectivity.
+
+- ⏳ *Time Complexity:* O(V + E), where V is vertices, E is edges.  
+- 🧠 *Space Complexity:* O(V) for queue/stack and visited arrays.
+
+*Visual Representation:*  
+Graphs showing order of nodes visited by DFS and BFS.
+
+![DFS BFS](https://example.com/dfs_bfs_image.png)
+
+*Code Snippet:*  
+Explore DFS and BFS code here:  
+[DFS BFS Implementation](https://github.com/yourusername/dfs-bfs)
+
+---
+
+## 17. Implementing Best First Search with Heuristics 🔍
+
+*Overview:*  
+Best First Search uses heuristic functions to guide search efficiently towards goals.
+
+*Application:*  
+Google Maps uses Best First Search variants like A* to find optimal routes in road networks.
+
+- ⏳ *Time Complexity:* Depends on heuristic accuracy; worst O(b^d), b branching factor, d depth.  
+- 🧠 *Space Complexity:* O(b^d) for frontier.
+
+*Visual Representation:*  
+Graph search with priority queue expanding nodes with lowest heuristic cost first.
+
+![Best First Search](https://example.com/best_first_search_image.png)
+
+*Code Snippet:*  
+Check out Best First Search implementations:  
+[Best First Search Implementation](https://github.com/yourusername/best-first-search)
+
+---
+
+## 18. Stable Marriage Problem: Iterative Development Approach 💍
+
+*Overview:*  
+The Stable Marriage Problem finds stable matches between two equally sized sets based on preferences.
+
+*Application:*  
+Google’s team-building tools and resource allocation systems use stable matching algorithms to optimize pairings.
+
+- ⏳ *Time Complexity:* O(n²), with n being the number of participants.  
+- 🧠 *Space Complexity:* O(n²) for preference lists.
+
+*Visual Representation:*  
+Matching graph with arrows showing proposals and stable pairs.
+
+![Stable Marriage](https://example.com/stable_marriage_image.png)
+
+*Code Snippet:*  
+See the Gale-Shapley algorithm here:  
+[Stable Marriage Implementation](https://github.com/yourusername/stable-marriage)
+
+---
+
+## 19. Johnson-Trotter Algorithm for Permutation Generation 🔄
+
+*Overview:*  
+Generates permutations of n elements by producing each next permutation by swapping adjacent elements.
+
+*Application:*  
+Google’s testing frameworks use permutation generation for exhaustive testing of small input sets.
+
+- ⏳ *Time Complexity:* O(n!) total, O(n) per permutation.  
+- 🧠 *Space Complexity:* O(n) for storing permutation.
+
+*Visual Representation:*  
+Sequence of permutations showing swaps step-by-step.
+
+![Johnson-Trotter](https://example.com/johnson_trotter_image.png)
+
+*Code Snippet:*  
+Explore Johnson-Trotter code here:  
+[Johnson-Trotter Implementation](https://github.com/yourusername/johnson-trotter)
+
+---
+
+## 20. Boruvka’s Algorithm for Minimum Spanning Tree 🌲
+
+*Overview:*  
+Boruvka’s algorithm builds MST by iteratively connecting components with the cheapest edge.
+
+*Application:*  
+Google’s network infrastructure optimization uses MST algorithms to reduce costs and improve connectivity.
+
+- ⏳ *Time Complexity:* O(E log V), E edges, V vertices.  
+- 🧠 *Space Complexity:* O(V + E).
+
+*Visual Representation:*  
+Graph showing successive merging of components via cheapest edges.
+
+![Boruvka's Algorithm](https://example.com/boruvka_algorithm_image.png)
+
+*Code Snippet:*  
+See Boruvka’s MST implementation here:  
+[Boruvka's Algorithm Implementation](https://github.com/yourusername/boruvka-algorithm)
+
+---
+
+## 21. Implementing MVC Architecture with Pin Code Application 🏗️
+
+*Overview:*  
+Model-View-Controller (MVC) is a design pattern separating data, UI, and control logic.
+
+*Application:*  
+Google web apps and admin dashboards use MVC to maintain clean, maintainable codebases, here demonstrated using pin code data filtering.
+
+- ⏳ *Time Complexity:* N/A (design pattern)  
+- 🧠 *Space Complexity:* N/A
+
+*Visual Representation:*  
+Diagram showing interactions between Model, View, and Controller components.
+
+![MVC Architecture](https://example.com/mvc_architecture_image.png)
+
+*Code Snippet:*  
+Example MVC code for pin code filtering:  
+[MVC Pin Code Application](https://github.com/yourusername/mvc-pin-code-app)
+
+---
+
+### I hope this slide structure and content help you nail your presentation! If you want me to generate slides or code snippets for any specific topic, just ask!
+
+
+---
+
+**Would you like me to prepare code samples or detailed explanations for any specific item?**  
+Or I can help generate slides, cheat sheets, or project templates based on these cases!
+
+
+
 ---
 
 
@@ -496,43 +1219,6 @@ View the coin change solution here:
 
 
 > 👣 **Let DevQuest continue...** Stay tuned for deeper case studies and solutions in this exploration of how algorithms quietly shape the tech we rely on daily.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!--commeneted-->
@@ -594,3 +1280,120 @@ View the coin change solution here:
 ### 🎓 *Learning & Education*
 - *Google Classroom* 🎓 – Organize classes, assignments, and grades easily.
 -->
+
+
+
+<!--
+# 📊 Real-World Business Case Studies from Google using DSA & APS
+
+These case studies demonstrate how Google leverages **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** to solve real-world, large-scale challenges.
+
+---
+
+## 1. 📺 YouTube Video Load Optimization Using Caching and LRU
+
+**Context:**  
+YouTube faced high latency during video buffering, especially in areas with poor internet.
+
+**Solution:**  
+Implemented **Least Recently Used (LRU)** caching at edge servers to store frequently accessed video chunks closer to users.
+
+**Algorithm Applied:**  
+- **LRU Cache:** Doubly linked list + HashMap → O(1) access and eviction
+
+**Benefits:**  
+- Faster video start times  
+- Reduced buffering  
+- Lower backbone traffic
+
+**Complexity:**  
+- **Time:** O(1) for get/put  
+- **Space:** O(capacity)
+
+---
+
+## 2. 🖼️ Google Photos Duplicate Image Detection Using Hashing & Union-Find
+
+**Context:**  
+Needed efficient detection and management of duplicate uploads across user albums.
+
+**Solution:**  
+Used **Perceptual Hashing** and **Union-Find** to cluster similar images.
+
+**Algorithms Applied:**  
+- **Hashing:** Quick image signatures  
+- **Union-Find (Disjoint Set):** Grouping similar images
+
+**Benefits:**  
+- Reduced storage  
+- Better search performance
+
+**Complexity:**  
+- **Hashing:** O(1) avg  
+- **Union-Find:** Nearly O(1) with path compression
+
+---
+
+## 3. 🔍 Google Ads Keyword Matching Using Trie & Backtracking
+
+**Context:**  
+Efficiently match billions of queries with advertiser keywords including wildcard support.
+
+**Solution:**  
+Used **Trie** for prefix matching + **Backtracking** for wildcard support.
+
+**Algorithms Applied:**  
+- **Trie:** Fast prefix storage and lookup  
+- **Backtracking:** Explore partial/wildcard matches
+
+**Benefits:**  
+- Accurate keyword targeting  
+- Higher click-through rates
+
+**Complexity:**  
+- **Trie:** O(L) where L = keyword length  
+- **Backtracking:** Optimized with pruning
+
+---
+
+## 4. 🎥 Google Meet Video Quality Control Using Dynamic Programming
+
+**Context:**  
+Maintain good video quality during varying network conditions.
+
+**Solution:**  
+Used **Dynamic Programming** (similar to **Knapsack Problem**) to choose optimal video resolution under bandwidth constraints.
+
+**Algorithm Applied:**  
+- **DP Optimization:** Choose best bitrate/resolution combination
+
+**Benefits:**  
+- Stable video on poor connections  
+- Smart bandwidth use
+
+**Complexity:**  
+- **Time:** O(nW), where `n = levels`, `W = bandwidth`
+
+---
+
+## 5. 🔠 Google Search Autocorrect Using Edit Distance & Trie
+
+**Context:**  
+Fix misspelled queries and suggest the right search terms in real-time.
+
+**Solution:**  
+Used **Edit Distance (Levenshtein)** and **Trie** for spelling correction and suggestions.
+
+**Algorithms Applied:**  
+- **Edit Distance:** Minimum edit transformation  
+- **Trie:** Efficient word suggestions from dictionary
+
+**Benefits:**  
+- Accurate autocorrect  
+- Improved search UX
+
+**Complexity:**  
+- **Edit Distance:** O(mn), where `m` and `n` are word lengths  
+- **Trie:** O(L) where `L = word length`
+
+----->
