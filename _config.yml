@@ -1,18 +1,16 @@
-title: DevQuest
-description: Driven to elevate visiosn tthrough quest
+title: "DevQuest"
+description: "Connecting ideas to solutions, one problem at a time!"
 theme: null
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: just-the-docs/just-the-docs
 
-author:
-  name: "SSM"
-  email: "yesyesem22@gmail.com"
-  
-minimal_mistakes_skin: air
+url: "https://shreshta001.github.io"
+baseurl: ""  # Keep this blank for username.github.io repo
+
+# Optional extras
+color_scheme: light  # or dark
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-include-cache
-  - jekyll-feed
   - jekyll-seo-tag
 
 markdown: kramdown
