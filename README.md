@@ -12,18 +12,22 @@
 
 
 
-> **D**riven to **E**levate **V**isions through a **Quest** of innovation, creation, and exploration.
+> **D**riven to **E**levate **V**isions through a **Quest** of innovation, creation and exploration.
 
 ---
-## 🧾 Portfolio Details
+<h2>🧾 Portfolio Details</h2>
 
-**👩‍🎓 Student**       : *Shreshta S. Majalikar (SSM)* <br/>
-**🎓 SRN**           : *01fe22bcs277* <br/>
-**🔰 Course Name**   : *Algorithmic Problem Solving* <br/>
-**🆔 Course Code**   : *24ECSE309* <br/>
-**👨‍🏫 Instructor**    : *Prakash Hegade (PH)* <br/>
-**🌐 Domain**        : *Google* <br/>
-**🏛 University**     : *KLE Technological University, Hubballi* <br/>
+<pre>
+👩‍🎓 Student     : Shreshta S. Majalikar (SSM)
+🎓 SRN         : 01FE22BCS277
+🔰 Course Name : Algorithmic Problem Solving (APS)
+🆔 Course Code : 24ECSE309
+👨‍🏫 Instructor  : Prakash Hegade (PH)
+🌐 Domain      : GOOGLE
+🏛 University   : KLE Technological University, Hubballi 
+</pre>
+
+
 
 ---
 ## 🛠️ Technical Skills
