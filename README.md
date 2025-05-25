@@ -1,15 +1,18 @@
-🚀<h1 style="font-size: 60px; font-weight: 900;
-           background: linear-gradient(135deg, #8ec5fc, #e0c3fc); 
-           -webkit-background-clip: text; 
-           -webkit-text-fill-color: transparent; 
-           text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
-           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-   DevQuest
+<h1 style="font-size: 60px; font-weight: 900;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);">
+  <span>🚀</span>
+  <span style="background: linear-gradient(135deg, #8ec5fc, #e0c3fc); 
+               -webkit-background-clip: text; 
+               -webkit-text-fill-color: transparent;">
+    DevQuest
+  </span>
 </h1>
 
 
 
-> *Driven to **E**levate **V**isions through a **Quest** of innovation, creation, and exploration.
+
+> **D**riven to **E**levate **V**isions through a **Quest** of innovation, creation, and exploration.
 
 ---
 ## 🧾 Portfolio Details
