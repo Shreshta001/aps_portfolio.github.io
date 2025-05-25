@@ -284,8 +284,264 @@ Used **Edit Distance (Levenshtein)** and **Trie** for spelling correction and su
 ---
 
 
+# Google Algorithmic Business Case Studies
 
+Welcome to a comprehensive collection of **15 business case studies** illustrating how various algorithms and mathematical concepts are applied to enhance Google's services. Each case study provides:
 
+- A detailed **overview**
+- Real-world **applications**
+- **Time** and **space complexity** analysis
+- Visual representations (with placeholders)
+- Links to code implementations
+
+---
+
+## 1. Optimizing Google Ads Allocation with the Assignment Problem
+
+**Overview:**  
+Google Ads must efficiently assign advertisements to available slots to maximize revenue and user engagement. The **Assignment Problem** models this as a bipartite graph, matching ads to slots based on predicted click-through rates (CTR).
+
+**Application:**  
+The **Hungarian Algorithm** is used to find the optimal matching that maximizes the total CTR, improving ad relevance and profitability.
+
+**Time Complexity:** O(n³)  
+**Space Complexity:** O(n²)
+
+**Visual Representation:**  
+![Assignment Problem](https://example.com/assignment_problem_image.png)
+
+**Code Snippet:**  
+[Assignment Problem Implementation](https://github.com/yourusername/assignment-problem)
+
+---
+
+## 2. Enhancing Data Security with the Stolen Values Problem
+
+**Overview:**  
+Data integrity is critical when some data points are compromised or "stolen." This problem focuses on reconstructing the original dataset from partial or tampered data.
+
+**Application:**  
+Using **Dynamic Programming**, the system reconstructs the original data by minimizing the difference between expected and observed values, thus ensuring security and reliability.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(n)
+
+**Visual Representation:**  
+![Stolen Values Problem](https://example.com/stolen_values_image.png)
+
+**Code Snippet:**  
+[Stolen Values Problem Implementation](https://github.com/yourusername/stolen-values-problem)
+
+---
+
+## 3. Predicting User Behavior with Ways to Reach a Number
+
+**Overview:**  
+Understanding the number of ways a user can reach a specific state or page helps optimize user flow and experience on Google platforms.
+
+**Application:**  
+This problem resembles the **coin change problem** where Dynamic Programming calculates the number of unique sequences leading to a target user action.
+
+**Time Complexity:** O(n × m) (n = target, m = number of steps)  
+**Space Complexity:** O(n)
+
+**Visual Representation:**  
+![Ways to Reach a Number](https://example.com/ways_to_reach_number_image.png)
+
+**Code Snippet:**  
+[Ways to Reach a Number Implementation](https://github.com/yourusername/ways-to-reach-number)
+
+---
+
+## 4. Improving Search Suggestions with Longest Common Subsequence (LCS)
+
+**Overview:**  
+Google's autocomplete feature relies on identifying common subsequences between user queries and popular search terms.
+
+**Application:**  
+The **Longest Common Subsequence (LCS)** algorithm measures similarity between strings, enabling relevant and timely search suggestions.
+
+**Time Complexity:** O(m × n)  
+**Space Complexity:** O(m × n)
+
+**Visual Representation:**  
+![Longest Common Subsequence](https://example.com/lcs_image.png)
+
+**Code Snippet:**  
+[Longest Common Subsequence Implementation](https://github.com/yourusername/longest-common-subsequence)
+
+---
+
+## 5. Auto-Correct Feature Enhancement with Longest Common Substring
+
+**Overview:**  
+Auto-correct functionality benefits from identifying the longest common substring between a misspelled word and dictionary entries.
+
+**Application:**  
+Finding the longest matching substring allows the system to suggest the most probable correct word, enhancing user typing experience.
+
+**Time Complexity:** O(m × n)  
+**Space Complexity:** O(m × n)
+
+**Visual Representation:**  
+![Longest Common Substring](https://example.com/lcs_substring_image.png)
+
+**Code Snippet:**  
+[Longest Common Substring Implementation](https://github.com/yourusername/longest-common-substring)
+
+---
+
+## 6. Optimizing Resource Allocation with the Knapsack Problem
+
+**Overview:**  
+Google Cloud services need to efficiently allocate limited resources to various tasks or clients.
+
+**Application:**  
+The **Knapsack Problem** helps select an optimal subset of tasks to maximize profit without exceeding resource constraints.
+
+**Time Complexity:** O(n × W) (W = capacity)  
+**Space Complexity:** O(n × W)
+
+**Visual Representation:**  
+![Knapsack Problem](https://example.com/knapsack_problem_image.png)
+
+**Code Snippet:**  
+[Knapsack Problem Implementation](https://github.com/yourusername/knapsack-problem)
+
+---
+
+## 7. Enhancing Data Analysis with Subset Sum Problem
+
+**Overview:**  
+Identifying if a subset of data points sums to a particular value is crucial for pattern recognition in data analysis.
+
+**Application:**  
+The **Subset Sum Problem** assists in anomaly detection and data segmentation by finding subsets that meet specific criteria.
+
+**Time Complexity:** O(n × sum)  
+**Space Complexity:** O(n × sum)
+
+**Visual Representation:**  
+![Subset Sum Problem](https://example.com/subset_sum_image.png)
+
+**Code Snippet:**  
+[Subset Sum Problem Implementation](https://github.com/yourusername/subset-sum-problem)
+
+---
+
+## 8. Predictive Text Input with Coin Combinations
+
+**Overview:**  
+Predictive text input systems (e.g., Gboard) benefit from understanding how many ways words can be formed from given letters or inputs.
+
+**Application:**  
+Using **Coin Combinations** algorithms, the system calculates possible word formations, enhancing prediction accuracy.
+
+**Time Complexity:** O(n × m)  
+**Space Complexity:** O(n)
+
+**Visual Representation:**  
+![Coin Combinations](https://example.com/coin_combinations_image.png)
+
+**Code Snippet:**  
+[Coin Combinations Implementation](https://github.com/yourusername/coin-combinations)
+
+---
+
+## 9. Content Recommendation with Urn Models
+
+**Overview:**  
+**Urn models** help in understanding probability distributions, vital for predicting user preferences in content recommendation.
+
+**Application:**  
+Modeling content selection as drawing balls from an urn allows Google to forecast and recommend relevant content effectively.
+
+**Time & Space Complexity:** Varies based on urn model
+
+**Visual Representation:**  
+![Urn Models](https://example.com/urn_models_image.png)
+
+**Code Snippet:**  
+[Urn Models Implementation](https://github.com/yourusername/urn-models)
+
+---
+
+## 10. Data Distribution Analysis with Pascal's Triangle
+
+**Overview:**  
+Pascal's Triangle is fundamental in calculating binomial distributions used widely in data analysis.
+
+**Application:**  
+Google leverages Pascal's Triangle for probability computations and decision making in A/B testing frameworks.
+
+**Time Complexity:** O(n²)  
+**Space Complexity:** O(n²)
+
+**Visual Representation:**  
+![Pascal's Triangle](https://example.com/pascals_triangle_image.png)
+
+**Code Snippet:**  
+[Pascal's Triangle Implementation](https://github.com/yourusername/pascals-triangle)
+
+---
+
+## 11. Parsing Expressions with Catalan Numbers
+
+**Overview:**  
+**Catalan Numbers** count the number of valid parse trees or expressions, important in compiler design.
+
+**Application:**  
+Google’s internal parsers can use Catalan Numbers to enumerate valid syntax trees efficiently.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(n)
+
+**Visual Representation:**  
+![Catalan Numbers](https://example.com/catalan_numbers_image.png)
+
+**Code Snippet:**  
+[Catalan Numbers Implementation](https://github.com/yourusername/catalan-numbers)
+
+---
+
+## 12. Cryptographic Security with Fermat's Little Theorem
+
+**Overview:**  
+Robust encryption is essential for secure communication. Fermat's Little Theorem underpins many cryptographic algorithms.
+
+**Application:**  
+Google implements this theorem in public-key cryptography, strengthening data security across its platforms.
+
+**Time Complexity:** O(log n)  
+**Space Complexity:** O(1)
+
+**Visual Representation:**  
+![Fermat's Little Theorem](https://example.com/fermats_little_theorem_image.png)
+
+**Code Snippet:**  
+[Fermat's Little Theorem Implementation](https://github.com/yourusername/fermats-little-theorem)
+
+---
+
+## 13. Efficient Search Algorithms with DFS and BFS
+
+**Overview:**  
+Depth-First Search (DFS) and Breadth-First Search (BFS) are fundamental graph traversal algorithms, critical in crawling and indexing web pages.
+
+**Application:**  
+Google’s search engine utilizes DFS and BFS to efficiently crawl web content and build comprehensive indexes.
+
+**Time Complexity:** O(V + E)  
+**Space Complexity:** O(V)
+
+---
+
+### References
+
+- [Assignment Problem & Dynamic Programming - 33rd Square](https://www.33rdsquare.com/ase-studies-10x-faster-using-dynamic-programming/?utm_source=chatgpt.com)  
+- [Google AI Optimization - WIRED](https://www.wired.com/story/google-vizier-black-box-optimisation-machine-learning-cookies?utm_source=chatgpt.com)
+
+---
 
 
 > 👣 **Let DevQuest continue...** Stay tuned for deeper case studies and solutions in this exploration of how algorithms quietly shape the tech we rely on daily.
