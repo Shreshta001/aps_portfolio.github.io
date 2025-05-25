@@ -1,43 +1,40 @@
 # Site settings
-title: "My Documentation Site"
-description: "Awesome docs powered by Just the Docs"
-baseurl: ""  # the subpath of your site, e.g. /docs (leave empty for root)
-url: "https://yourusername.github.io" # your GitHub Pages URL or your domain
+title: "APS Portfolio"
+description: "Documentation powered by Just the Docs"
+baseurl: ""  # because your site is served at root of username.github.io
+url: "https://shreshta001.github.io"  # your GitHub Pages URL (all lowercase)
 
 # Use Just the Docs remote theme
 remote_theme: pmarsceill/just-the-docs
 
 # Build settings
 markdown: kramdown
-theme: null # needed because we use remote_theme instead
+theme: null  # null because we are using remote_theme
 plugins:
   - jekyll-remote-theme
 
 # Just the Docs settings
 just_the_docs:
-  # Logo shown in the header
-  logo: "/assets/images/logo.png"  # optional, add your logo path or remove line
-  # Repository link for edit button and GitHub links
-  repository_url: "https://github.com/yourusername/your-repo"
+  logo: "/assets/images/logo.png"  # optional, remove or update path if no logo
+  repository_url: "https://github.com/Shreshta001/aps_portfolio.github.io"
   repository_branch: "main"
   show_edit_link: true
-  # Navigation sidebar items (optional, you can override in _data/navigation.yml)
   nav:
     - title: "Home"
       url: /
-    - title: "Getting Started"
-      url: /getting-started/
-    - title: "API Reference"
-      url: /api-reference/
     - title: "About"
       url: /about/
+    - title: "Projects"
+      url: /projects/
+    - title: "Contact"
+      url: /contact/
 
-# Exclude unnecessary files from build
+# Exclude files/folders from build
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
 
-# Permalinks for nice URLs
+# Pretty URLs (no .html extension)
 permalink: pretty
