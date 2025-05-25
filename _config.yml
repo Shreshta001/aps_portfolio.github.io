@@ -1,40 +1,9 @@
-# Site settings
 title: "APS Portfolio"
 description: "Documentation powered by Just the Docs"
-baseurl: ""  # because your site is served at root of username.github.io
-url: "https://shreshta001.github.io"  # your GitHub Pages URL (all lowercase)
+url: "https://shreshta001.github.io"
+baseurl: ""
 
-# Use Just the Docs remote theme
 remote_theme: pmarsceill/just-the-docs
 
-# Build settings
-markdown: kramdown
-theme: null  # null because we are using remote_theme
 plugins:
   - jekyll-remote-theme
-
-# Just the Docs settings
-just_the_docs:
-  logo: "/assets/images/logo.png"  # optional, remove or update path if no logo
-  repository_url: "https://github.com/Shreshta001/aps_portfolio.github.io"
-  repository_branch: "main"
-  show_edit_link: true
-  nav:
-    - title: "Home"
-      url: /
-    - title: "About"
-      url: /about/
-    - title: "Projects"
-      url: /projects/
-    - title: "Contact"
-      url: /contact/
-
-# Exclude files/folders from build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
-# Pretty URLs (no .html extension)
-permalink: pretty
