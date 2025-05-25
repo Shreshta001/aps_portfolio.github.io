@@ -1,9 +1,19 @@
-title: "APS Portfolio"
-description: "Documentation powered by Just the Docs"
-url: "https://shreshta001.github.io"
-baseurl: ""
+title: DevQuest
+description: Driven to elevate visiosn tthrough quest
+theme: null
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-remote_theme: pmarsceill/just-the-docs
+author:
+  name: "SSM"
+  email: "yesyesem22@gmail.com"
+  
+minimal_mistakes_skin: air
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
