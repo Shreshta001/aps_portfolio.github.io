@@ -193,7 +193,7 @@ DSA and APS are not just for cracking interviews — they are core to building t
 
 ### 💼 Business Case Studies powered by DevQuest
 
-### 🎯 Optimizing Google Ads Allocation with the Assignment Problem
+### 1.)🎯 Optimizing Google Ads Allocation with the Assignment Problem
 
 ## 📌 Overview
 
@@ -217,10 +217,10 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to compute the optim
 - Respects fairness, relevance, and policy constraints  
 - Scales to real-time demands using heuristics and parallelism  
 
-| Metric             | Value       |
-|--------------------|-------------|
-| ⏳ Time Complexity  | `O(n³)`     |
-| 🧠 Space Complexity | `O(n²)`     |
+| Metric             | Value       | Description                                             |
+|--------------------|-------------|---------------------------------------------------------|
+| ⏳ Time Complexity  | `O(n³)`     | `n` = number of ads (or slots); assumes a square matrix |
+| 🧠 Space Complexity | `O(n²)`     | Stores the cost matrix and matching information         |
 
 ---
 
@@ -434,10 +434,6 @@ A DP array where each index represents the minimal coins needed for that amount.
 **Code Snippet:**  
 View the coin change solution here:  
 [Coin Change Problem Implementation](https://github.com/yourusername/coin-change-problem)
-
-
-
-## 💼 Business Case Studies powered by DevQuest (Continued)
 
 ---
 
