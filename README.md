@@ -745,12 +745,534 @@ Distance matrix updates across iterations.
 See Floyd-Warshall implementation here:  
 [Floyd-Warshall Algorithm Implementation](https://github.com/yourusername/floyd-warshall)
 
----
-## 💼 Business Case Studies powered by DevQuest (Continued)
 
 ---
 
-## 27. CNN-Based RCCB Demosaicing with Multi-Loss Training 🎨
+
+# Google Use Cases for Classic Algorithms Explained
+
+---
+
+## 1. Optimizing Google Ads Allocation with the Assignment Problem 🎯
+
+**Overview:**  
+Google Ads plays a critical role in Google's business model, requiring highly efficient assignment of advertisements to available display slots on search result pages or partner sites. The goal is to maximize overall **revenue generation** while also enhancing **user engagement** by showing the most relevant ads to the right audience.
+
+The underlying challenge maps perfectly onto the classical **Assignment Problem**, where we treat ads and slots as two disjoint sets in a bipartite graph. Each edge carries a "weight" representing the predicted click-through rate (CTR) or potential revenue if a specific ad is placed in a given slot.
+
+**Application:**  
+Google employs the **Hungarian Algorithm**, a combinatorial optimization algorithm, to find the perfect matching between ads and slots such that the total CTR is maximized. This approach ensures an optimal pairing without exhaustive search, providing scalability for millions of ads and slots daily.
+
+- ⏳ **Time Complexity:** The Hungarian Algorithm runs in cubic time — O(n³), where *n* is the number of ads or slots. While seemingly costly, various heuristics and parallelization make it practical for large-scale ad auctions.  
+- 🧠 **Space Complexity:** Requires O(n²) space to store the cost matrix representing all possible ad-slot pairings.
+
+**Visual Representation:**  
+Imagine a bipartite graph with two columns: Ads on the left, slots on the right. Edges between them have weights showing predicted CTRs. The Hungarian Algorithm finds a perfect matching maximizing the sum of selected edges.
+
+![Assignment Problem](https://example.com/assignment_problem_image.png)
+
+**Code Snippet:**  
+Explore the full implementation with detailed comments here:  
+[Assignment Problem Implementation](https://github.com/yourusername/assignment-problem)
+
+---
+
+## 2. Boosting Google Shopping Diversity with the House Robber Problem 🛍️
+
+**Overview:**  
+Google Shopping strives to show users a diverse and appealing set of products, especially during promotions or discount events. To avoid overwhelming users with adjacent similar items (which could reduce engagement), Google models the problem of selecting non-adjacent high-value products.
+
+This perfectly aligns with the classic **House Robber Problem**, where the goal is to maximize total value by “robbing” (selecting) houses (products) such that no two adjacent houses are chosen.
+
+**Application:**  
+Google applies a **Dynamic Programming** solution to select a subset of products that maximize the expected sales or user clicks without placing similar discounted items right next to each other.
+
+- ⏳ **Time Complexity:** Runs in linear time O(n), where *n* is the number of candidate products.  
+- 🧠 **Space Complexity:** Can be optimized to O(1) using rolling variables, though O(n) is typical for clarity.
+
+**Visual Representation:**  
+Imagine a line of products with values assigned. The algorithm decides which products to “pick” so no two adjacent products are chosen, maximizing the total value.
+
+![House Robber Problem](https://example.com/house_robber_image.png)
+
+**Code Snippet:**  
+Check out a well-commented implementation here:  
+[House Robber Problem Implementation](https://github.com/yourusername/house-robber)
+
+---
+
+## 3. Understanding Conversion Funnels in Google Analytics Using Ways to Reach a Number 📈
+
+**Overview:**  
+In Google Analytics, understanding how users flow through different stages of a website or app funnel is essential to optimize conversions. Modeling all possible user journeys through funnel steps can be likened to counting the number of ways to reach a target number using given increments.
+
+This maps to the **Ways to Reach a Number** problem, a dynamic programming challenge where you compute the number of sequences summing up to a target.
+
+**Application:**  
+Google Analytics employs similar DP techniques to:
+
+- Compute the number of ways users can navigate through funnel steps.
+- Help marketers identify bottlenecks and optimize conversion paths.
+
+- ⏳ **Time Complexity:** O(n * k), where *n* is the target number of steps and *k* the number of step sizes or actions.  
+- 🧠 **Space Complexity:** O(n) for DP array storing intermediate counts.
+
+**Visual Representation:**  
+Imagine a staircase with multiple step sizes allowed. Counting the number of ways to climb to the top models user journey combinations.
+
+![Ways to Reach a Number](https://example.com/ways_to_reach_number_image.png)
+
+**Code Snippet:**  
+Explore the solution here:  
+[Ways to Reach a Number Implementation](https://github.com/yourusername/ways-to-reach-number)
+
+---
+
+## 4. YouTube Transcript Similarity Checks Using Longest Common Subsequence (LCS) 🎥
+
+**Overview:**  
+YouTube must detect duplicate or plagiarized videos, and comparing the similarity of video transcripts is a key method. The **Longest Common Subsequence (LCS)** algorithm measures the longest ordered sequence of words common to two transcripts, helping identify content overlap.
+
+**Application:**  
+YouTube uses LCS to:
+
+- Detect duplicate or very similar videos.
+- Assist copyright enforcement and content moderation.
+- Enhance recommendation systems by clustering related content.
+
+- ⏳ **Time Complexity:** O(m * n), where *m* and *n* are transcript lengths.  
+- 🧠 **Space Complexity:** O(m * n) but can be optimized with rolling arrays.
+
+**Visual Representation:**  
+Visualize two transcript strings with highlighted matching sequences forming the longest common subsequence.
+
+![Longest Common Subsequence](https://example.com/lcs_image.png)
+
+**Code Snippet:**  
+Try the implementation here:  
+[LCS for Transcript Similarity](https://github.com/yourusername/lcs-transcripts)
+
+---
+
+## 5. Google Docs Smart Suggestions Powered by Longest Common Substring (LCSstr) 📝
+
+**Overview:**  
+Google Docs offers real-time phrase suggestions by detecting repeated or frequently used substrings in your text, improving typing speed and accuracy. This uses the **Longest Common Substring** algorithm to find the longest exact matching substring between your current input and previously typed content.
+
+**Application:**  
+By applying LCSstr, Google Docs can:
+
+- Suggest autocompletions based on your typing history.
+- Improve phrase prediction for faster writing.
+
+- ⏳ **Time Complexity:** O(m * n), with *m* and *n* being string lengths.  
+- 🧠 **Space Complexity:** O(m * n) typically.
+
+**Visual Representation:**  
+Shows matching substrings highlighted between two strings to suggest the next phrase.
+
+![Longest Common Substring](https://example.com/lcsstr_image.png)
+
+**Code Snippet:**  
+Explore the code here:  
+[LCSstr for Smart Suggestions](https://github.com/yourusername/lcsstr-docs)
+
+---
+
+## 6. Gmail Autocomplete with Shortest Common Supersequence (SCS) 💬
+
+**Overview:**  
+Gmail's Smart Compose combines multiple phrase completions into one fluid sentence. This involves finding the **Shortest Common Supersequence (SCS)** of different suggestion strings — the shortest string containing both as subsequences.
+
+**Application:**  
+Using SCS helps Gmail:
+
+- Merge various phrase predictions smoothly.
+- Offer natural and personalized autocomplete suggestions.
+
+- ⏳ **Time Complexity:** O(m * n), with *m* and *n* being lengths of input strings.  
+- 🧠 **Space Complexity:** O(m * n).
+
+**Visual Representation:**  
+Visualize merging two phrases to form the shortest supersequence preserving order of both.
+
+![Shortest Common Supersequence](https://example.com/scs_image.png)
+
+**Code Snippet:**  
+Check out the implementation here:  
+[SCS for Gmail Autocomplete](https://github.com/yourusername/scs-gmail)
+
+---
+## 7. Efficient Google Drive Storage Management Using 0/1 Knapsack Problem 💾
+
+**Overview:**  
+Google Drive offers users storage with limited quota. When users want to selectively back up files, Google needs to recommend an optimal subset that maximizes importance or relevance without exceeding storage limits. This is a classic case of the **0/1 Knapsack Problem**.
+
+**Application:**  
+Google Drive’s backend uses dynamic programming solutions inspired by the 0/1 Knapsack algorithm to:
+
+- Help users prioritize which files to back up or sync.
+- Optimize storage use by selecting the most valuable files within quota limits.
+
+- ⏳ **Time Complexity:** O(n * W), where *n* is number of files, and *W* is storage capacity.  
+- 🧠 **Space Complexity:** Also O(n * W), but can be optimized with space-saving techniques.
+
+**Visual Representation:**  
+Imagine each file with a weight (file size) and value (importance). The algorithm picks files to maximize total importance without exceeding storage capacity.
+
+![Knapsack Problem](https://example.com/knapsack_image.png)
+
+**Code Snippet:**  
+Full implementation here:  
+[0/1 Knapsack Implementation](https://github.com/yourusername/knapsack-google-drive)
+
+---
+
+## 8. Optimizing YouTube Video Recommendations Using Activity Selection Problem ⏱️
+
+**Overview:**  
+YouTube’s recommendation system must choose videos to display in a watch-next list to keep users engaged without overwhelming them. Selecting videos that don’t overlap in themes or interests, and fit well within a user's available watch time, aligns with the **Activity Selection Problem**.
+
+**Application:**  
+YouTube applies greedy algorithms based on Activity Selection to:
+
+- Pick the maximum number of non-overlapping videos a user is likely to watch.
+- Maximize user engagement while respecting their time constraints.
+
+- ⏳ **Time Complexity:** O(n log n) mainly due to sorting videos by end time or relevance.  
+- 🧠 **Space Complexity:** O(n) for storing video metadata and schedules.
+
+**Visual Representation:**  
+Imagine intervals representing videos with start and end times. The algorithm picks the largest compatible set of videos that don’t overlap.
+
+![Activity Selection](https://example.com/activity_selection_image.png)
+
+**Code Snippet:**  
+Explore here:  
+[Activity Selection Implementation](https://github.com/yourusername/activity-selection-youtube)
+
+---
+
+## 9. Managing YouTube Ad Placements with Interval Scheduling Problem 📅
+
+**Overview:**  
+YouTube places ads within videos at different timestamps. To maximize ad revenue while avoiding user annoyance due to overlapping ads, YouTube models the problem as an **Interval Scheduling** optimization.
+
+**Application:**  
+Using interval scheduling algorithms, YouTube can:
+
+- Schedule ads so they don’t overlap or cluster too closely.
+- Ensure maximum number of ads shown in available ad slots.
+
+- ⏳ **Time Complexity:** O(n log n) due to sorting intervals by finish time.  
+- 🧠 **Space Complexity:** O(n) to track scheduled ads.
+
+**Visual Representation:**  
+Intervals represent ads with start and end times inside videos. The algorithm schedules the largest subset without overlap.
+
+![Interval Scheduling](https://example.com/interval_scheduling_image.png)
+
+**Code Snippet:**  
+See detailed code here:  
+[Interval Scheduling Implementation](https://github.com/yourusername/interval-scheduling-youtube)
+
+---
+
+## 11. Network Traffic Management Using Min-Cut Max-Flow Algorithm 🌐
+
+**Overview:**  
+Google’s massive data centers and network infrastructure require efficient traffic management to avoid bottlenecks. The **Min-Cut Max-Flow** theorem provides a way to understand the maximum data that can flow through a network without congestion, and the smallest “cut” that separates the network.
+
+**Application:**  
+Google applies Min-Cut Max-Flow algorithms to:
+
+- Optimize data transfer across servers and between data centers.
+- Identify bottlenecks and critical links in network infrastructure.
+- Manage bandwidth allocation dynamically to maximize throughput.
+
+- ⏳ **Time Complexity:** Dependent on the max-flow algorithm used; typically O(V³) for classical algorithms on graphs with V vertices.  
+- 🧠 **Space Complexity:** O(V²) or more depending on graph representation.
+
+**Visual Representation:**  
+Think of the network as a graph where edges have capacities (bandwidth). The min-cut represents the smallest set of edges that, if removed, disrupt the maximum flow.
+
+![Min-Cut Max-Flow](https://example.com/min_cut_max_flow.png)
+
+**Code Snippet:**  
+Explore the implementation here:  
+[Min-Cut Max-Flow Implementation](https://github.com/yourusername/min-cut-max-flow)
+
+---
+
+## 12. Optimizing Flow in Networks with Ford-Fulkerson Algorithm 🚦
+
+**Overview:**  
+The **Ford-Fulkerson** method is a fundamental approach to compute maximum flow in a flow network. Google uses such algorithms to optimize routing, load balancing, and resource allocation in their large-scale infrastructure.
+
+**Application:**  
+Ford-Fulkerson helps Google:
+
+- Allocate traffic in data center networks efficiently.
+- Solve problems like matching, scheduling, and resource allocation.
+- Model and improve flow in distributed systems.
+
+- ⏳ **Time Complexity:** O(E * max_flow), where E is the number of edges. Though not polynomial, it performs well in practice.  
+- 🧠 **Space Complexity:** O(V + E) to store graph structure.
+
+**Visual Representation:**  
+Visualize the algorithm augmenting flow along paths iteratively until no more augmenting paths exist.
+
+![Ford-Fulkerson Algorithm](https://example.com/ford_fulkerson.png)
+
+**Code Snippet:**  
+Check out the full code here:  
+[Ford-Fulkerson Implementation](https://github.com/yourusername/ford-fulkerson)
+
+---
+
+## 13. Fast and Informed Pathfinding with A* Search Algorithm 🚀
+
+**Overview:**  
+Google Maps and navigation systems use the **A* Search Algorithm** to find the shortest and fastest route from one point to another by combining path cost and heuristics. It is an informed search that significantly improves efficiency over uninformed methods.
+
+**Application:**  
+A* helps Google Maps:
+
+- Quickly find routes considering distance, traffic, and travel time.
+- Incorporate heuristic estimates (like straight-line distance) to guide search efficiently.
+- Adapt dynamically to changing conditions.
+
+- ⏳ **Time Complexity:** O(b^d), where b is branching factor, d is depth; typically efficient with good heuristics.  
+- 🧠 **Space Complexity:** O(b^d) as it stores nodes in memory.
+
+**Visual Representation:**  
+Imagine a graph where each node is a location. A* expands nodes with the lowest estimated total cost (path so far + heuristic).
+
+![A* Search Algorithm](https://example.com/a_star.png)
+
+**Code Snippet:**  
+Explore the detailed implementation here:  
+[A* Algorithm Implementation](https://github.com/yourusername/a-star-google-maps)
+
+---
+
+## 14. Optimal Cost Pathfinding Using Uniform Cost Search (UCS) 🏞️
+
+**Overview:**  
+Uniform Cost Search is a variant of BFS that always expands the lowest cost node first. It is used when all step costs are positive but may vary. Google employs UCS for pathfinding in cases where cost optimizations are crucial without heuristics.
+
+**Application:**  
+UCS is used to:
+
+- Find the cheapest route between two points in maps and logistics.
+- Serve as a base for other search algorithms like A*.
+- Ensure guaranteed shortest path in weighted graphs.
+
+- ⏳ **Time Complexity:** O(b^(1 + floor(C*/ε))) where C* is cost of optimal solution and ε smallest edge cost.  
+- 🧠 **Space Complexity:** Can be large due to maintaining frontier queue.
+
+**Visual Representation:**  
+The algorithm expands nodes based on cumulative path cost, ensuring the least expensive path is always considered first.
+
+![Uniform Cost Search](https://example.com/ucs.png)
+
+**Code Snippet:**  
+See full implementation:  
+[Uniform Cost Search Implementation](https://github.com/yourusername/ucs-pathfinding)
+
+---
+
+
+
+### References
+
+- [Assignment Problem & Dynamic Programming - 33rd Square](https://www.33rdsquare.com/ase-studies-10x-faster-using-dynamic-programming/?utm_source=chatgpt.com)  
+- [Google AI Optimization - WIRED](https://www.wired.com/story/google-vizier-black-box-optimisation-machine-learning-cookies?utm_source=chatgpt.com)
+
+---
+
+
+> 👣 **Let DevQuest continue...** Stay tuned for deeper case studies and solutions in this exploration of how algorithms quietly shape the tech we rely on daily.
+
+
+<!--commeneted-->
+<!--### 📦 *Google’s Universe of Services*
+> (A curated list of major services under the Google umbrella — structured, spaced, and sparkling ✨)
+
+<br/>
+---
+
+### 🔍 *Search & Discovery*
+- *Google Search* 🌐 – Your gateway to the world’s information.
+- *Google Maps* 🗺 – Navigate the planet with precision and ease.
+- *Google Translate* 🌍 – Break language barriers instantly.
+- *Google News* 📰 – Curated headlines from around the globe.
+- *Google Lens* 🔎 – Visual search that sees the world like you do.
+
+---
+
+### 📧 *Communication & Collaboration*
+- *Gmail* 📬 – Fast, secure, and smart email.
+- *Google Meet* 🎥 – High-quality video conferencing.
+- *Google Chat* 💬 – Smart messaging for teams and individuals.
+- *Google Calendar* 📅 – Plan, schedule, and never miss a beat.
+
+---
+
+### 📂 *Productivity & Cloud Tools*
+- *Google Drive* ☁ – Store, sync, and share your files.
+- *Google Docs* 📝 – Real-time collaborative writing.
+- *Google Sheets* 📊 – Analyze and visualize data together.
+- *Google Slides* 🎞 – Beautiful presentations, made easy.
+- *Google Forms* 🧾 – Surveys, polls, and quizzes in seconds.
+- *Google Keep* 🗒 – Notes and lists, synced across devices.
+- *Google Workspace* 🧑‍💻 – Your productivity suite in one place.
+
+---
+
+### 🎬 *Media & Entertainment*
+- *YouTube* 📹 – Watch, upload, and connect through videos.
+- *YouTube Music* 🎧 – Music streaming tailored to you.
+- *Google Podcasts* 🎙 – Discover and listen to top podcasts.
+
+---
+
+### 💳 *Payments & Shopping*
+- *Google Pay* 💸 – Fast, secure digital payments.
+- *Google Wallet* 👛 – All your cards, tickets, and IDs in one app.
+- *Google Shopping* 🛍 – Smart product discovery and deals.
+
+---
+
+### ☁ *Cloud & AI*
+- *Google Cloud Platform (GCP)* ☁ – Scalable cloud services for devs and enterprises.
+- *Gemini (formerly Bard)* 🤖 – Conversational AI and productivity assistant.
+- *Google Assistant* 🎙 – Voice-powered help, wherever you go.
+
+---
+
+### 🎓 *Learning & Education*
+- *Google Classroom* 🎓 – Organize classes, assignments, and grades easily.
+-->
+
+
+
+<!--
+# 📊 Real-World Business Case Studies from Google using DSA & APS
+
+These case studies demonstrate how Google leverages **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** to solve real-world, large-scale challenges.
+
+---
+
+## 1. 📺 YouTube Video Load Optimization Using Caching and LRU
+
+**Context:**  
+YouTube faced high latency during video buffering, especially in areas with poor internet.
+
+**Solution:**  
+Implemented **Least Recently Used (LRU)** caching at edge servers to store frequently accessed video chunks closer to users.
+
+**Algorithm Applied:**  
+- **LRU Cache:** Doubly linked list + HashMap → O(1) access and eviction
+
+**Benefits:**  
+- Faster video start times  
+- Reduced buffering  
+- Lower backbone traffic
+
+**Complexity:**  
+- **Time:** O(1) for get/put  
+- **Space:** O(capacity)
+
+---
+
+## 2. 🖼️ Google Photos Duplicate Image Detection Using Hashing & Union-Find
+
+**Context:**  
+Needed efficient detection and management of duplicate uploads across user albums.
+
+**Solution:**  
+Used **Perceptual Hashing** and **Union-Find** to cluster similar images.
+
+**Algorithms Applied:**  
+- **Hashing:** Quick image signatures  
+- **Union-Find (Disjoint Set):** Grouping similar images
+
+**Benefits:**  
+- Reduced storage  
+- Better search performance
+
+**Complexity:**  
+- **Hashing:** O(1) avg  
+- **Union-Find:** Nearly O(1) with path compression
+
+---
+
+## 3. 🔍 Google Ads Keyword Matching Using Trie & Backtracking
+
+**Context:**  
+Efficiently match billions of queries with advertiser keywords including wildcard support.
+
+**Solution:**  
+Used **Trie** for prefix matching + **Backtracking** for wildcard support.
+
+**Algorithms Applied:**  
+- **Trie:** Fast prefix storage and lookup  
+- **Backtracking:** Explore partial/wildcard matches
+
+**Benefits:**  
+- Accurate keyword targeting  
+- Higher click-through rates
+
+**Complexity:**  
+- **Trie:** O(L) where L = keyword length  
+- **Backtracking:** Optimized with pruning
+
+---
+
+## 4. 🎥 Google Meet Video Quality Control Using Dynamic Programming
+
+**Context:**  
+Maintain good video quality during varying network conditions.
+
+**Solution:**  
+Used **Dynamic Programming** (similar to **Knapsack Problem**) to choose optimal video resolution under bandwidth constraints.
+
+**Algorithm Applied:**  
+- **DP Optimization:** Choose best bitrate/resolution combination
+
+**Benefits:**  
+- Stable video on poor connections  
+- Smart bandwidth use
+
+**Complexity:**  
+- **Time:** O(nW), where `n = levels`, `W = bandwidth`
+
+---
+
+## 5. 🔠 Google Search Autocorrect Using Edit Distance & Trie
+
+**Context:**  
+Fix misspelled queries and suggest the right search terms in real-time.
+
+**Solution:**  
+Used **Edit Distance (Levenshtein)** and **Trie** for spelling correction and suggestions.
+
+**Algorithms Applied:**  
+- **Edit Distance:** Minimum edit transformation  
+- **Trie:** Efficient word suggestions from dictionary
+
+**Benefits:**  
+- Accurate autocorrect  
+- Improved search UX
+
+**Complexity:**  
+- **Edit Distance:** O(mn), where `m` and `n` are word lengths  
+- **Trie:** O(L) where `L = word length`
+
+----->
+
+<!--## 27. CNN-Based RCCB Demosaicing with Multi-Loss Training 🎨
 
 **Overview:**  
 Demosaicing reconstructs full-color images from sensor data. Using a CNN with RCCB filter patterns and multiple loss functions (LPIPS, SSIM, Delta E, Huber loss) improves color accuracy and structural fidelity.
@@ -828,7 +1350,13 @@ FP16 precision for forward/backward passes with FP32 master weights.
 AMP-enabled training script here:  
 [RCCB Demosaicing with AMP](https://github.com/yourusername/rccb-amp-training)
 
+----->
+
+<!-----
+## 💼 Business Case Studies powered by DevQuest (Continued)
+
 ---
+
 
 ## 31. Shuttle Network Simulation with MVC Architecture 🚌
 
@@ -1192,202 +1720,5 @@ Diagram showing interactions between Model, View, and Controller components.
 *Code Snippet:*  
 Example MVC code for pin code filtering:  
 [MVC Pin Code Application](https://github.com/yourusername/mvc-pin-code-app)
-
----
-
-
-
-
-
----
-
-
-
-
-### References
-
-- [Assignment Problem & Dynamic Programming - 33rd Square](https://www.33rdsquare.com/ase-studies-10x-faster-using-dynamic-programming/?utm_source=chatgpt.com)  
-- [Google AI Optimization - WIRED](https://www.wired.com/story/google-vizier-black-box-optimisation-machine-learning-cookies?utm_source=chatgpt.com)
-
----
-
-
-> 👣 **Let DevQuest continue...** Stay tuned for deeper case studies and solutions in this exploration of how algorithms quietly shape the tech we rely on daily.
-
-
-<!--commeneted-->
-<!--### 📦 *Google’s Universe of Services*
-> (A curated list of major services under the Google umbrella — structured, spaced, and sparkling ✨)
-
-<br/>
----
-
-### 🔍 *Search & Discovery*
-- *Google Search* 🌐 – Your gateway to the world’s information.
-- *Google Maps* 🗺 – Navigate the planet with precision and ease.
-- *Google Translate* 🌍 – Break language barriers instantly.
-- *Google News* 📰 – Curated headlines from around the globe.
-- *Google Lens* 🔎 – Visual search that sees the world like you do.
-
----
-
-### 📧 *Communication & Collaboration*
-- *Gmail* 📬 – Fast, secure, and smart email.
-- *Google Meet* 🎥 – High-quality video conferencing.
-- *Google Chat* 💬 – Smart messaging for teams and individuals.
-- *Google Calendar* 📅 – Plan, schedule, and never miss a beat.
-
----
-
-### 📂 *Productivity & Cloud Tools*
-- *Google Drive* ☁ – Store, sync, and share your files.
-- *Google Docs* 📝 – Real-time collaborative writing.
-- *Google Sheets* 📊 – Analyze and visualize data together.
-- *Google Slides* 🎞 – Beautiful presentations, made easy.
-- *Google Forms* 🧾 – Surveys, polls, and quizzes in seconds.
-- *Google Keep* 🗒 – Notes and lists, synced across devices.
-- *Google Workspace* 🧑‍💻 – Your productivity suite in one place.
-
----
-
-### 🎬 *Media & Entertainment*
-- *YouTube* 📹 – Watch, upload, and connect through videos.
-- *YouTube Music* 🎧 – Music streaming tailored to you.
-- *Google Podcasts* 🎙 – Discover and listen to top podcasts.
-
----
-
-### 💳 *Payments & Shopping*
-- *Google Pay* 💸 – Fast, secure digital payments.
-- *Google Wallet* 👛 – All your cards, tickets, and IDs in one app.
-- *Google Shopping* 🛍 – Smart product discovery and deals.
-
----
-
-### ☁ *Cloud & AI*
-- *Google Cloud Platform (GCP)* ☁ – Scalable cloud services for devs and enterprises.
-- *Gemini (formerly Bard)* 🤖 – Conversational AI and productivity assistant.
-- *Google Assistant* 🎙 – Voice-powered help, wherever you go.
-
----
-
-### 🎓 *Learning & Education*
-- *Google Classroom* 🎓 – Organize classes, assignments, and grades easily.
--->
-
-
-
-<!--
-# 📊 Real-World Business Case Studies from Google using DSA & APS
-
-These case studies demonstrate how Google leverages **Data Structures and Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** to solve real-world, large-scale challenges.
-
----
-
-## 1. 📺 YouTube Video Load Optimization Using Caching and LRU
-
-**Context:**  
-YouTube faced high latency during video buffering, especially in areas with poor internet.
-
-**Solution:**  
-Implemented **Least Recently Used (LRU)** caching at edge servers to store frequently accessed video chunks closer to users.
-
-**Algorithm Applied:**  
-- **LRU Cache:** Doubly linked list + HashMap → O(1) access and eviction
-
-**Benefits:**  
-- Faster video start times  
-- Reduced buffering  
-- Lower backbone traffic
-
-**Complexity:**  
-- **Time:** O(1) for get/put  
-- **Space:** O(capacity)
-
----
-
-## 2. 🖼️ Google Photos Duplicate Image Detection Using Hashing & Union-Find
-
-**Context:**  
-Needed efficient detection and management of duplicate uploads across user albums.
-
-**Solution:**  
-Used **Perceptual Hashing** and **Union-Find** to cluster similar images.
-
-**Algorithms Applied:**  
-- **Hashing:** Quick image signatures  
-- **Union-Find (Disjoint Set):** Grouping similar images
-
-**Benefits:**  
-- Reduced storage  
-- Better search performance
-
-**Complexity:**  
-- **Hashing:** O(1) avg  
-- **Union-Find:** Nearly O(1) with path compression
-
----
-
-## 3. 🔍 Google Ads Keyword Matching Using Trie & Backtracking
-
-**Context:**  
-Efficiently match billions of queries with advertiser keywords including wildcard support.
-
-**Solution:**  
-Used **Trie** for prefix matching + **Backtracking** for wildcard support.
-
-**Algorithms Applied:**  
-- **Trie:** Fast prefix storage and lookup  
-- **Backtracking:** Explore partial/wildcard matches
-
-**Benefits:**  
-- Accurate keyword targeting  
-- Higher click-through rates
-
-**Complexity:**  
-- **Trie:** O(L) where L = keyword length  
-- **Backtracking:** Optimized with pruning
-
----
-
-## 4. 🎥 Google Meet Video Quality Control Using Dynamic Programming
-
-**Context:**  
-Maintain good video quality during varying network conditions.
-
-**Solution:**  
-Used **Dynamic Programming** (similar to **Knapsack Problem**) to choose optimal video resolution under bandwidth constraints.
-
-**Algorithm Applied:**  
-- **DP Optimization:** Choose best bitrate/resolution combination
-
-**Benefits:**  
-- Stable video on poor connections  
-- Smart bandwidth use
-
-**Complexity:**  
-- **Time:** O(nW), where `n = levels`, `W = bandwidth`
-
----
-
-## 5. 🔠 Google Search Autocorrect Using Edit Distance & Trie
-
-**Context:**  
-Fix misspelled queries and suggest the right search terms in real-time.
-
-**Solution:**  
-Used **Edit Distance (Levenshtein)** and **Trie** for spelling correction and suggestions.
-
-**Algorithms Applied:**  
-- **Edit Distance:** Minimum edit transformation  
-- **Trie:** Efficient word suggestions from dictionary
-
-**Benefits:**  
-- Accurate autocorrect  
-- Improved search UX
-
-**Complexity:**  
-- **Edit Distance:** O(mn), where `m` and `n` are word lengths  
-- **Trie:** O(L) where `L = word length`
 
 ----->
