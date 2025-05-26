@@ -189,7 +189,7 @@ DSA and APS are not just for cracking interviews — they are core to building t
 
 ## 💼 Business Case Studies powered by DevQuest
 
- 🎯 Optimizing Google Ads Allocation with the Assignment Problem
+# 🎯 Optimizing Google Ads Allocation with the Assignment Problem
 
 ## Overview
 
@@ -250,6 +250,7 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to find an **optimal
 - Kuhn, H. W. (1955). *The Hungarian Method for the Assignment Problem*
 - Google's AdWords auction whitepapers
 - [Wikipedia: Assignment Problem](https://en.wikipedia.org/wiki/Assignment_problem)
+
 
 
 ## 2. Enhancing Data Security with the Stolen Values Problem 🔒
