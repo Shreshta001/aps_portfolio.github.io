@@ -63,35 +63,46 @@
 
 </div>
 
-
-
-
-
 ---
 
 ## 🧪 Projects
 
-### 🚇 **NEXUS: Metropolitan Connectivity and Commute Optimization**  
-*C++ • Algorithms • DSA* | Sep 2023 – Nov 2023  
-- Designed an *urban commute plan* using shortest path algorithms for smooth city connectivity.  
-- Implemented **Floyd-Warshall**, **Kruskal’s**, and **Dijkstra’s** algorithms to optimize traffic flow.  
-- Developed modules for *spot categorization*, *public transport access*, and *real-time route updates* and many more **commute related features** to enhance urban mobility. 
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
----
+### 🚇 <strong>NEXUS: Metropolitan Connectivity and Commute Optimization</strong>  
+<em>C++ • Algorithms • DSA</em> | Sep 2023 – Nov 2023  
+<ul style="padding-left: 20px; line-height: 1.6;">
+  <li>Designed an <em>urban commute plan</em> using shortest path algorithms for smooth city connectivity.</li>
+  <li>Implemented <strong>Floyd-Warshall</strong>, <strong>Kruskal’s</strong>, and <strong>Dijkstra’s</strong> algorithms to optimize traffic flow.</li>
+  <li>Developed modules for <em>spot categorization</em>, <em>public transport access</em>, and <em>real-time route updates</em> with many more <strong>commute-related features</strong>.</li>
+</ul>
 
-### 🧾 **In-Semester Assessment Management System**  
-*ReactJS • Express • MySQL • CSS* | Dec 2024 – Jan 2025  
-- Created a **student seating allocation system** assigning students to classrooms/labs by roll number.  
-- Enabled manual adjustments by ISA coordinators and automated **question paper count**.  
-- Supported export of allocations in **CSV** and **HTML** formats.  
+</div>
 
----
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
-### 🤖 **AI-Generated Face Detection using RvAI Classifier**  
-*Machine Learning • Deep Learning* | Feb 2025  
-- Built an **RvAI classifier** to detect *AI-generated faces* with high accuracy.  
-- Tested extensively on real and synthetic datasets to improve model robustness.  
-- Presented research at **CRM 2025 (SR University, Warangal)** and published with **Springer**.
+### 🧾 <strong>In-Semester Assessment Management System</strong>  
+<em>ReactJS • Express • MySQL • CSS</em> | Dec 2024 – Jan 2025  
+<ul style="padding-left: 20px; line-height: 1.6;">
+  <li>Created a <strong>student seating allocation system</strong> assigning students to classrooms/labs by roll number.</li>
+  <li>Enabled manual adjustments by ISA coordinators and automated <strong>question paper count</strong>.</li>
+  <li>Supported export of allocations in <strong>CSV</strong> and <strong>HTML</strong> formats.</li>
+</ul>
+
+</div>
+
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
+
+### 🤖 <strong>AI-Generated Face Detection using RvAI Classifier</strong>  
+<em>Machine Learning • Deep Learning</em> | Feb 2025  
+<ul style="padding-left: 20px; line-height: 1.6;">
+  <li>Built an <strong>RvAI classifier</strong> to detect <em>AI-generated faces</em> with high accuracy.</li>
+  <li>Tested extensively on real and synthetic datasets to improve model robustness.</li>
+  <li>Presented research at <strong>CRM 2025 (SR University, Warangal)</strong> and published with <strong>Springer</strong>.</li>
+</ul>
+
+</div>
+
 
 
 ## 🧭 Overview
