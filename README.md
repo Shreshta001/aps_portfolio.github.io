@@ -193,9 +193,9 @@ DSA and APS are not just for cracking interviews — they are core to building t
 
 ### 💼 Business Case Studies powered by DevQuest
 
-### 1.)🎯 Optimizing Google Ads Allocation with the Assignment Problem
+## 1.) 🎯 Optimizing Google Ads Allocation with the Assignment Problem
 
-## 📌 Overview
+**📌 Overview**
 
 Google Ads is the backbone of Google's revenue model, enabling advertisers to bid for ad placements across Google services — like Search, YouTube, and partner sites.
 
@@ -207,11 +207,11 @@ Efficiently assigning ads to slots requires maximizing **expected revenue** and 
 
 ---
 
-## ⚙️ Algorithm Used
+**⚙️ Algorithm Used**
 
 Google uses the **Hungarian Algorithm (Munkres Algorithm)** to compute the optimal ad-slot assignment.
 
-### ✅ Benefits
+**✅ Benefits**
 
 - Maximizes total expected revenue or engagement  
 - Respects fairness, relevance, and policy constraints  
@@ -224,7 +224,7 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to compute the optim
 
 ---
 
-## 📊 Visualization
+**📊 Visualization**
 
 ![Assignment Problem Graph](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bipartite_Graph.svg/800px-Bipartite_Graph.svg.png)
 
@@ -235,13 +235,13 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to compute the optim
 
 ---
 
-## 🧑‍💻 Code Reference
+**🧑‍💻 Code Reference**
 
 👉 [Assignment Problem - Python Implementation](https://github.com/yourusername/assignment-problem)
 
 ---
 
-## 🌐 Real-World Use in Google Ads
+**🌐 Real-World Use in Google Ads**
 
 | Feature                | Impact                                                             |
 |------------------------|--------------------------------------------------------------------|
@@ -253,13 +253,12 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to compute the optim
 
 ---
 
-## 📚 References
+**📚 References**
 
 - Kuhn, H. W. (1955). *The Hungarian Method for the Assignment Problem*  
 - Google's AdWords auction whitepapers  
 - [Wikipedia: Assignment Problem](https://en.wikipedia.org/wiki/Assignment_problem)
 
----
 
 ## 2. Enhancing Data Security with the Stolen Values Problem 🔒
 
