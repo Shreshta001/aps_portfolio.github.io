@@ -9,9 +9,6 @@
   </span>
 </h1>
 
-
-
-
 > **D**riven to **E**levate **V**isions through a **Quest** of innovation, creation and exploration.
 
 ---
