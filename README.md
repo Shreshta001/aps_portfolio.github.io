@@ -192,67 +192,82 @@ DSA and APS are not just for cracking interviews — they are core to building t
 
 ## 💼 Business Case Studies powered by DevQuest
 
-# 🎯 Optimizing Google Ads Allocation with the Assignment Problem
+<h1 align="center">🎯 Optimizing Google Ads Allocation with the Assignment Problem</h1>
 
-## Overview
-
-Google Ads is the backbone of Google's revenue model, enabling advertisers to bid for ad placements across Google's services — including Search, YouTube, and partner sites. Efficiently assigning ads to available slots requires maximizing **expected revenue** and **user engagement**.
-
-This allocation maps to the classical **Assignment Problem**, modeled as a **bipartite graph**:
-
-- **Left set (Ads):** Advertisers bidding with relevance scores, bid values, targeting criteria  
-- **Right set (Slots):** Available display locations with contextual features (user query, device, content type)  
-- **Edge Weights:** Predicted utility — e.g., `CTR × Bid` = **expected revenue per impression**
+<p align="center">
+  Efficiently matching ads to slots using the Hungarian Algorithm to maximize revenue and relevance.
+</p>
 
 ---
 
-## Algorithm Used
+## 📌 Overview
 
-Google uses the **Hungarian Algorithm (Munkres Algorithm)** to find an **optimal one-to-one matching** that maximizes total utility:
+Google Ads is the cornerstone of Google’s revenue, enabling advertisers to bid for placements across Search, YouTube, and partner websites.
 
-- ✅ Ensures **maximum total revenue or engagement**
-- ✅ Adheres to **fairness**, **relevance**, and **policy constraints**
-- ✅ Scalable with **parallelization** and **heuristic optimizations**
+The ad-slot allocation problem is modeled as a **bipartite graph** using the **Assignment Problem** framework:
 
-**Time Complexity:** `O(n³)` — where `n` is the number of ads or slots  
-**Space Complexity:** `O(n²)` — storing the cost matrix
+- 🔵 **Ads (Left Set):** Bid values, relevance scores, targeting criteria  
+- 🟡 **Slots (Right Set):** Contextual features like user query, device, and content  
+- ⚙️ **Edge Weights:** Utility based on predicted `CTR × Bid` → **expected revenue per impression**
 
 ---
 
-## 📊 Visualization
+## ⚙️ Algorithm Used
 
-![Assignment Problem Visualization](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bipartite_Graph.svg/800px-Bipartite_Graph.svg.png)
+Google applies the **Hungarian Algorithm (a.k.a. Munkres Algorithm)** to find an optimal one-to-one ad-slot assignment that **maximizes utility**.
 
-- Left: Ads  
-- Right: Display Slots  
-- Edge weights = `CTR × Bid`  
-- Goal: Maximize sum of selected edges
+### ✅ Key Properties:
+
+- 📈 Maximizes **total expected revenue** or **user engagement**
+- ⚖️ Maintains **fairness**, **relevance**, and **ad policy compliance**
+- 🧠 Scalable via **parallelism** and **heuristics**
+
+| Metric             | Value            |
+|--------------------|------------------|
+| ⏳ **Time Complexity**  | `O(n³)`             |
+| 🧠 **Space Complexity** | `O(n²)`             |
+
+---
+
+## 📊 Visual Representation
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bipartite_Graph.svg/800px-Bipartite_Graph.svg.png" width="60%" alt="Assignment Problem Visualization">
+</p>
+
+- 🔵 Left: Ads  
+- 🟡 Right: Display Slots  
+- ➕ Edge Weights: `CTR × Bid`  
+- 🎯 **Goal:** Select the optimal set of edges (assignments) to maximize total utility
 
 ---
 
 ## 🧑‍💻 Code Reference
 
+You can find the full Python implementation here:  
 👉 [Assignment Problem - Python Implementation](https://github.com/yourusername/assignment-problem)
 
 ---
 
-## Real-World Use in Google
+## 🌐 Real-World Use in Google
 
-| Aspect                  | Impact                                                                 |
-|-------------------------|------------------------------------------------------------------------|
-| 🎯 **Ad Matching**       | Optimally assigns ads to slots using predicted CTR and bids            |
-| 💰 **Revenue**           | Maximizes total revenue per impression                                 |
-| ⚡ **Real-Time Scaling** | Scales across billions of combinations with heuristics + parallelism   |
-| 🤖 **User Experience**   | Displays more relevant ads, improves click-through and bounce rates    |
-| 🔐 **Fairness & Policy** | Honors budgets, targeting, and policy constraints                      |
+| 💡 Feature             | 🚀 Impact |
+|------------------------|----------|
+| 🎯 **Ad Matching**       | Optimal ad-slot mapping based on CTR and bid values |
+| 💰 **Revenue Optimization** | Maximizes revenue per impression |
+| ⚡ **Real-Time Scaling**   | Efficient over billions of ad-slot combinations |
+| 🤖 **User Relevance**     | More relevant ads, higher engagement |
+| 🔐 **Policy Adherence**   | Honors budgets, constraints, and policy rules |
 
 ---
 
-## References
+## 📚 References
 
 - Kuhn, H. W. (1955). *The Hungarian Method for the Assignment Problem*
-- Google's AdWords auction whitepapers
+- Google’s AdWords auction research & whitepapers
 - [Wikipedia: Assignment Problem](https://en.wikipedia.org/wiki/Assignment_problem)
+
+---
 
 
 ## 2. Enhancing Data Security with the Stolen Values Problem 🔒
