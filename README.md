@@ -191,7 +191,7 @@ DSA and APS are not just for cracking interviews — they are core to building t
 
 ---
 
-#### 💼 Business Case Studies powered by DevQuest
+### 💼 Business Case Studies powered by DevQuest
 
 ### 🎯 Optimizing Google Ads Allocation with the Assignment Problem
 
@@ -238,8 +238,6 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to compute the optim
 ## 🧑‍💻 Code Reference
 
 👉 [Assignment Problem - Python Implementation](https://github.com/yourusername/assignment-problem)
-
-Replace `yourusername` with your actual GitHub username if you're publishing the code.
 
 ---
 
