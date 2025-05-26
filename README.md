@@ -193,7 +193,7 @@ DSA and APS are not just for cracking interviews — they are core to building t
 
 ## 💼 Business Case Studies powered by DevQuest
 
-# 🎯 Optimizing Google Ads Allocation with the Assignment Problem
+# 🎯 **Optimizing Google Ads Allocation with the Assignment Problem**
 
 ## 📌 Overview
 
