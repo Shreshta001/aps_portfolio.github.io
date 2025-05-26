@@ -40,29 +40,29 @@
   `Git`, `GitHub`, `VS Code`
 
 ---
-
 ## 💼 Experience
 
-<div style="border: 1px solid #dcdcdc; border-radius: 12px; padding: 18px; background-color: #ffffff; margin-bottom: 20px; font-family: sans-serif;">
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
-🧠 <strong>NVIDIA – Mini Project Intern</strong> <em>(Oct 2024 – Jan 2025, Remote)</em>  
+### 🧠 <strong>NVIDIA – Mini Project Intern</strong> <em>(Oct 2024 – Jan 2025, Remote)</em>  
 <ul style="padding-left: 20px; line-height: 1.6;">
-  <li>Developed a <strong>multimodal transformer subsystem</strong> for <strong>image difference estimation</strong> using <code>BDD100K</code> and <code>Vision Transformer (ViT)</code>.</li>
-  <li>Created a <strong>custom dataset</strong> via <code>OpenGVLab/Mini-InternVL-Chat-2B-V1-5</code>, prompting the <strong>VLM</strong> with structured questions for ground truth.</li>
+  <li>Developed a <strong>multimodal transformer subsystem</strong> for <strong>image difference estimation</strong> using <code>BDD100K</code> and <code>ViT</code>.</li>
+  <li>Created a <strong>custom dataset</strong> via <code>Mini-InternVL-Chat-2B</code>, prompting the <strong>VLM</strong> with structured questions for ground truth.</li>
 </ul>
 
 </div>
 
-<div style="border: 1px solid #dcdcdc; border-radius: 12px; padding: 18px; background-color: #ffffff; margin-bottom: 20px; font-family: sans-serif;">
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
-🚦 <strong>NVIDIA – Minor Project Intern</strong> <em>(Jan 2025 – Present, Remote)</em>  
+### 🚦 <strong>NVIDIA – Minor Project Intern</strong> <em>(Jan 2025 – Present, Remote)</em>  
 <ul style="padding-left: 20px; line-height: 1.6;">
-  <li>Implemented a <strong>custom demosaicing pipeline</strong> for <code>RCCB sensor images</code> using <strong>CNN-based channel estimation</strong>, <code>CCM</code>, and spatial techniques.</li>
-  <li>Building a <strong>YOLOX-based traffic light detector</strong> using <code>Detectron2</code> and <code>Bosch Traffic Lights Dataset</code>.</li>
-  <li>Evaluating <strong>model robustness under lighting variations</strong> with targeted <strong>data augmentation</strong>.</li>
+  <li>Implemented a <strong>custom demosaicing pipeline</strong> on <code>RCCB sensor images</code> using <strong>CNN-based estimation</strong>, <code>CCM</code>, and spatial reconstruction.</li>
+  <li>Building a <strong>YOLOX-based traffic light detector</strong> using <code>Detectron2</code> and <code>Bosch Dataset</code>.</li>
+  <li>Testing under <strong>lighting variations</strong> via realistic <strong>data augmentation</strong>.</li>
 </ul>
 
 </div>
+
 
 
 
