@@ -221,7 +221,7 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to find an **optimal
 ---
 
 
-![Assignment Problem Visualization](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bipartite_Graph.svg/800px-Bipartite_Graph.svg.png)
+<!--![Assignment Problem Visualization](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bipartite_Graph.svg/800px-Bipartite_Graph.svg.png)-->
 
 - Left side: Ads  
 - Right side: Display Slots  
