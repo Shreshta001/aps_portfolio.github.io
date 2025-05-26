@@ -262,205 +262,471 @@ Google uses the **Hungarian Algorithm (Munkres Algorithm)** to compute the optim
 
 ---
 
-## 2. Enhancing Data Security with the Stolen Values Problem 🔒
+# 🔒 Enhancing Data Security with the Stolen Values Problem
 
-**Overview:**  
+## 📌 Overview
+
 Data security and integrity are paramount for Google’s vast infrastructure. Sometimes, datasets may become partially corrupted or certain values may be "stolen" or tampered with due to malicious activities or transmission errors. The **Stolen Values Problem** focuses on reconstructing the original, untampered dataset as accurately as possible from incomplete or inconsistent data.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 Google uses sophisticated **Dynamic Programming (DP)** techniques to reconstruct or estimate the original data. The DP approach minimizes the cumulative difference between reconstructed and observed values, ensuring data integrity and robustness against partial theft or corruption.
 
-- ⏳ **Time Complexity:** Linear in the number of data points, O(n), ensuring efficient reconstruction even for massive datasets.  
-- 🧠 **Space Complexity:** Also O(n), storing intermediate reconstruction states.
+| Metric             | Value     | Description                                        |
+|--------------------|-----------|----------------------------------------------------|
+| ⏳ Time Complexity  | `O(n)`    | Efficient, linear in number of data points         |
+| 🧠 Space Complexity | `O(n)`    | Stores intermediate reconstruction states          |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 Envision a timeline of data points, some marked as missing or suspect. The DP algorithm iteratively fills in gaps by balancing consistency and minimizing discrepancies.
 
 ![Stolen Values Problem](https://example.com/stolen_values_image.png)
 
-**Code Snippet:**  
-Check out the reconstruction algorithm implementation here:  
-[Stolen Values Problem Implementation](https://github.com/yourusername/stolen-values-problem)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Stolen Values Problem Implementation](https://github.com/yourusername/stolen-values-problem)
 
 ---
 
-## 3. Predicting User Behavior with Ways to Reach a Number 🔢
+## 🌐 Real-World Use
 
-**Overview:**  
+| Feature                | Impact                                                              |
+|------------------------|---------------------------------------------------------------------|
+| 🔄 Data Reconstruction | Accurately estimates missing or altered values                      |
+| 🔐 Data Integrity       | Helps maintain trustworthy datasets                                 |
+| ⚡ Efficient Processing | Works effectively on large-scale datasets with minimal overhead     |
+| 🧠 Intelligent Recovery | Uses past data patterns to guide reconstruction                     |
+
+---
+
+## 📚 References
+
+- Google Internal Research on Fault-Tolerant Systems  
+- Dynamic Programming Techniques in Data Restoration  
+- [Wikipedia: Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming)
+
+
+# 🔢 Predicting User Behavior with Ways to Reach a Number
+
+## 📌 Overview
+
 Understanding how users navigate through a sequence of actions (like clicks or page visits) helps Google optimize user experience and site architecture. Modeling the number of distinct paths to reach a particular "state" or goal action provides insight into user behavior and funnel effectiveness.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 This problem is conceptually similar to the **coin change problem** in algorithm design. Using **Dynamic Programming**, Google calculates the number of unique sequences (paths) by which a user can reach a target action, accounting for different "step sizes" or intermediate interactions.
 
-- ⏳ **Time Complexity:** O(n × m), where *n* is the target number (or goal action) and *m* is the number of possible step sizes or intermediate actions.  
-- 🧠 **Space Complexity:** O(n), maintaining counts for each reachable intermediate state.
+| Metric             | Value           | Description                                                           |
+|--------------------|------------------|-----------------------------------------------------------------------|
+| ⏳ Time Complexity  | `O(n × m)`       | `n` = target action, `m` = number of possible step sizes              |
+| 🧠 Space Complexity | `O(n)`           | Maintains DP table of counts to reach each intermediate state         |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 Think of a step diagram where each step size represents a jump from one user action to the next, and the DP table accumulates ways to reach the goal.
 
 ![Ways to Reach a Number](https://example.com/ways_to_reach_number_image.png)
 
-**Code Snippet:**  
-Dive into the DP solution here:  
-[Ways to Reach a Number Implementation](https://github.com/yourusername/ways-to-reach-number)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Ways to Reach a Number Implementation](https://github.com/yourusername/ways-to-reach-number)
 
 ---
 
-## 4. Improving Search Suggestions with Longest Common Subsequence (LCS) 🔍
+## 🌐 Real-World Use
 
-**Overview:**  
+| Feature                | Impact                                                              |
+|------------------------|---------------------------------------------------------------------|
+| 📈 Funnel Analysis      | Identifies how users reach target actions through different paths   |
+| 🧭 Behavior Prediction  | Models likelihood of certain user sequences                         |
+| 📊 UX Optimization      | Refines site design based on common paths                           |
+| ⚙️ Scalable Analytics   | Efficient computation even for large user journey datasets          |
+
+---
+
+## 📚 References
+
+- Coin Change and Combinatorics in User Modeling  
+- Dynamic Programming for Sequential Interaction Analysis  
+- [Wikipedia: Coin Change Problem](https://en.wikipedia.org/wiki/Change-making_problem)
+
+
+# 🔍 Improving Search Suggestions with Longest Common Subsequence (LCS)
+
+## 📌 Overview
+
 Search engines thrive on giving users fast, relevant suggestions. The **Longest Common Subsequence (LCS)** algorithm helps by measuring the similarity between the user’s input string and popular search queries, identifying common subsequences that may indicate user intent.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 Google’s autocomplete features use LCS to find the longest common subsequence between a user's partial input and candidate queries in the database, thereby ranking and suggesting the most relevant completions.
 
-- ⏳ **Time Complexity:** O(m × n), where *m* and *n* are lengths of the input strings.  
-- 🧠 **Space Complexity:** O(m × n), for the DP matrix used to compute LCS.
+| Metric             | Value           | Description                                                             |
+|--------------------|------------------|-------------------------------------------------------------------------|
+| ⏳ Time Complexity  | `O(m × n)`        | `m`, `n` = lengths of the two input strings                             |
+| 🧠 Space Complexity | `O(m × n)`        | Stores a dynamic programming matrix to compute subsequences             |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 A matrix showing comparison between two strings where LCS cells are filled progressively, highlighting the longest subsequence.
 
 ![Longest Common Subsequence](https://example.com/lcs_image.png)
 
-**Code Snippet:**  
-View the full LCS implementation:  
-[Longest Common Subsequence Implementation](https://github.com/yourusername/longest-common-subsequence)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Longest Common Subsequence Implementation](https://github.com/yourusername/longest-common-subsequence)
 
 ---
 
-## 5. Auto-Correct Feature Enhancement with Longest Common Substring ✍️
+## 🌐 Real-World Use
 
-**Overview:**  
+| Feature                 | Impact                                                              |
+|--------------------------|---------------------------------------------------------------------|
+| 🔠 Typo Tolerance         | Matches similar sequences even with small mistakes                  |
+| 🔍 Autocomplete Ranking   | Suggests completions based on historical user input patterns        |
+| ⚡ Fast Search Suggestions| Helps identify the closest possible matches in real-time            |
+| 🧠 NLP Preprocessing      | Useful for comparing sentence structures or entity name alignment   |
+
+---
+
+## 📚 References
+
+- Needleman-Wunsch & LCS Algorithm in NLP  
+- Applications of LCS in Query Prediction  
+- [Wikipedia: Longest Common Subsequence Problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
+
+
+# ✍️ Auto-Correct Feature Enhancement with Longest Common Substring
+
+## 📌 Overview
+
 Google's auto-correct function improves typing accuracy by detecting the longest common substring between potentially misspelled words and dictionary entries, thus suggesting the closest valid words.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 By finding the longest continuous matching sequence of characters (substring) between user input and dictionary words, Google can prioritize corrections that require minimal editing, enhancing typing efficiency and reducing errors.
 
-- ⏳ **Time Complexity:** O(m × n), with *m* and *n* being the lengths of the two strings compared.  
-- 🧠 **Space Complexity:** O(m × n) to store intermediate results in DP tables.
+| Metric             | Value           | Description                                                             |
+|--------------------|------------------|-------------------------------------------------------------------------|
+| ⏳ Time Complexity  | `O(m × n)`        | `m`, `n` = lengths of the two input strings                             |
+| 🧠 Space Complexity | `O(m × n)`        | Stores intermediate results using dynamic programming                   |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 A grid showing character comparisons, where contiguous matches form the longest substring highlighted in color.
 
 ![Longest Common Substring](https://example.com/lcs_substring_image.png)
 
-**Code Snippet:**  
-Explore the substring detection code here:  
-[Longest Common Substring Implementation](https://github.com/yourusername/longest-common-substring)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Longest Common Substring Implementation](https://github.com/yourusername/longest-common-substring)
 
 ---
 
-## 6. Optimizing Resource Allocation with the Knapsack Problem 🎒
+## 🌐 Real-World Use
 
-**Overview:**  
+| Feature                 | Impact                                                              |
+|--------------------------|---------------------------------------------------------------------|
+| ✍️ Auto-Correction        | Helps fix typos by comparing input with valid dictionary words      |
+| 💬 Real-Time Feedback     | Suggests corrections as users type, improving accuracy and speed    |
+| 🔤 Typo Matching           | Matches continuous character blocks rather than scattered sequences |
+| 📈 Efficiency             | Reduces keystrokes needed to correct mistakes                      |
+
+---
+
+## 📚 References
+
+- Applications of LCS and Substring Matching in Spell Checking  
+- Dynamic Programming in Auto-Correction Systems  
+- [Wikipedia: Longest Common Substring](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
+
+  
+---
+
+# 🎒 Optimizing Resource Allocation with the Knapsack Problem
+
+## 📌 Overview
+
 In Google Cloud, allocating limited computational resources like CPU time, memory, and bandwidth to numerous client tasks requires optimal strategies to maximize overall system performance and client satisfaction.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 The classical **Knapsack Problem** helps decide which set of tasks to run, balancing their benefits (profits) against their resource demands (weights), ensuring the total resource consumption doesn't exceed capacity while maximizing the profit.
 
-- ⏳ **Time Complexity:** O(n × W), where *n* is the number of tasks and *W* is the total resource capacity.  
-- 🧠 **Space Complexity:** O(n × W), maintaining DP tables of possible weight-profit combinations.
+| Metric             | Value            | Description                                                       |
+|--------------------|------------------|-------------------------------------------------------------------|
+| ⏳ Time Complexity  | `O(n × W)`        | `n` = number of tasks, `W` = total resource capacity              |
+| 🧠 Space Complexity | `O(n × W)`        | Stores all combinations of included/excluded tasks in DP tables  |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 A table or graph visualizing inclusion/exclusion of tasks with respect to capacity and total profit.
 
 ![Knapsack Problem](https://example.com/knapsack_problem_image.png)
 
-**Code Snippet:**  
-Check out the knapsack solver here:  
-[Knapsack Problem Implementation](https://github.com/yourusername/knapsack-problem)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Knapsack Problem Implementation](https://github.com/yourusername/knapsack-problem)
 
 ---
 
-## 7. Enhancing Data Analysis with Subset Sum Problem 📊
+## 🌐 Real-World Use in Google Cloud
 
-**Overview:**  
+| Feature                  | Impact                                                             |
+|---------------------------|--------------------------------------------------------------------|
+| ⚙️ Resource Scheduling     | Optimally assigns resources across tasks or containers             |
+| 🧮 Load Balancing          | Ensures fair and efficient resource distribution                  |
+| 💻 Task Selection          | Prioritizes high-value tasks within given constraints             |
+| 🌱 Efficiency              | Improves cost-performance ratio for clients and infrastructure    |
+
+---
+
+## 📚 References
+
+- Dantzig, G. (1957). *Discrete-Variable Extremum Problems*  
+- Applications of Knapsack in Distributed Systems and Cloud Platforms  
+- [Wikipedia: Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem)
+
+
+---
+
+# 📊 Enhancing Data Analysis with Subset Sum Problem
+
+## 📌 Overview
+
 Detecting subsets within large datasets that sum to a particular target is important for identifying anomalies, patterns, or targeted data segments in Google’s analytics pipelines.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 The **Subset Sum Problem** algorithm identifies these subsets, enabling effective segmentation and anomaly detection by pinpointing data combinations meeting specific criteria.
 
-- ⏳ **Time Complexity:** O(n × sum), where *sum* is the target sum value and *n* is the number of elements.  
-- 🧠 **Space Complexity:** O(n × sum), storing DP tables for subsets and sums.
+| Metric             | Value           | Description                                                     |
+|--------------------|-----------------|-----------------------------------------------------------------|
+| ⏳ Time Complexity  | `O(n × sum)`    | `n` = number of elements, `sum` = target sum value             |
+| 🧠 Space Complexity | `O(n × sum)`    | Stores DP tables for achievable sums and subsets                |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 Visualizes subset selection as a binary decision tree or a DP table illustrating sums achievable by subsets.
 
 ![Subset Sum Problem](https://example.com/subset_sum_image.png)
 
-**Code Snippet:**  
-See the subset sum algorithm here:  
-[Subset Sum Problem Implementation](https://github.com/yourusername/subset-sum-problem)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Subset Sum Problem Implementation](https://github.com/yourusername/subset-sum-problem)
 
 ---
 
-## 8. Predictive Text Input with Coin Combinations ✨
+## 🌐 Real-World Use in Google Analytics
 
-**Overview:**  
+| Feature                 | Impact                                                       |
+|-------------------------|--------------------------------------------------------------|
+| 🔍 Pattern Recognition   | Identifies data segments matching specific sum criteria      |
+| ⚠️ Anomaly Detection     | Detects suspicious or rare data subsets                       |
+| 📊 Data Segmentation     | Facilitates targeted analysis and reporting                   |
+| 🧮 Efficient Computation | Enables scalable analysis on large datasets                  |
+
+---
+
+## 📚 References
+
+- Bellman, R. (1957). *Dynamic Programming*  
+- Applications in Big Data Analytics and Security  
+- [Wikipedia: Subset Sum Problem](https://en.wikipedia.org/wiki/Subset_sum_problem)
+
+
+---
+
+# ✨ Predictive Text Input with Coin Combinations
+
+## 📌 Overview
+
 Google’s predictive text systems estimate all possible word or phrase formations given partial input, improving typing speed and accuracy.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 The **Coin Combinations** approach calculates how many ways input letters can combine into valid words, enhancing prediction accuracy in keyboards and search bars.
 
-- ⏳ **Time Complexity:** O(n × m), where *n* is the input length and *m* is the number of possible tokens or letters.  
-- 🧠 **Space Complexity:** O(n), storing number of combinations up to each input length.
+| Metric             | Value          | Description                                               |
+|--------------------|----------------|-----------------------------------------------------------|
+| ⏳ Time Complexity  | `O(n × m)`     | `n` = input length, `m` = number of possible tokens       |
+| 🧠 Space Complexity | `O(n)`         | Stores number of combinations for each input length       |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 A staircase diagram showing incremental combinations formed at each character addition.
 
 ![Coin Combinations](https://example.com/coin_combinations_image.png)
 
-**Code Snippet:**  
-Explore the coin combinations code here:  
-[Coin Combinations Implementation](https://github.com/yourusername/coin-combinations)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Coin Combinations Implementation](https://github.com/yourusername/coin-combinations)
 
 ---
 
-## 9. Strengthening Cryptographic Systems with the Coin Change Problem 🔐
+## 🌐 Real-World Use in Google Predictive Text
 
-**Overview:**  
+| Feature               | Impact                                                  |
+|-----------------------|---------------------------------------------------------|
+| 🔤 Text Prediction     | Estimates valid word combinations from partial inputs   |
+| ⚡ Typing Efficiency   | Improves typing speed and accuracy                       |
+| 🤖 Language Modeling   | Enhances language model outputs for autocomplete        |
+| 📈 User Experience     | Provides smoother and more accurate text input          |
+
+---
+
+## 📚 References
+
+- Dynamic Programming Approaches to String Combinations  
+- Applications in Natural Language Processing  
+- [Wikipedia: Coin Change Problem](https://en.wikipedia.org/wiki/Change-making_problem)
+
+
+---
+
+# 🔐 Strengthening Cryptographic Systems with the Coin Change Problem
+
+## 📌 Overview
+
 Google’s security systems sometimes use cryptographic algorithms that rely on optimal partitioning of values, similar to the coin change problem, for efficient encoding and decoding.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 This problem helps determine the minimum number of coins (units) required to make change for a certain amount, analogous to minimizing operations in cryptographic protocols.
 
-- ⏳ **Time Complexity:** O(n × m), where *n* is the amount and *m* is the number of coin denominations.  
-- 🧠 **Space Complexity:** O(n), for DP arrays storing minimum coins needed.
+| Metric             | Value          | Description                                              |
+|--------------------|----------------|----------------------------------------------------------|
+| ⏳ Time Complexity  | `O(n × m)`     | `n` = amount, `m` = number of coin denominations         |
+| 🧠 Space Complexity | `O(n)`         | Stores DP arrays with minimum coins needed for amounts   |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 A DP array where each index represents the minimal coins needed for that amount.
 
 ![Coin Change Problem](https://example.com/coin_change_image.png)
 
-**Code Snippet:**  
-View the coin change solution here:  
-[Coin Change Problem Implementation](https://github.com/yourusername/coin-change-problem)
+---
 
+## 🧑‍💻 Code Reference
 
-
-## 💼 Business Case Studies powered by DevQuest (Continued)
+👉 [Coin Change Problem Implementation](https://github.com/yourusername/coin-change-problem)
 
 ---
 
-## 10. Minimizing Cost in Shortest Common Supersequence (SCS) 🚀
+## 🌐 Real-World Use in Google Cryptography
 
-**Overview:**  
+| Feature                   | Impact                                                  |
+|---------------------------|---------------------------------------------------------|
+| 🔐 Cryptographic Encoding  | Optimizes minimal unit partitioning                      |
+| ⚙️ Efficient Decoding      | Minimizes operations for secure data transformation     |
+| 🛡️ Security Enhancement    | Strengthens encryption algorithms via DP optimization   |
+
+---
+
+## 📚 References
+
+- Dynamic Programming for Coin Change  
+- Cryptographic Protocol Optimization  
+- [Wikipedia: Coin Change Problem](https://en.wikipedia.org/wiki/Change-making_problem)
+
+
+---
+
+# 🚀 Minimizing Cost in Shortest Common Supersequence (SCS)
+
+## 📌 Overview
+
 In data compression and genome sequencing, constructing a sequence that contains two input sequences as subsequences with minimum length is vital. The **Shortest Common Supersequence** problem finds this sequence, balancing cost and data completeness.
 
-**Application:**  
+---
+
+## 🧠 Application
+
 Google applies SCS in DNA alignment, text merge, and autocomplete suggestions where minimal combined sequences enhance efficiency and relevance.
 
-- ⏳ **Time Complexity:** O(m × n), where *m* and *n* are the lengths of input sequences.  
-- 🧠 **Space Complexity:** O(m × n), for DP tables storing intermediate supersequence lengths.
+| Metric             | Value          | Description                                             |
+|--------------------|----------------|---------------------------------------------------------|
+| ⏳ Time Complexity  | `O(m × n)`     | *m* and *n* are the lengths of the two input sequences  |
+| 🧠 Space Complexity | `O(m × n)`     | DP table storing intermediate supersequence lengths     |
 
-**Visual Representation:**  
+---
+
+## 📊 Visual Representation
+
 A DP matrix comparing two strings and progressively building the shortest supersequence length.
 
 ![Shortest Common Supersequence](https://example.com/scs_image.png)
 
-**Code Snippet:**  
-Check out the full SCS implementation here:  
-[Shortest Common Supersequence Implementation](https://github.com/yourusername/shortest-common-supersequence)
+---
+
+## 🧑‍💻 Code Reference
+
+👉 [Shortest Common Supersequence Implementation](https://github.com/yourusername/shortest-common-supersequence)
+
+---
+
+## 🌐 Real-World Use Cases at Google
+
+| Feature               | Impact                                                |
+|-----------------------|-------------------------------------------------------|
+| 🧬 DNA Sequence Alignment | Efficient genome data comparison                      |
+| 📄 Text Merging        | Combining text edits or autocomplete suggestion merging |
+| ⚡ Data Compression    | Reducing storage by minimizing sequence redundancy     |
+
+---
+
+## 📚 References
+
+- Dynamic Programming for Shortest Common Supersequence  
+- Genome Sequencing Algorithms  
+- [Wikipedia: Shortest Common Supersequence](https://en.wikipedia.org/wiki/Shortest_common_supersequence_problem)
 
 ---
 
