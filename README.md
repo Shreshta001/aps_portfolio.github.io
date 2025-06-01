@@ -27,7 +27,7 @@
 
 ---
 
-# Table of Contents
+## Table of Contents
 
 - [🚀 DevQuest Title](#devquest-title)
 - [🧾 Portfolio Details](#portfolio-details)
@@ -49,6 +49,7 @@
 - [💼 Business Case Studies powered by DevQuest](#business-case-studies-powered-by-devquest)
   - [Optimizing Google Ads Allocation with the Assignment Problem](#optimizing-google-ads-allocation-with-the-assignment-problem)
   - [Enhancing Data Security with the Stolen Values Problem](#enhancing-data-security-with-the-stolen-values-problem)
+
 
 
 ---
