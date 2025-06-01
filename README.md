@@ -230,8 +230,8 @@ And what powers this massive ecosystem? 🤯
 5. [✍️ **Auto-Correct Feature Enhancement with Longest Common Substring**](./5.md)
 6. [🎒 **Optimizing Resource Allocation with the Knapsack Problem**](./6.md)
 7. [📊 **Enhancing Data Analysis with Subset Sum Problem**](./7.md)
-8. [💲 Dynamic Pricing Adjustments](./8.md)
-9. [💡 Efficient Discount and Promotion Management](./9.md)
+8. [✨ **Predictive Text Input with Coin Combinations**](./8.md)
+9. [🔐 **Strengthening Cryptographic Systems with the Coin Change Problem**](./9.md)
 10. [🔢 Indexing Product data](./10.md)
 11. [🔗 Order Dependency Resolution](./11.md)
 12. [⚖️ Product Comparison Based on Descriptions](./12.md)
@@ -247,110 +247,9 @@ And what powers this massive ecosystem? 🤯
 
 
 
-# ✨ Predictive Text Input with Coin Combinations
-
-## 📌 Overview
-
-Google’s predictive text systems estimate all possible word or phrase formations given partial input, improving typing speed and accuracy.
-
----
-
-## 🧠 Application
-
-The **Coin Combinations** approach calculates how many ways input letters can combine into valid words, enhancing prediction accuracy in keyboards and search bars.
-
-| Metric             | Value          | Description                                               |
-|--------------------|----------------|-----------------------------------------------------------|
-| ⏳ Time Complexity  | `O(n × m)`     | `n` = input length, `m` = number of possible tokens       |
-| 🧠 Space Complexity | `O(n)`         | Stores number of combinations for each input length       |
-
----
-
-## 📊 Visual Representation
-
-A staircase diagram showing incremental combinations formed at each character addition.
-
-![Coin Combinations](https://example.com/coin_combinations_image.png)
-
----
-
-## 🧑‍💻 Code Reference
-
-👉 [Coin Combinations Implementation](https://github.com/yourusername/coin-combinations)
-
----
-
-## 🌐 Real-World Use in Google Predictive Text
-
-| Feature               | Impact                                                  |
-|-----------------------|---------------------------------------------------------|
-| 🔤 Text Prediction     | Estimates valid word combinations from partial inputs   |
-| ⚡ Typing Efficiency   | Improves typing speed and accuracy                       |
-| 🤖 Language Modeling   | Enhances language model outputs for autocomplete        |
-| 📈 User Experience     | Provides smoother and more accurate text input          |
-
----
-
-## 📚 References
-
-- Dynamic Programming Approaches to String Combinations  
-- Applications in Natural Language Processing  
-- [Wikipedia: Coin Change Problem](https://en.wikipedia.org/wiki/Change-making_problem)
 
 
----
 
-# 🔐 Strengthening Cryptographic Systems with the Coin Change Problem
-
-## 📌 Overview
-
-Google’s security systems sometimes use cryptographic algorithms that rely on optimal partitioning of values, similar to the coin change problem, for efficient encoding and decoding.
-
----
-
-## 🧠 Application
-
-This problem helps determine the minimum number of coins (units) required to make change for a certain amount, analogous to minimizing operations in cryptographic protocols.
-
-| Metric             | Value          | Description                                              |
-|--------------------|----------------|----------------------------------------------------------|
-| ⏳ Time Complexity  | `O(n × m)`     | `n` = amount, `m` = number of coin denominations         |
-| 🧠 Space Complexity | `O(n)`         | Stores DP arrays with minimum coins needed for amounts   |
-
----
-
-## 📊 Visual Representation
-
-A DP array where each index represents the minimal coins needed for that amount.
-
-![Coin Change Problem](https://example.com/coin_change_image.png)
-
----
-
-## 🧑‍💻 Code Reference
-
-👉 [Coin Change Problem Implementation](https://github.com/yourusername/coin-change-problem)
-
----
-
-## 🌐 Real-World Use in Google Cryptography
-
-| Feature                   | Impact                                                  |
-|---------------------------|---------------------------------------------------------|
-| 🔐 Cryptographic Encoding  | Optimizes minimal unit partitioning                      |
-| ⚙️ Efficient Decoding      | Minimizes operations for secure data transformation     |
-| 🛡️ Security Enhancement    | Strengthens encryption algorithms via DP optimization   |
-
----
-
-## 📚 References
-
-- Dynamic Programming for Coin Change  
-- Cryptographic Protocol Optimization  
-- [Wikipedia: Coin Change Problem](https://en.wikipedia.org/wiki/Change-making_problem)
-
-
----
 
 # 🚀 Minimizing Cost in Shortest Common Supersequence (SCS)
 
