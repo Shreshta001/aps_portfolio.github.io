@@ -162,6 +162,7 @@ Building for billions requires algorithmic thinking at every step. Some examples
 > Building products for billions isn’t just about writing working code — it's about writing code that **performs**, **scales effortlessly**, and handles **complexity with elegance**.  
 > This is where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** become indispensable.  
 
+---
 
 ## **How These Principles Drive Some of Google's Most Impactful Systems**
 
