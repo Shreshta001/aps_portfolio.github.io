@@ -211,7 +211,7 @@ And what powers this massive ecosystem? 🤯
 
   <hr>
 
-  <blockquote style="font-style: italic; border-left: 4px solid #3b82f6; padding-left: 12px; color: #1e3a8a; margin-top: 20px;">
+  <blockquote style="font-style: italic; border-left: 4px solid #3b82f6; padding-left: 12px; color: #101b3b; margin-top: 20px;">
     🧠 These examples show how <strong>algorithmic thinking</strong> isn’t optional at Google scale — it’s the foundation.
   </blockquote>
 
