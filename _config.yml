@@ -1,1 +1,34 @@
-theme: jekyll-theme-leap-day
+title: "DevQuest"
+description: "Connecting ideas to solutions, one problem at a time!"
+
+# Use remote_theme because GitHub Pages does NOT support this theme natively
+theme: null
+remote_theme: just-the-docs/just-the-docs
+
+# Site URL settings (must be your GitHub Pages domain)
+url: "https://shreshta001.github.io"
+baseurl: "/aps_portfolio.github.io"  # This must be your repo name with a slash in front
+
+# Optional: Color scheme
+color_scheme: light  # can be 'light' or 'dark'
+
+# Enable required plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+# Navigation settings (optional but useful)
+nav_sort: case_insensitive
+search_enabled: true
+
+# Footer (optional)
+footer_content: "© 2025 DevQuest"
+
+# Logo (optional)
+# logo: "/assets/images/logo.png"
+
+
+
