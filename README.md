@@ -17,28 +17,18 @@
 ---
 
 ## 🧾 Portfolio Details
-## 🧾 Portfolio Details
 
-> ### 👩‍🎓 **Student:**  
-> Shreshta S. Majalikar (SSM)  
->
-> ### 🎓 **SRN:**  
-> 01FE22BCS277  
->
-> ### 🔰 **Course Name:**  
-> Algorithmic Problem Solving (APS)  
->
-> ### 🆔 **Course Code:**  
-> 24ECSE309  
->
-> ### 👨‍🏫 **Instructor:**  
-> Prakash Hegade (PH)  
->
-> ### 🌐 **Domain:**  
-> GOOGLE  
->
-> ### 🏛 **University:**  
-> KLE Technological University, Hubballi
+> ```
+> 👩‍🎓 Student     : Shreshta S. Majalikar (SSM)
+> 🎓 SRN         : 01FE22BCS277
+> 🔰 Course Name : Algorithmic Problem Solving (APS)
+> 🆔 Course Code : 24ECSE309
+> 👨‍🏫 Instructor  : Prakash Hegade (PH)
+> 🌐 Domain      : GOOGLE
+> 🏛 University   : KLE Technological University, Hubballi
+> ```
+
+
 
 
 
