@@ -66,25 +66,18 @@
   `Git`, `GitHub`, `VS Code`
 
 ---
-## 💼 Experience
+## 🧾 Portfolio Details
 
-<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; line-height: 1.6;">
 
-### 🧠 <strong>NVIDIA – Mini Project Intern</strong> <em>(Oct 2024 – Jan 2025, Remote)</em>  
-<ul style="padding-left: 20px; line-height: 1.6;">
-  <li>Developed a <strong>multimodal transformer subsystem</strong> for <strong>image difference estimation</strong> using <code>BDD100K</code> and <code>ViT</code>.</li>
-  <li>Created a <strong>custom dataset</strong> via <code>Mini-InternVL-Chat-2B</code>, prompting the <strong>VLM</strong> with structured questions for ground truth.</li>
-</ul>
-
-</div>
-
-<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
-
-### 🚦 <strong>NVIDIA – Minor Project Intern</strong> <em>(Jan 2025 – Present, Remote)</em>  
-<ul style="padding-left: 20px; line-height: 1.6;">
-  <li>Implemented a <strong>custom demosaicing pipeline</strong> on <code>RCCB sensor images</code> using <strong>CNN-based estimation</strong>, <code>CCM</code>, and spatial reconstruction.</li>
-  <li>Building a <strong>YOLOX-based traffic light detector</strong> using <code>Detectron2</code> and <code>Bosch Dataset</code>.</li>
-  <li>Testing under <strong>lighting variations</strong> via realistic <strong>data augmentation</strong>.</li>
+<ul style="padding-left: 20px; list-style: none;">
+  <li><strong>👩‍🎓 Student:</strong> Shreshta S. Majalikar (SSM)</li>
+  <li><strong>🎓 SRN:</strong> 01FE22BCS277</li>
+  <li><strong>🔰 Course Name:</strong> Algorithmic Problem Solving (APS)</li>
+  <li><strong>🆔 Course Code:</strong> 24ECSE309</li>
+  <li><strong>👨‍🏫 Instructor:</strong> Prakash Hegade (PH)</li>
+  <li><strong>🌐 Domain:</strong> GOOGLE</li>
+  <li><strong>🏛 University:</strong> KLE Technological University, Hubballi</li>
 </ul>
 
 </div>
