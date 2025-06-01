@@ -65,7 +65,7 @@
 </ul>
 
 </div>
-
+--
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
 🧾 <strong>In-Semester Assessment Management System</strong>  
@@ -77,7 +77,7 @@
 </ul>
 
 </div>
-
+--
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
 🤖 <strong>AI-Generated Face Detection using RvAI Classifier</strong>  
@@ -90,8 +90,7 @@
 
 </div>
 
-
-
+---
 ## 🧭 Overview
 
 <p align="center">
