@@ -218,6 +218,7 @@ Building for billions requires algorithmic thinking at every step. Some examples
 - Built on solid foundations in **DSA**, **system design**, and **APS** techniques.
 - 📚 [Increasing Resiliency with Load Balancers – Google Cloud](https://cloud.google.com/blog/products/networking/increasing-resiliency-load-balancers)
 
+---
 
 > 🧠 All these examples highlight how **algorithmic thinking** isn’t optional at Google-scale — it’s the foundation.
 
