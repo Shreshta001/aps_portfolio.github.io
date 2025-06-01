@@ -229,7 +229,7 @@ And what powers this massive ecosystem? 🤯
 4. [🔍 **Improving Search Suggestions with Longest Common Subsequence (LCS)**](./4.md)
 5. [✍️ **Auto-Correct Feature Enhancement with Longest Common Substring**](./5.md)
 6. [🎒 **Optimizing Resource Allocation with the Knapsack Problem**](./6.md)
-7. [📈 Managing Customer Traffic During Sales](./7.md)
+7. [📊 **Enhancing Data Analysis with Subset Sum Problem**](./7.md)
 8. [💲 Dynamic Pricing Adjustments](./8.md)
 9. [💡 Efficient Discount and Promotion Management](./9.md)
 10. [🔢 Indexing Product data](./10.md)
@@ -243,111 +243,9 @@ And what powers this massive ecosystem? 🤯
 
 ---
 
-# 🎒 Optimizing Resource Allocation with the Knapsack Problem
-
-## 📌 Overview
-
-In Google Cloud, allocating limited computational resources like CPU time, memory, and bandwidth to numerous client tasks requires optimal strategies to maximize overall system performance and client satisfaction.
-
----
-
-## 🧠 Application
-
-The classical **Knapsack Problem** helps decide which set of tasks to run, balancing their benefits (profits) against their resource demands (weights), ensuring the total resource consumption doesn't exceed capacity while maximizing the profit.
-
-| Metric             | Value            | Description                                                       |
-|--------------------|------------------|-------------------------------------------------------------------|
-| ⏳ Time Complexity  | `O(n × W)`        | `n` = number of tasks, `W` = total resource capacity              |
-| 🧠 Space Complexity | `O(n × W)`        | Stores all combinations of included/excluded tasks in DP tables  |
-
----
-
-## 📊 Visual Representation
-
-A table or graph visualizing inclusion/exclusion of tasks with respect to capacity and total profit.
-
-![Knapsack Problem](https://example.com/knapsack_problem_image.png)
-
----
-
-## 🧑‍💻 Code Reference
-
-👉 [Knapsack Problem Implementation](https://github.com/yourusername/knapsack-problem)
-
----
-
-## 🌐 Real-World Use in Google Cloud
-
-| Feature                  | Impact                                                             |
-|---------------------------|--------------------------------------------------------------------|
-| ⚙️ Resource Scheduling     | Optimally assigns resources across tasks or containers             |
-| 🧮 Load Balancing          | Ensures fair and efficient resource distribution                  |
-| 💻 Task Selection          | Prioritizes high-value tasks within given constraints             |
-| 🌱 Efficiency              | Improves cost-performance ratio for clients and infrastructure    |
-
----
-
-## 📚 References
-
-- Dantzig, G. (1957). *Discrete-Variable Extremum Problems*  
-- Applications of Knapsack in Distributed Systems and Cloud Platforms  
-- [Wikipedia: Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem)
 
 
----
 
-# 📊 Enhancing Data Analysis with Subset Sum Problem
-
-## 📌 Overview
-
-Detecting subsets within large datasets that sum to a particular target is important for identifying anomalies, patterns, or targeted data segments in Google’s analytics pipelines.
-
----
-
-## 🧠 Application
-
-The **Subset Sum Problem** algorithm identifies these subsets, enabling effective segmentation and anomaly detection by pinpointing data combinations meeting specific criteria.
-
-| Metric             | Value           | Description                                                     |
-|--------------------|-----------------|-----------------------------------------------------------------|
-| ⏳ Time Complexity  | `O(n × sum)`    | `n` = number of elements, `sum` = target sum value             |
-| 🧠 Space Complexity | `O(n × sum)`    | Stores DP tables for achievable sums and subsets                |
-
----
-
-## 📊 Visual Representation
-
-Visualizes subset selection as a binary decision tree or a DP table illustrating sums achievable by subsets.
-
-![Subset Sum Problem](https://example.com/subset_sum_image.png)
-
----
-
-## 🧑‍💻 Code Reference
-
-👉 [Subset Sum Problem Implementation](https://github.com/yourusername/subset-sum-problem)
-
----
-
-## 🌐 Real-World Use in Google Analytics
-
-| Feature                 | Impact                                                       |
-|-------------------------|--------------------------------------------------------------|
-| 🔍 Pattern Recognition   | Identifies data segments matching specific sum criteria      |
-| ⚠️ Anomaly Detection     | Detects suspicious or rare data subsets                       |
-| 📊 Data Segmentation     | Facilitates targeted analysis and reporting                   |
-| 🧮 Efficient Computation | Enables scalable analysis on large datasets                  |
-
----
-
-## 📚 References
-
-- Bellman, R. (1957). *Dynamic Programming*  
-- Applications in Big Data Analytics and Security  
-- [Wikipedia: Subset Sum Problem](https://en.wikipedia.org/wiki/Subset_sum_problem)
-
-
----
 
 # ✨ Predictive Text Input with Coin Combinations
 
