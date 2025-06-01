@@ -173,9 +173,9 @@ Here's how these principles drive some of Google's most impactful systems:
 ### 🔍 **Google Search**
 
 - Handles a **majority of global search queries** every day.
-- Uses **inverted indexing**, **query parsing**, and **relevance ranking** to deliver results in milliseconds.
-- Applies **machine learning** (like `RankBrain`) to refine user intent understanding and search relevance.
-- 📚 [How Search Works – Google Developers](https://developers.google.com/search/docs/fundamentals/how-search-works)
+- Utilizes **inverted indexing**, **query parsing**, and **relevance ranking** to deliver results in milliseconds.
+- Incorporates **machine learning** techniques, such as `RankBrain`, to refine user intent understanding and search relevance.
+- 📚 [How Google Search Works – Search Engine Land](https://searchengineland.com/how-google-search-ranking-works-pandu-nayak-435395)
 
 ---
 
@@ -186,41 +186,41 @@ Here's how these principles drive some of Google's most impactful systems:
   - **Candidate Generation Model**
   - **Ranking Model**  
   Both built on **deep neural networks** and user-behavior features.
-- Uses **graph-based algorithms** and **collaborative filtering** for personalization.
-- 📚 [Deep Neural Networks for YouTube Recommendations – Google Research](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45530.pdf)
+- Employs **collaborative filtering** and **graph-based algorithms** for personalization.
+- 📚 [Deep Neural Networks for YouTube Recommendations – Google Research](https://research.google/pubs/deep-neural-networks-for-youtube-recommendations/)
 
 ---
 
 ### 📧 **Gmail**
 
 - Manages email for **1.8+ billion users** globally.
-- Uses:
+- Implements:
   - **Bayesian filters** for spam detection.
   - **Priority Inbox** sorted via **classification algorithms**.
   - **Smart Reply & Smart Compose** using **NLP** and **sequence-to-sequence models**.
-- 📚 [Gmail's Machine Learning Features – Google AI Blog](https://ai.googleblog.com/2017/05/introducing-smart-reply-in-gmail.html)
+- 📚 [Ridding Gmail of 100 Million More Spam Messages with TensorFlow – Google Workspace Blog](https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow)
 
 ---
 
 ### 🗺️ **Google Maps**
 
 - Trusted by **over 1 billion users** for navigation and commute.
-- Real-time routing uses:
+- Real-time routing utilizes:
   - **Shortest path algorithms** like **Dijkstra’s** and **A\***.
   - **Graph traversal** and **live traffic data** for dynamic updates.
-- 📚 [Behind the Scenes – Google Maps Routing](https://blog.google/products/maps/mapping-the-road-ahead/)
+- 📚 [How Does Google Maps Routing Algorithm Work? – NCESC](https://www.ncesc.com/geographic-pedia/how-does-google-maps-routing-algorithm-work/)
 
 ---
 
 ### ☁️ **Google Cloud**
 
-- Powers **9% of the global cloud infrastructure market**.
-- Ensures scalability and availability using:
+- Powers a significant portion of the global cloud infrastructure market.
+- Ensures scalability and availability through:
   - **Load balancing**
   - **Data sharding**
   - **Fault-tolerant distributed architectures**
 - Built on solid foundations in **DSA**, **system design**, and **APS** techniques.
-- 📚 [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
+- 📚 [Increasing Resiliency with Load Balancers – Google Cloud](https://cloud.google.com/blog/products/networking/increasing-resiliency-load-balancers)
 
 ---
 
