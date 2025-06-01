@@ -141,7 +141,7 @@ And what powers this massive ecosystem? 🤯
 
   <h2>How These Principles Drive Some of Google's Most Impactful Systems</h2>
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
-  <h3>🔍 Google Search</h3>
+  <h3>🔍 <strong>Google Search</strong></h3>
   <ul>
     <li>Handles a <strong>majority of global search queries</strong> every day.</li>
     <li>Uses <strong>inverted indexing</strong>, <strong>query parsing</strong>, and <strong>relevance ranking</strong> to deliver results in milliseconds.</li>
@@ -151,7 +151,7 @@ And what powers this massive ecosystem? 🤯
 
   <hr>
 
-  <h3>📺 YouTube</h3>
+  <h3>📺 <strong>YouTube</strong></h3>
   <ul>
     <li>Serves <strong>2+ billion monthly users</strong> with <strong>billions of watch hours daily</strong>.</li>
     <li>Recommendation engine powered by:
@@ -167,7 +167,7 @@ And what powers this massive ecosystem? 🤯
 
   <hr>
 
-  <h3>📧 Gmail</h3>
+  <h3>📧 <strong>Gmail</strong></h3>
   <ul>
     <li>Manages email for <strong>1.8+ billion users</strong> globally.</li>
     <li>Implements:
@@ -182,7 +182,7 @@ And what powers this massive ecosystem? 🤯
 
   <hr>
 
-  <h3>🗺️ Google Maps</h3>
+  <h3>🗺️ <strong>Google Maps</strong></h3>
   <ul>
     <li>Trusted by <strong>over 1 billion users</strong> for navigation and commute.</li>
     <li>Real-time routing uses:
@@ -196,7 +196,7 @@ And what powers this massive ecosystem? 🤯
 
   <hr>
 
-  <h3>☁️ Google Cloud</h3>
+  <h3>☁️ <strong>Google Cloud</strong></h3>
   <ul>
     <li>Powers a significant portion of global cloud infrastructure.</li>
     <li>Ensures scalability and availability via:
