@@ -136,6 +136,7 @@ And what powers this massive ecosystem? 🤯
 > This is where **DSA** and **APS** become indispensable.
 
 ---
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
 ## How These Principles Drive Some of Google's Most Impactful Systems
 
@@ -192,18 +193,8 @@ And what powers this massive ecosystem? 🤯
 
 ---
 
-## Beyond Interviews: Building Better Systems
+</div>
 
-DSA and APS are **not just for cracking interviews** — they are the foundation for building tech that:
-
-- **Scales smoothly** under heavy load  
-- **Delivers consistent performance** every time  
-- **Handles tricky edge cases** gracefully  
-- **Transforms complex real-world problems** into clear, elegant solutions  
-
-> **_Clean code solves problems. Smart code solves them efficiently._**
-
----
 
 
 ## 💼 Business Case Studies powered by DevQuest
