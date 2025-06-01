@@ -218,8 +218,26 @@ And what powers this massive ecosystem? 🤯
 
 </div>
 
+---
 
 ## 💼 Business Case Studies powered by DevQuest
+(Tap each feature to dive deeper)
+
+1. [🎯 **Optimizing Google Ads Allocation with the Assignment Problem**](./1.md)
+2. [🛍️ Product Recommendations](./2.md)
+3. [🚚 Deciding delivery route](./3.md)
+4. [🛒 Arranging orders in cart](./4.md)
+5. [📦 Storing user and product details](./5.md)
+6. [🔍 Product Catalogue Search](./6.md)
+7. [📈 Managing Customer Traffic During Sales](./7.md)
+8. [💲 Dynamic Pricing Adjustments](./8.md)
+9. [💡 Efficient Discount and Promotion Management](./9.md)
+10. [🔢 Indexing Product data](./10.md)
+11. [🔗 Order Dependency Resolution](./11.md)
+12. [⚖️ Product Comparison Based on Descriptions](./12.md)
+13. [🔍 Duplicate Detection](./13.md)
+14. [📊 Inventory Management](./14.md)
+15. [📚 Clustering products into categories](./15.md)
 
 # 🎯 **Optimizing Google Ads Allocation with the Assignment Problem**
 
