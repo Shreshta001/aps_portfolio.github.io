@@ -15,43 +15,16 @@
 > **D**riven to **E**levate **V**isions through a **Quest** of innovation, creation and exploration.
 
 ---
-<h2>🧾 Portfolio Details</h2>
 
-<pre>
-👩‍🎓 Student     : <b>Shreshta S. Majalikar (SSM)</b>
-🎓 SRN         : <b>01FE22BCS277</b>
-🔰 Course Name : <b>Algorithmic Problem Solving (APS)</b>
-🆔 Course Code : <b>24ECSE309</b>
-👨‍🏫 Instructor  : <b>Prakash Hegade (PH)</b>
-🌐 Domain      : <b>GOOGLE</b>
-🏛 University   : <b>KLE Technological University, Hubballi </b>
-</pre>
+## 🧾 Portfolio Details
 
-
-<h2 style="text-align:center;">🧾 Portfolio Details</h2>
-
-<div style="
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 20px;
-  max-width: 600px;
-  margin: 20px auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  background-color: #fdfdfd;
-  font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
-  color: #333;
-">
-
-  <p><strong>👩‍🎓 Student:</strong> Shreshta S. Majalikar (SSM)</p>
-  <p><strong>🎓 SRN:</strong> 01FE22BCS277</p>
-  <p><strong>🔰 Course Name:</strong> Algorithmic Problem Solving (APS)</p>
-  <p><strong>🆔 Course Code:</strong> 24ECSE309</p>
-  <p><strong>👨‍🏫 Instructor:</strong> Prakash Hegade (PH)</p>
-  <p><strong>🌐 Domain:</strong> GOOGLE</p>
-  <p><strong>🏛 University:</strong> KLE Technological University, Hubballi</p>
-
-</div>
+> **👩‍🎓 Student:** Shreshta S. Majalikar (SSM)  
+> **🎓 SRN:** 01FE22BCS277  
+> **🔰 Course Name:** Algorithmic Problem Solving (APS)  
+> **🆔 Course Code:** 24ECSE309  
+> **👨‍🏫 Instructor:** Prakash Hegade (PH)  
+> **🌐 Domain:** GOOGLE  
+> **🏛 University:** KLE Technological University, Hubballi
 
 
 
@@ -66,23 +39,7 @@
   `Git`, `GitHub`, `VS Code`
 
 ---
-## 🧾 Portfolio Details
 
-<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; line-height: 1.6;">
-
-<ul style="padding-left: 20px; list-style: none;">
-  <li><strong>👩‍🎓 Student:</strong> Shreshta S. Majalikar (SSM)</li>
-  <li><strong>🎓 SRN:</strong> 01FE22BCS277</li>
-  <li><strong>🔰 Course Name:</strong> Algorithmic Problem Solving (APS)</li>
-  <li><strong>🆔 Course Code:</strong> 24ECSE309</li>
-  <li><strong>👨‍🏫 Instructor:</strong> Prakash Hegade (PH)</li>
-  <li><strong>🌐 Domain:</strong> GOOGLE</li>
-  <li><strong>🏛 University:</strong> KLE Technological University, Hubballi</li>
-</ul>
-
-</div>
-
----
 
 ## 🧪 Projects
 
