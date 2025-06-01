@@ -228,7 +228,7 @@ And what powers this massive ecosystem? 🤯
 3. [🔢 **Predicting User Behavior with Ways to Reach a Number**](./3.md)
 4. [🔍 **Improving Search Suggestions with Longest Common Subsequence (LCS)**](./4.md)
 5. [✍️ **Auto-Correct Feature Enhancement with Longest Common Substring**](./5.md)
-6. [](./6.md)
+6. [🎒 **Optimizing Resource Allocation with the Knapsack Problem**](./6.md)
 7. [📈 Managing Customer Traffic During Sales](./7.md)
 8. [💲 Dynamic Pricing Adjustments](./8.md)
 9. [💡 Efficient Discount and Promotion Management](./9.md)
