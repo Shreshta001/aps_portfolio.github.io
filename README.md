@@ -232,12 +232,12 @@ And what powers this massive ecosystem? 🤯
 7. [📊 **Enhancing Data Analysis with Subset Sum Problem**](./7.md)
 8. [✨ **Predictive Text Input with Coin Combinations**](./8.md)
 9. [🔐 **Strengthening Cryptographic Systems with the Coin Change Problem**](./9.md)
-10. [🔢 Indexing Product data](./10.md)
-11. [🔗 Order Dependency Resolution](./11.md)
-12. [⚖️ Product Comparison Based on Descriptions](./12.md)
-13. [🔍 Duplicate Detection](./13.md)
-14. [📊 Inventory Management](./14.md)
-15. [📚 Clustering products into categories](./15.md)
+10. [🚀 **Minimizing Cost in Shortest Common Supersequence (SCS)**](./10.md)
+11. [🎲 **Predicting Outcomes Using Urn Models** ](./11.md)
+12. [📈 **Efficient Mean, Median, Mode Computations for Real-time Analytics**](./12.md)
+13. [🔢  ](./13.md)
+14. [📊 ](./14.md)
+15. [📚](./15.md)
 
 
 
@@ -246,107 +246,7 @@ And what powers this massive ecosystem? 🤯
 
 
 
-
-
-
-
-
-# 🚀 Minimizing Cost in Shortest Common Supersequence (SCS)
-
-## 📌 Overview
-
-In data compression and genome sequencing, constructing a sequence that contains two input sequences as subsequences with minimum length is vital. The **Shortest Common Supersequence** problem finds this sequence, balancing cost and data completeness.
-
----
-
-## 🧠 Application
-
-Google applies SCS in DNA alignment, text merge, and autocomplete suggestions where minimal combined sequences enhance efficiency and relevance.
-
-| Metric             | Value          | Description                                             |
-|--------------------|----------------|---------------------------------------------------------|
-| ⏳ Time Complexity  | `O(m × n)`     | *m* and *n* are the lengths of the two input sequences  |
-| 🧠 Space Complexity | `O(m × n)`     | DP table storing intermediate supersequence lengths     |
-
----
-
-## 📊 Visual Representation
-
-A DP matrix comparing two strings and progressively building the shortest supersequence length.
-
-![Shortest Common Supersequence](https://example.com/scs_image.png)
-
----
-
-## 🧑‍💻 Code Reference
-
-👉 [Shortest Common Supersequence Implementation](https://github.com/yourusername/shortest-common-supersequence)
-
----
-
-## 🌐 Real-World Use Cases at Google
-
-| Feature               | Impact                                                |
-|-----------------------|-------------------------------------------------------|
-| 🧬 DNA Sequence Alignment | Efficient genome data comparison                      |
-| 📄 Text Merging        | Combining text edits or autocomplete suggestion merging |
-| ⚡ Data Compression    | Reducing storage by minimizing sequence redundancy     |
-
----
-
-## 📚 References
-
-- Dynamic Programming for Shortest Common Supersequence  
-- Genome Sequencing Algorithms  
-- [Wikipedia: Shortest Common Supersequence](https://en.wikipedia.org/wiki/Shortest_common_supersequence_problem)
-
----
-
-## 11. Predicting Outcomes Using Urn Models 🎲
-
-**Overview:**  
-Urn models provide probabilistic frameworks for sampling and event prediction, useful in A/B testing, randomized algorithms, and decision-making under uncertainty.
-
-**Application:**  
-Google uses urn models in click prediction, randomized load balancing, and simulating user interaction probabilities for better product decisions.
-
-- ⏳ **Time Complexity:** Varies with model complexity; often linear for basic urn draws.  
-- 🧠 **Space Complexity:** Depends on number of states or draws simulated.
-
-**Visual Representation:**  
-Colored balls in urns representing different event probabilities and draws.
-
-![Urn Models](https://example.com/urn_model_image.png)
-
-**Code Snippet:**  
-Explore urn models simulation code here:  
-[Urn Models Implementation](https://github.com/yourusername/urn-models)
-
----
-
-## 12. Efficient Mean, Median, Mode Computations for Real-time Analytics 📈
-
-**Overview:**  
-Real-time data streams require fast and accurate computation of descriptive statistics like mean, median, and mode for monitoring user behavior.
-
-**Application:**  
-Google’s analytics pipelines calculate these statistics on-the-fly using efficient incremental algorithms, aiding in anomaly detection and user engagement analysis.
-
-- ⏳ **Time Complexity:** O(1) per update for mean, O(log n) for median using heaps, O(1) average for mode with hashmaps.  
-- 🧠 **Space Complexity:** O(n) for storing data or frequency counts.
-
-**Visual Representation:**  
-Streaming data with sliding windows and real-time statistic updates.
-
-![Mean Median Mode](https://example.com/mean_median_mode_image.png)
-
-**Code Snippet:**  
-See incremental statistics algorithms here:  
-[Mean Median Mode Implementation](https://github.com/yourusername/mean-median-mode)
-
----
-
-## 13. Using Pascal’s Triangle for Combinatorial Computations 🔢
+# 🔢 Using Pascal’s Triangle for Combinatorial Computations 
 
 **Overview:**  
 Pascal’s Triangle provides fast combinatorial number calculations crucial in probability and binomial expansions.
