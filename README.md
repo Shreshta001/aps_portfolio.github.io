@@ -121,87 +121,55 @@ And what powers this massive ecosystem? 🤯
 | 🧪 **Experiments / Labs**    | 🎨 Google Arts & Culture, 🌍 Google Earth, 🧪 Experiments with Google                                  |
 
 
----
-## ⚙️ Why DSA & Algorithmic Problem Solving Matter
+# ⚙️ Why DSA & Algorithmic Problem Solving Matter
 
 > Writing code that *works* is a great start — but writing code that’s **fast, scalable, and elegant** is what truly defines a skilled engineer.  
 > That’s where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** make all the difference.  
 > They don’t just help solve problems — they teach you how to solve them **efficiently and thoughtfully**.
 
-
 ---
-<!--
-### Engineering at Scale: The Google Mindset
 
-Building for billions requires algorithmic thinking at every step. Some examples from Google’s ecosystem:
-
-### 🔍 Search  
--Manages over 80% of the global search load. 
--Fast and relevant results rely on optimized query parsing, smart indexing (tries, inverted indices), and ranking algorithms. 
--APS helps handle intent ambiguity and large-scale data retrieval.
-
-### 📺 YouTube  
--Over 2 billion monthly users, and more than a billion watch hours per day. 
--Behind the scenes: neural nets, collaborative filtering, and graph-based algorithms that personalize recommendations in real time.
-
-### 📧 Gmail  
--Processes emails for 1.8 billion users. 
--Efficient spam detection, priority inbox sorting, and smart reply suggestions are all powered by Bayesian filters, classifiers, and well-optimized data pipelines.
-
-### 🗺️ Maps  
--Used by more than a billion users. 
--Real-time traffic updates and accurate routing depend on shortest path algorithms (like Dijkstra and A*) and dynamic updates, all solved through APS techniques.
-
-### ☁️ Google Cloud  
--Serves 9% of the global cloud market. Systems use load balancing, data sharding, and fault-tolerant architectures, all of which depend on solid DSA and performance-aware design patterns.
--->
-
-
-## 🚀 Engineering at Scale: The Google Mindset
+# 🚀 Engineering at Scale: The Google Mindset
 
 > Building products for billions isn’t just about writing working code — it's about writing code that **performs**, **scales effortlessly**, and handles **complexity with elegance**.  
-> This is where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** become indispensable.  
+> This is where **DSA** and **APS** become indispensable.
 
 ---
 
-## **How These Principles Drive Some of Google's Most Impactful Systems**
+# How These Principles Drive Some of Google's Most Impactful Systems
 
 ### 🔍 Google Search
-
 - Handles a **majority of global search queries** every day.
-- Utilizes **inverted indexing**, **query parsing**, and **relevance ranking** to deliver results in milliseconds.
-- Incorporates **machine learning** techniques, such as `RankBrain`, to refine user intent understanding and search relevance.
+- Uses **inverted indexing**, **query parsing**, and **relevance ranking** to deliver results in milliseconds.
+- Incorporates **machine learning** techniques, such as `RankBrain`, to refine user intent and search relevance.
 - 📚 [How Google Search Works – Search Engine Land](https://searchengineland.com/how-google-search-ranking-works-pandu-nayak-435395)
 
 ---
 
 ### 📺 YouTube
-
 - Serves **2+ billion monthly users** with **billions of watch hours daily**.
-- Recommendation engine is powered by:
+- Recommendation engine powered by:
   - **Candidate Generation Model**
   - **Ranking Model**  
-  Both built on **deep neural networks** and user-behavior features.
-- Employs **collaborative filtering** and **graph-based algorithms** for personalization.
+  Both built on **deep neural networks** and user behavior features.
+- Uses **collaborative filtering** and **graph-based algorithms** for personalization.
 - 📚 [Deep Neural Networks for YouTube Recommendations – Google Research](https://research.google/pubs/deep-neural-networks-for-youtube-recommendations/)
 
 ---
 
 ### 📧 Gmail
-
 - Manages email for **1.8+ billion users** globally.
 - Implements:
   - **Bayesian filters** for spam detection.
-  - **Priority Inbox** sorted via **classification algorithms**.
+  - **Priority Inbox** sorted with **classification algorithms**.
   - **Smart Reply & Smart Compose** using **NLP** and **sequence-to-sequence models**.
 - 📚 [Ridding Gmail of 100 Million More Spam Messages with TensorFlow – Google Workspace Blog](https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow)
 
 ---
 
 ### 🗺️ Google Maps
-
 - Trusted by **over 1 billion users** for navigation and commute.
-- Real-time routing utilizes:
+- Real-time routing uses:
   - **Shortest path algorithms** like **Dijkstra’s** and **A\***.
   - **Graph traversal** and **live traffic data** for dynamic updates.
 - 📚 [How Does Google Maps Routing Algorithm Work? – NCESC](https://www.ncesc.com/geographic-pedia/how-does-google-maps-routing-algorithm-work/)
@@ -209,26 +177,23 @@ Building for billions requires algorithmic thinking at every step. Some examples
 ---
 
 ### ☁️ Google Cloud
-
-- Powers a significant portion of the global cloud infrastructure market.
-- Ensures scalability and availability through:
+- Powers a significant portion of global cloud infrastructure.
+- Ensures scalability and availability via:
   - **Load balancing**
   - **Data sharding**
   - **Fault-tolerant distributed architectures**
-- Built on solid foundations in **DSA**, **system design**, and **APS** techniques.
+- Built on strong foundations of **DSA**, **system design**, and **APS**.
 - 📚 [Increasing Resiliency with Load Balancers – Google Cloud](https://cloud.google.com/blog/products/networking/increasing-resiliency-load-balancers)
 
 ---
 
-> 🧠 All these examples highlight how **algorithmic thinking** isn’t optional at Google-scale — it’s the foundation.
+> 🧠 These examples show how **algorithmic thinking** isn’t optional at Google scale — it’s the foundation.
 
 ---
 
-## Beyond Interviews: Building Better Systems
+# Beyond Interviews: Building Better Systems
 
-Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) are **not just for cracking interviews** — they form the very foundation for building technology that truly **works**.
-
-With strong DSA and APS skills, you can create systems that:
+DSA and APS are **not just for cracking interviews** — they are the foundation for building tech that:
 
 - **Scales smoothly** under heavy load  
 - **Delivers consistent performance** every time  
@@ -238,6 +203,7 @@ With strong DSA and APS skills, you can create systems that:
 > **_Clean code solves problems. Smart code solves them efficiently._**
 
 ---
+
 
 ## 💼 Business Case Studies powered by DevQuest
 
