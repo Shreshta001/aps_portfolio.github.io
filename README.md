@@ -26,13 +26,6 @@
 > 🏛 University   : **KLE Technological University, Hubballi**
 
 ---
-
-## Table of Contents
-
-
-
-
----
 ## 🛠️ Technical Skills
 
 - **Languages & Frameworks**:  
