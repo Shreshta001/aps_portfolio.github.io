@@ -34,11 +34,20 @@
 ## 🛠️ Technical Skills
 
 - **Languages & Frameworks**:  
-  `C/C++`, `Python`, `HTML`, `CSS`, `JS`, `Node.js`, `Express.js`,`React` 
+  `C/C++`, `Python`, `HTML`, `CSS`, `JavaScript`, `Node.js`, `Express.js`, `React`, `Bootstrap` 
+
 - **Databases**:  
-  `SQL`, `MySQL` 
-- **Tools & Platforms**:  
-  `Git`, `GitHub`, `VS Code`
+  `SQL`, `MySQL`, `MongoDB`
+
+- **DevOps & Deployment Tools**:  
+  `Docker`,`Kubernetes`, `GitHub Actions`, `Netlify`, `Render`, `Vercel`
+
+- **Version Control & Platforms**:  
+  `Git`, `GitHub`, `Git CLI`
+
+- **Operating Systems & Environments**:  
+  `Linux (Ubuntu/Kali)`, `Windows`, `Bash/Shell scripting`
+
 
 ---
 
@@ -47,7 +56,7 @@
 
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
-### 🚇 <strong>NEXUS: Metropolitan Connectivity and Commute Optimization</strong>  
+🚇 <strong>NEXUS: Metropolitan Connectivity and Commute Optimization</strong>  
 <em>C++ • Algorithms • DSA</em> | Sep 2023 – Nov 2023  
 <ul style="padding-left: 20px; line-height: 1.6;">
   <li>Designed an <em>urban commute plan</em> using shortest path algorithms for smooth city connectivity.</li>
@@ -59,7 +68,7 @@
 
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
-### 🧾 <strong>In-Semester Assessment Management System</strong>  
+🧾 <strong>In-Semester Assessment Management System</strong>  
 <em>ReactJS • Express • MySQL • CSS</em> | Dec 2024 – Jan 2025  
 <ul style="padding-left: 20px; line-height: 1.6;">
   <li>Created a <strong>student seating allocation system</strong> assigning students to classrooms/labs by roll number.</li>
@@ -71,7 +80,7 @@
 
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
-### 🤖 <strong>AI-Generated Face Detection using RvAI Classifier</strong>  
+🤖 <strong>AI-Generated Face Detection using RvAI Classifier</strong>  
 <em>Machine Learning • Deep Learning</em> | Feb 2025  
 <ul style="padding-left: 20px; line-height: 1.6;">
   <li>Built an <strong>RvAI classifier</strong> to detect <em>AI-generated faces</em> with high accuracy.</li>
