@@ -28,74 +28,30 @@
 </pre>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio Details</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f6f8;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
+<h2 style="text-align:center;">🧾 Portfolio Details</h2>
 
-    .card {
-      background-color: #fff;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-      border-radius: 15px;
-      padding: 30px 40px;
-      width: 400px;
-      max-width: 90%;
-      line-height: 1.6;
-    }
+<div style="
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fdfdfd;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+">
 
-    h2 {
-      text-align: center;
-      color: #333;
-      margin-bottom: 20px;
-    }
+  <p><strong>👩‍🎓 Student:</strong> Shreshta S. Majalikar (SSM)</p>
+  <p><strong>🎓 SRN:</strong> 01FE22BCS277</p>
+  <p><strong>🔰 Course Name:</strong> Algorithmic Problem Solving (APS)</p>
+  <p><strong>🆔 Course Code:</strong> 24ECSE309</p>
+  <p><strong>👨‍🏫 Instructor:</strong> Prakash Hegade (PH)</p>
+  <p><strong>🌐 Domain:</strong> GOOGLE</p>
+  <p><strong>🏛 University:</strong> KLE Technological University, Hubballi</p>
 
-    .info-line {
-      margin: 10px 0;
-    }
-
-    .label {
-      font-weight: bold;
-      color: #555;
-    }
-
-    .value {
-      color: #000;
-    }
-
-    pre {
-      margin: 0;
-      font-family: inherit;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="card">
-    <h2>🧾 Portfolio Details</h2>
-    <pre>
-<span class="info-line">👩‍🎓 <span class="label">Student     :</span> <span class="value">Shreshta S. Majalikar (SSM)</span></span>
-<span class="info-line">🎓 <span class="label">SRN         :</span> <span class="value">01FE22BCS277</span></span>
-<span class="info-line">🔰 <span class="label">Course Name :</span> <span class="value">Algorithmic Problem Solving (APS)</span></span>
-<span class="info-line">🆔 <span class="label">Course Code :</span> <span class="value">24ECSE309</span></span>
-<span class="info-line">👨‍🏫 <span class="label">Instructor  :</span> <span class="value">Prakash Hegade (PH)</span></span>
-<span class="info-line">🌐 <span class="label">Domain      :</span> <span class="value">GOOGLE</span></span>
-<span class="info-line">🏛 <span class="label">University   :</span> <span class="value">KLE Technological University, Hubballi</span></span>
-    </pre>
-  </div>
-
-</body>
-</html>
+</div>
 
 
 
