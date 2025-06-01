@@ -161,12 +161,11 @@ Building for billions requires algorithmic thinking at every step. Some examples
 
 > Building products for billions isn’t just about writing working code — it's about writing code that **performs**, **scales effortlessly**, and handles **complexity with elegance**.  
 > This is where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** become indispensable.  
-
-Here's how these principles drive some of Google's most impactful systems:
-
 ---
 
--### 🔍 **Google Search**
+## How These Principles Drive Some of Google's Most Impactful Systems
+
+### 🔍 Google Search
 
 - Handles a **majority of global search queries** every day.
 - Utilizes **inverted indexing**, **query parsing**, and **relevance ranking** to deliver results in milliseconds.
@@ -175,7 +174,7 @@ Here's how these principles drive some of Google's most impactful systems:
 
 ---
 
--### 📺 **YouTube**
+### 📺 YouTube
 
 - Serves **2+ billion monthly users** with **billions of watch hours daily**.
 - Recommendation engine is powered by:
@@ -187,7 +186,7 @@ Here's how these principles drive some of Google's most impactful systems:
 
 ---
 
--### 📧 **Gmail**
+### 📧 Gmail
 
 - Manages email for **1.8+ billion users** globally.
 - Implements:
@@ -198,7 +197,7 @@ Here's how these principles drive some of Google's most impactful systems:
 
 ---
 
--### 🗺️ **Google Maps**
+### 🗺️ Google Maps
 
 - Trusted by **over 1 billion users** for navigation and commute.
 - Real-time routing utilizes:
@@ -208,7 +207,7 @@ Here's how these principles drive some of Google's most impactful systems:
 
 ---
 
--### ☁️ **Google Cloud**
+### ☁️ Google Cloud
 
 - Powers a significant portion of the global cloud infrastructure market.
 - Ensures scalability and availability through:
@@ -222,7 +221,6 @@ Here's how these principles drive some of Google's most impactful systems:
 
 > 🧠 All these examples highlight how **algorithmic thinking** isn’t optional at Google-scale — it’s the foundation.
 
----
 
 ### Beyond Interviews: Building Better Systems
 
