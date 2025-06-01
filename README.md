@@ -9,8 +9,7 @@
   </span>
 </h1>
 
-
-
+---
 
 > **D**riven to **E**levate **V**isions through a **Quest** of innovation, creation and exploration.
 
@@ -65,7 +64,7 @@
 </ul>
 
 </div>
---
+
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
 🧾 <strong>In-Semester Assessment Management System</strong>  
@@ -77,7 +76,7 @@
 </ul>
 
 </div>
---
+
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
 🤖 <strong>AI-Generated Face Detection using RvAI Classifier</strong>  
@@ -96,8 +95,6 @@
 <p align="center">
   <img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" width="240"/>
   <br><br>
- 
-  <em>🧭 Glimpse into Google's Massive Service Ecosystem</em>
 </p>
 
 
@@ -131,10 +128,13 @@ And what powers this massive ecosystem? 🤯
 ---
 ## ⚙️ Why DSA & Algorithmic Problem Solving Matter
 
-Writing code that works is one thing. Writing code that **works fast, scales effortlessly, and handles complexity with elegance** — that’s what sets top engineering apart. That’s where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** come into play.
+> Writing code that *works* is a great start — but writing code that’s **fast, scalable, and elegant** is what truly defines a skilled engineer.  
+> That’s where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** make all the difference.  
+> They don’t just help solve problems — they teach you how to solve them **efficiently and thoughtfully**.
+
 
 ---
-
+<!--
 ### Engineering at Scale: The Google Mindset
 
 Building for billions requires algorithmic thinking at every step. Some examples from Google’s ecosystem:
@@ -158,6 +158,73 @@ Building for billions requires algorithmic thinking at every step. Some examples
 
 ### ☁️ Google Cloud  
 -Serves 9% of the global cloud market. Systems use load balancing, data sharding, and fault-tolerant architectures, all of which depend on solid DSA and performance-aware design patterns.
+-->
+
+
+## 🚀 Engineering at Scale: The Google Mindset
+
+> Building products for billions isn’t just about writing working code — it's about writing code that **performs**, **scales effortlessly**, and handles **complexity with elegance**.  
+> This is where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** become indispensable.  
+
+Here's how these principles drive some of Google's most impactful systems:
+
+---
+
+### 🔍 **Google Search**
+
+- Handles a **majority of global search queries** every day.
+- Uses **inverted indexing**, **query parsing**, and **relevance ranking** to deliver results in milliseconds.
+- Applies **machine learning** (like `RankBrain`) to refine user intent understanding and search relevance.
+- 📚 [How Search Works – Google Developers](https://developers.google.com/search/docs/fundamentals/how-search-works)
+
+---
+
+### 📺 **YouTube**
+
+- Serves **2+ billion monthly users** with **billions of watch hours daily**.
+- Recommendation engine is powered by:
+  - **Candidate Generation Model**
+  - **Ranking Model**  
+  Both built on **deep neural networks** and user-behavior features.
+- Uses **graph-based algorithms** and **collaborative filtering** for personalization.
+- 📚 [Deep Neural Networks for YouTube Recommendations – Google Research](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45530.pdf)
+
+---
+
+### 📧 **Gmail**
+
+- Manages email for **1.8+ billion users** globally.
+- Uses:
+  - **Bayesian filters** for spam detection.
+  - **Priority Inbox** sorted via **classification algorithms**.
+  - **Smart Reply & Smart Compose** using **NLP** and **sequence-to-sequence models**.
+- 📚 [Gmail's Machine Learning Features – Google AI Blog](https://ai.googleblog.com/2017/05/introducing-smart-reply-in-gmail.html)
+
+---
+
+### 🗺️ **Google Maps**
+
+- Trusted by **over 1 billion users** for navigation and commute.
+- Real-time routing uses:
+  - **Shortest path algorithms** like **Dijkstra’s** and **A\***.
+  - **Graph traversal** and **live traffic data** for dynamic updates.
+- 📚 [Behind the Scenes – Google Maps Routing](https://blog.google/products/maps/mapping-the-road-ahead/)
+
+---
+
+### ☁️ **Google Cloud**
+
+- Powers **9% of the global cloud infrastructure market**.
+- Ensures scalability and availability using:
+  - **Load balancing**
+  - **Data sharding**
+  - **Fault-tolerant distributed architectures**
+- Built on solid foundations in **DSA**, **system design**, and **APS** techniques.
+- 📚 [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
+
+---
+
+> 🧠 All these examples highlight how **algorithmic thinking** isn’t optional at Google-scale — it’s the foundation.
 
 ---
 
