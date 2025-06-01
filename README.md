@@ -218,24 +218,23 @@ Building for billions requires algorithmic thinking at every step. Some examples
 - Built on solid foundations in **DSA**, **system design**, and **APS** techniques.
 - 📚 [Increasing Resiliency with Load Balancers – Google Cloud](https://cloud.google.com/blog/products/networking/increasing-resiliency-load-balancers)
 
----
 
 > 🧠 All these examples highlight how **algorithmic thinking** isn’t optional at Google-scale — it’s the foundation.
 
-
-### Beyond Interviews: Building Better Systems
-
-DSA and APS are not just for cracking interviews — they are core to building tech that:
-
-- Scales under load  
-- Performs consistently  
-- Handles edge cases cleanly  
-- Solves real-world complexity with clarity  
-
 ---
 
-> **_Clean code solves problems. Smart code solves them efficiently._**
+## Beyond Interviews: Building Better Systems
 
+Data Structures and Algorithms (DSA) and Algorithmic Problem Solving (APS) are **not just for cracking interviews** — they form the very foundation for building technology that truly **works**.
+
+With strong DSA and APS skills, you can create systems that:
+
+- **Scales smoothly** under heavy load  
+- **Delivers consistent performance** every time  
+- **Handles tricky edge cases** gracefully  
+- **Transforms complex real-world problems** into clear, elegant solutions  
+
+> **_Clean code solves problems. Smart code solves them efficiently._**
 
 ---
 
