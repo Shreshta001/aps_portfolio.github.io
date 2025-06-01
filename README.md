@@ -136,65 +136,86 @@ And what powers this massive ecosystem? 🤯
 > This is where **DSA** and **APS** become indispensable.
 
 ---
-<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
 
-## How These Principles Drive Some of Google's Most Impactful Systems
+  <h2>How These Principles Drive Some of Google's Most Impactful Systems</h2>
 
-### 🔍 Google Search
-- Handles a **majority of global search queries** every day.
-- Uses **inverted indexing**, **query parsing**, and **relevance ranking** to deliver results in milliseconds.
-- Incorporates **machine learning** techniques, such as `RankBrain`, to refine user intent and search relevance.
-- 📚 [How Google Search Works – Search Engine Land](https://searchengineland.com/how-google-search-ranking-works-pandu-nayak-435395)
+  <h3>🔍 Google Search</h3>
+  <ul>
+    <li>Handles a <strong>majority of global search queries</strong> every day.</li>
+    <li>Uses <strong>inverted indexing</strong>, <strong>query parsing</strong>, and <strong>relevance ranking</strong> to deliver results in milliseconds.</li>
+    <li>Incorporates <strong>machine learning</strong> techniques, such as <code>RankBrain</code>, to refine user intent and search relevance.</li>
+    <li>📚 <a href="https://searchengineland.com/how-google-search-ranking-works-pandu-nayak-435395" target="_blank" rel="noopener noreferrer">How Google Search Works – Search Engine Land</a></li>
+  </ul>
 
----
+  <hr>
 
-### 📺 YouTube
-- Serves **2+ billion monthly users** with **billions of watch hours daily**.
-- Recommendation engine powered by:
-  - **Candidate Generation Model**
-  - **Ranking Model**  
-  Both built on **deep neural networks** and user behavior features.
-- Uses **collaborative filtering** and **graph-based algorithms** for personalization.
-- 📚 [Deep Neural Networks for YouTube Recommendations – Google Research](https://research.google/pubs/deep-neural-networks-for-youtube-recommendations/)
+  <h3>📺 YouTube</h3>
+  <ul>
+    <li>Serves <strong>2+ billion monthly users</strong> with <strong>billions of watch hours daily</strong>.</li>
+    <li>Recommendation engine powered by:
+      <ul>
+        <li><strong>Candidate Generation Model</strong></li>
+        <li><strong>Ranking Model</strong></li>
+      </ul>
+      Both built on <strong>deep neural networks</strong> and user behavior features.
+    </li>
+    <li>Uses <strong>collaborative filtering</strong> and <strong>graph-based algorithms</strong> for personalization.</li>
+    <li>📚 <a href="https://research.google/pubs/deep-neural-networks-for-youtube-recommendations/" target="_blank" rel="noopener noreferrer">Deep Neural Networks for YouTube Recommendations – Google Research</a></li>
+  </ul>
 
----
+  <hr>
 
-### 📧 Gmail
-- Manages email for **1.8+ billion users** globally.
-- Implements:
-  - **Bayesian filters** for spam detection.
-  - **Priority Inbox** sorted with **classification algorithms**.
-  - **Smart Reply & Smart Compose** using **NLP** and **sequence-to-sequence models**.
-- 📚 [Ridding Gmail of 100 Million More Spam Messages with TensorFlow – Google Workspace Blog](https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow)
+  <h3>📧 Gmail</h3>
+  <ul>
+    <li>Manages email for <strong>1.8+ billion users</strong> globally.</li>
+    <li>Implements:
+      <ul>
+        <li><strong>Bayesian filters</strong> for spam detection.</li>
+        <li><strong>Priority Inbox</strong> sorted with <strong>classification algorithms</strong>.</li>
+        <li><strong>Smart Reply &amp; Smart Compose</strong> using <strong>NLP</strong> and <strong>sequence-to-sequence models</strong>.</li>
+      </ul>
+    </li>
+    <li>📚 <a href="https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow" target="_blank" rel="noopener noreferrer">Ridding Gmail of 100 Million More Spam Messages with TensorFlow – Google Workspace Blog</a></li>
+  </ul>
 
----
+  <hr>
 
-### 🗺️ Google Maps
-- Trusted by **over 1 billion users** for navigation and commute.
-- Real-time routing uses:
-  - **Shortest path algorithms** like **Dijkstra’s** and **A\***.
-  - **Graph traversal** and **live traffic data** for dynamic updates.
-- 📚 [How Does Google Maps Routing Algorithm Work? – NCESC](https://www.ncesc.com/geographic-pedia/how-does-google-maps-routing-algorithm-work/)
+  <h3>🗺️ Google Maps</h3>
+  <ul>
+    <li>Trusted by <strong>over 1 billion users</strong> for navigation and commute.</li>
+    <li>Real-time routing uses:
+      <ul>
+        <li><strong>Shortest path algorithms</strong> like <strong>Dijkstra’s</strong> and <strong>A*</strong>.</li>
+        <li><strong>Graph traversal</strong> and <strong>live traffic data</strong> for dynamic updates.</li>
+      </ul>
+    </li>
+    <li>📚 <a href="https://www.ncesc.com/geographic-pedia/how-does-google-maps-routing-algorithm-work/" target="_blank" rel="noopener noreferrer">How Does Google Maps Routing Algorithm Work? – NCESC</a></li>
+  </ul>
 
----
+  <hr>
 
-### ☁️ Google Cloud
-- Powers a significant portion of global cloud infrastructure.
-- Ensures scalability and availability via:
-  - **Load balancing**
-  - **Data sharding**
-  - **Fault-tolerant distributed architectures**
-- Built on strong foundations of **DSA**, **system design**, and **APS**.
-- 📚 [Increasing Resiliency with Load Balancers – Google Cloud](https://cloud.google.com/blog/products/networking/increasing-resiliency-load-balancers)
+  <h3>☁️ Google Cloud</h3>
+  <ul>
+    <li>Powers a significant portion of global cloud infrastructure.</li>
+    <li>Ensures scalability and availability via:
+      <ul>
+        <li><strong>Load balancing</strong></li>
+        <li><strong>Data sharding</strong></li>
+        <li><strong>Fault-tolerant distributed architectures</strong></li>
+      </ul>
+    </li>
+    <li>Built on strong foundations of <strong>DSA</strong>, <strong>system design</strong>, and <strong>APS</strong>.</li>
+    <li>📚 <a href="https://cloud.google.com/blog/products/networking/increasing-resiliency-load-balancers" target="_blank" rel="noopener noreferrer">Increasing Resiliency with Load Balancers – Google Cloud</a></li>
+  </ul>
 
----
+  <hr>
 
-> 🧠 These examples show how **algorithmic thinking** isn’t optional at Google scale — it’s the foundation.
-
----
+  <blockquote style="font-style: italic; border-left: 4px solid #3b82f6; padding-left: 12px; color: #1e3a8a; margin-top: 20px;">
+    🧠 These examples show how <strong>algorithmic thinking</strong> isn’t optional at Google scale — it’s the foundation.
+  </blockquote>
 
 </div>
-
 
 
 ## 💼 Business Case Studies powered by DevQuest
