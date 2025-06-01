@@ -25,7 +25,30 @@
 > 🌐 Domain      : **GOOGLE**  
 > 🏛 University   : **KLE Technological University, Hubballi**
 
+---
 
+# Table of Contents
+
+- [🚀 DevQuest Title](#🚀-devquest)
+- [🧾 Portfolio Details](#🧾-portfolio-details)
+- [🛠️ Technical Skills](#🛠️-technical-skills)
+- [🧪 Projects](#🧪-projects)
+  - [NEXUS: Metropolitan Connectivity and Commute Optimization](#🚇-nexus-metropolitan-connectivity-and-commute-optimization)
+  - [In-Semester Assessment Management System](#🧾-in-semester-assessment-management-system)
+  - [AI-Generated Face Detection using RvAI Classifier](#🤖-ai-generated-face-detection-using-rvai-classifier)
+- [🧭 Overview](#🧭-overview)
+  - [🌐 Why Google?](#🌐-why-google)
+- [🚀 Google’s Universe of Services](#🚀-googles-universe-of-services)
+- [⚙️ Why DSA & Algorithmic Problem Solving Matter](#⚙️-why-dsa--algorithmic-problem-solving-matter)
+- [🚀 Engineering at Scale: The Google Mindset](#🚀-engineering-at-scale-the-google-mindset)
+  - [Google Search](#🔍-google-search)
+  - [YouTube](#📺-youtube)
+  - [Gmail](#📧-gmail)
+  - [Google Maps](#🗺️-google-maps)
+  - [Google Cloud](#☁️-google-cloud)
+- [💼 Business Case Studies powered by DevQuest](#💼-business-case-studies-powered-by-devquest)
+  - [Optimizing Google Ads Allocation with the Assignment Problem](#🎯-optimizing-google-ads-allocation-with-the-assignment-problem)
+  - [Enhancing Data Security with the Stolen Values Problem](#🔒-enhancing-data-security-with-the-stolen-values-problem)
 
 
 
