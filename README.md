@@ -235,325 +235,38 @@ And what powers this massive ecosystem? 🤯
 10. [🚀 **Minimizing Cost in Shortest Common Supersequence (SCS)**](./10.md)
 11. [🎲 **Predicting Outcomes Using Urn Models** ](./11.md)
 12. [📈 **Efficient Mean, Median, Mode Computations for Real-time Analytics**](./12.md)
-13. [🔢  ](./13.md)
-14. [📊 ](./14.md)
-15. [📚](./15.md)
+13. [🔢 **Using Pascal’s Triangle for Combinatorial Computations** ](./13.md)
+14. [🏗️ **Modeling Catalan Numbers for Balanced Structures**](./14.md)
+15. [🔄 **Applying Fermat's Little Theorem for Modular Inverses**](./15.md)
+16. [⚙️ **Multiplicative Modular Inverse and Extended Euclidean Algorithm**](./16.md)
+17. [🔍 **XOR-Based Unique Element Identification in Duplicate Arrays**](./17.md)
+18. [🌐 **Search Optimization Using DFS and BFS**](./18.md)
+19. [🔎 **Best First Search for Efficient Pathfinding** ](./19.md)
+20. [💍 **Stable Marriage Problem for Matching Algorithms**](./20.md)
+21. [🔄 **Johnson-Trotter Algorithm for Permutation Generation**](./21.md)
+22. [🧮 **Kadane’s Algorithm for Maximum Subarray Sum**](./22.md)
+23. [🔗 **Union-Find Data Structure for Disjoint Sets**](./23.md)
+24. [🔍 **Knuth-Morris-Pratt (KMP) String Matching**](./24.md)
+25. [🎥 **YouTube Transcript Similarity Checks Using Longest Common Subsequence (LCS)**](./25.md)
+26. [🔄 **Applying Fermat's Little Theorem for Modular Inverses**](./26.md)
+27. [🔄 **Applying Fermat's Little Theorem for Modular Inverses**](./27.md)
+28. [🔄 **Applying Fermat's Little Theorem for Modular Inverses**](./28.md)
+29. [🔄 **Applying Fermat's Little Theorem for Modular Inverses**](./29.md)
+30. [🔄 **Applying Fermat's Little Theorem for Modular Inverses**](./30.md)
+31. [🔄 **Applying Fermat's Little Theorem for Modular Inverses**](./31.md)
 
 
 
----
 
 
 
 
-# 🔢 Using Pascal’s Triangle for Combinatorial Computations 
 
-**Overview:**  
-Pascal’s Triangle provides fast combinatorial number calculations crucial in probability and binomial expansions.
 
-**Application:**  
-Google uses Pascal’s triangle to quickly compute combination counts in recommendation systems, search ranking, and data sampling.
 
-- ⏳ **Time Complexity:** O(n²) to build up to row *n*.  
-- 🧠 **Space Complexity:** O(n²), storing the triangle in memory.
 
-**Visual Representation:**  
-Classic triangular arrangement of binomial coefficients.
 
-![Pascal's Triangle](https://example.com/pascal_triangle_image.png)
 
-**Code Snippet:**  
-Check Pascal’s triangle generation code here:  
-[Pascal's Triangle Implementation](https://github.com/yourusername/pascals-triangle)
-
----
-
-## 14. Modeling Catalan Numbers for Balanced Structures 🏗️
-
-**Overview:**  
-Catalan numbers count numerous structures like balanced parentheses, binary trees, and mountain ranges, fundamental in syntax parsing and code generation.
-
-**Application:**  
-Google leverages Catalan number insights in compiler design, UI layout balancing, and nested query optimization.
-
-- ⏳ **Time Complexity:** O(n²) for DP computation of *n*th Catalan number.  
-- 🧠 **Space Complexity:** O(n), storing intermediate counts.
-
-**Visual Representation:**  
-Dyck path lattice and balanced parentheses counting.
-
-![Catalan Numbers](https://example.com/catalan_numbers_image.png)
-
-**Code Snippet:**  
-Explore Catalan number calculation here:  
-[Catalan Numbers Implementation](https://github.com/yourusername/catalan-numbers)
-
----
-
-## 15. Applying Fermat's Little Theorem for Modular Inverses 🔄
-
-**Overview:**  
-Computing modular inverses efficiently is crucial in cryptography and hashing algorithms.
-
-**Application:**  
-Google’s security and data integrity modules use Fermat’s little theorem to compute inverses modulo large primes, enabling fast modular division in cryptographic protocols.
-
-- ⏳ **Time Complexity:** O(log p) using fast exponentiation, where *p* is the prime modulus.  
-- 🧠 **Space Complexity:** O(1).
-
-**Visual Representation:**  
-Modular arithmetic cycle depiction and exponentiation.
-
-![Fermat's Little Theorem](https://example.com/fermat_little_theorem_image.png)
-
-**Code Snippet:**  
-See modular inverse implementation here:  
-[Fermat's Little Theorem Implementation](https://github.com/yourusername/fermat-modular-inverse)
-
----
-
-## 16. Multiplicative Modular Inverse and Extended Euclidean Algorithm ⚙️
-
-**Overview:**  
-Finding modular inverses via Extended Euclidean Algorithm complements Fermat’s theorem for non-prime moduli.
-
-**Application:**  
-Google’s algorithms for cryptography and error correction use this for versatile modular inverse calculation.
-
-- ⏳ **Time Complexity:** O(log min(a, b)) for inputs *a*, *b*.  
-- 🧠 **Space Complexity:** O(1).
-
-**Visual Representation:**  
-Euclid’s algorithm stepwise GCD and inverse calculation.
-
-![Extended Euclidean Algorithm](https://example.com/extended_euclidean_image.png)
-
-**Code Snippet:**  
-Explore extended Euclidean algorithm here:  
-[Extended Euclidean Algorithm Implementation](https://github.com/yourusername/extended-euclidean)
-
----
-
-## 17. XOR-Based Unique Element Identification in Duplicate Arrays 🔍
-
-**Overview:**  
-Identifying the unique element in arrays where all others appear twice efficiently is critical in data validation and error detection.
-
-**Application:**  
-Google uses XOR properties in data deduplication and fault tolerance to quickly detect unique or corrupted entries.
-
-- ⏳ **Time Complexity:** O(n) linear scan.  
-- 🧠 **Space Complexity:** O(1).
-
-**Visual Representation:**  
-Bitwise XOR operation highlighting unique number isolation.
-
-![XOR Unique Element](https://example.com/xor_unique_element_image.png)
-
-**Code Snippet:**  
-See XOR unique element finder here:  
-[XOR Unique Element Implementation](https://github.com/yourusername/xor-unique-element)
-
----
-
-## 18. Search Optimization Using DFS and BFS 🌐
-
-**Overview:**  
-Depth-first and breadth-first search algorithms power crawling, indexing, and link analysis in large graphs like the web.
-
-**Application:**  
-Google’s search engine uses BFS for shortest path discovery and DFS for connected component detection and cycle detection in web graphs.
-
-- ⏳ **Time Complexity:** O(V + E), where *V* is vertices and *E* edges.  
-- 🧠 **Space Complexity:** O(V) for visited node tracking.
-
-**Visual Representation:**  
-Graph traversal layers and recursion stacks.
-
-![DFS BFS](https://example.com/dfs_bfs_image.png)
-
-**Code Snippet:**  
-Explore BFS and DFS code here:  
-[DFS and BFS Implementation](https://github.com/yourusername/dfs-bfs)
-
----
-
-## 19. Best First Search for Efficient Pathfinding 🔎
-
-**Overview:**  
-Best First Search uses heuristics to find optimal paths efficiently, crucial in maps, route planning, and AI decision making.
-
-**Application:**  
-Google Maps and AI modules implement Best First Search and A* algorithms for real-time navigation.
-
-- ⏳ **Time Complexity:** O(E), depending on heuristic quality.  
-- 🧠 **Space Complexity:** O(V) for frontier and explored sets.
-
-**Visual Representation:**  
-Priority queue driven graph traversal with heuristic scoring.
-
-![Best First Search](https://example.com/best_first_search_image.png)
-
-**Code Snippet:**  
-See Best First Search implementation here:  
-[Best First Search Implementation](https://github.com/yourusername/best-first-search)
-
----
-
-## 20. Stable Marriage Problem for Matching Algorithms 💍
-
-**Overview:**  
-Stable Marriage Problem finds stable matches in bipartite sets, essential in matchmaking systems and resource allocation.
-
-**Application:**  
-Google applies it in job matching platforms, ad auctions, and cloud resource assignment.
-
-- ⏳ **Time Complexity:** O(n²).  
-- 🧠 **Space Complexity:** O(n²).
-
-**Visual Representation:**  
-Preference lists and stable matching pairs.
-
-![Stable Marriage Problem](https://example.com/stable_marriage_image.png)
-
-**Code Snippet:**  
-Explore Gale-Shapley algorithm here:  
-[Stable Marriage Problem Implementation](https://github.com/yourusername/stable-marriage)
-
----
-
-## 21. Johnson-Trotter Algorithm for Permutation Generation 🔄
-
-**Overview:**  
-Generating permutations efficiently is essential in testing and combinatorial optimization.
-
-**Application:**  
-Google uses permutation algorithms in search ranking tests, product feature combinations, and AI training data augmentation.
-
-- ⏳ **Time Complexity:** O(n!) total for generating all permutations.  
-- 🧠 **Space Complexity:** O(n).
-
-**Visual Representation:**  
-Permutation sequences with mobile elements.
-
-![Johnson-Trotter](https://example.com/johnson_trotter_image.png)
-
-**Code Snippet:**  
-See Johnson-Trotter permutation generation here:  
-[Johnson-Trotter Implementation](https://github.com/yourusername/johnson-trotter)
-
----
-
-## 22. Kadane’s Algorithm for Maximum Subarray Sum 🧮
-
-**Overview:**  
-Kadane’s algorithm finds the contiguous subarray with maximum sum in linear time, vital for signal processing and financial analytics.
-
-**Application:**  
-Google uses it for anomaly detection in time series and optimizing revenue in ad bidding.
-
-- ⏳ **Time Complexity:** O(n).  
-- 🧠 **Space Complexity:** O(1).
-
-**Visual Representation:**  
-Array scanning with current max and global max tracking.
-
-![Kadane's Algorithm](https://example.com/kadane_algorithm_image.png)
-
-**Code Snippet:**  
-Check Kadane’s algorithm code here:  
-[Kadane’s Algorithm Implementation](https://github.com/yourusername/kadane-algorithm)
-
----
-
-## 23. Union-Find Data Structure for Disjoint Sets 🔗
-
-**Overview:**  
-Union-Find efficiently manages disjoint sets, enabling quick union and find operations.
-
-**Application:**  
-Google uses Union-Find in clustering, network connectivity, and duplicate detection.
-
-- ⏳ **Time Complexity:** Amortized O(α(n)) per operation (α = inverse Ackermann function, very slow growing).  
-- 🧠 **Space Complexity:** O(n).
-
-**Visual Representation:**  
-Disjoint set forests with path compression.
-
-![Union-Find](https://example.com/union_find_image.png)
-
-**Code Snippet:**  
-Explore Union-Find implementation here:  
-[Union-Find Implementation](https://github.com/yourusername/union-find)
-
----
-
-## 24. Knuth-Morris-Pratt (KMP) String Matching 🔍
-
-**Overview:**  
-KMP algorithm finds substrings in O(n) time using prefix functions, essential for fast text searching.
-
-**Application:**  
-Google’s search and text processing tools utilize KMP for indexing and query optimization.
-
-- ⏳ **Time Complexity:** O(n + m), where *n* is text length, *m* pattern length.  
-- 🧠 **Space Complexity:** O(m).
-
-**Visual Representation:**  
-Prefix function computation and pattern matching flow.
-
-![KMP Algorithm](https://example.com/kmp_algorithm_image.png)
-
-**Code Snippet:**  
-Check KMP implementation here:  
-[KMP Algorithm Implementation](https://github.com/yourusername/kmp)
-
----
-
-## 25. Dijkstra’s Algorithm for Shortest Path Optimization 🚗
-
-**Overview:**  
-Dijkstra’s algorithm finds shortest paths in weighted graphs, foundational in navigation and routing.
-
-**Application:**  
-Google Maps and network routing protocols rely on Dijkstra for efficient pathfinding.
-
-- ⏳ **Time Complexity:** O(E + V log V) with priority queues.  
-- 🧠 **Space Complexity:** O(V).
-
-**Visual Representation:**  
-Graph with distance updates and priority queue states.
-
-![Dijkstra's Algorithm](https://example.com/dijkstra_algorithm_image.png)
-
-**Code Snippet:**  
-Explore Dijkstra implementation here:  
-[Dijkstra’s Algorithm Implementation](https://github.com/yourusername/dijkstra)
-
----
-
-## 26. Floyd-Warshall Algorithm for All-Pairs Shortest Paths 🌍
-
-**Overview:**  
-Floyd-Warshall computes shortest paths between all pairs of vertices in weighted graphs.
-
-**Application:**  
-Google uses it in traffic prediction and network latency optimization.
-
-- ⏳ **Time Complexity:** O(V³).  
-- 🧠 **Space Complexity:** O(V²).
-
-**Visual Representation:**  
-Distance matrix updates across iterations.
-
-![Floyd-Warshall](https://example.com/floyd_warshall_image.png)
-
-**Code Snippet:**  
-See Floyd-Warshall implementation here:  
-[Floyd-Warshall Algorithm Implementation](https://github.com/yourusername/floyd-warshall)
-
-
----
 
 
 # Google Use Cases for Classic Algorithms Explained
