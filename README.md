@@ -253,173 +253,27 @@ And what powers this massive ecosystem? 🤯
 28. [💬 **Gmail Smart Compose Using Shortest Common Supersequence (SCS)**](./28.md)
 29. [💾 **Efficient Google Drive Storage Management Using 0/1 Knapsack Problem**](./29.md)
 30. [⏱️ **Optimizing YouTube Video Recommendations Using Activity Selection Problem**](./30.md)
+31. [📅 **Managing YouTube Ad Placements with Interval Scheduling Problem**](./31.md)
+32. [🌐 **Network Traffic Management Using Min-Cut Max-Flow Algorithm**](./32.md)
+33. [🚦 **Optimizing Flow in Networks with Ford-Fulkerson Algorithm**](./33.md)
+34. [🚀 **Fast and Informed Pathfinding with A * Search Algorithm**](./34.md)
+35. [🏞️ **Optimal Cost Pathfinding Using Uniform Cost Search (UCS)**](./35.md)
+36. [⏱️ ****](./36.md)
+37. [⏱️ ****](./37.md)
+38. [⏱️ ****](./38.md)
+39. [⏱️ ****](./39.md)
+40. [⏱️ ****](./40.md)
+41. [⏱️ ****](./41.md)
+42. [⏱️ ****](./42.md)
+43. [⏱️ ****](./43.md)
+44. [⏱️ ****](./44.md)
+45. [⏱️ ****](./45.md)
+46. [⏱️ ****](./46.md)
+47. [⏱️ ****](./47.md)
+48. [⏱️ ****](./48.md)
+49. [⏱️ ****](./49.md)
+50. [⏱️ ****](./50.md)
 
-
-
-
-
-## 8. Optimizing YouTube Video Recommendations Using Activity Selection Problem ⏱️
-
-**Overview:**  
-YouTube’s recommendation system must choose videos to display in a watch-next list to keep users engaged without overwhelming them. Selecting videos that don’t overlap in themes or interests, and fit well within a user's available watch time, aligns with the **Activity Selection Problem**.
-
-**Application:**  
-YouTube applies greedy algorithms based on Activity Selection to:
-
-- Pick the maximum number of non-overlapping videos a user is likely to watch.
-- Maximize user engagement while respecting their time constraints.
-
-- ⏳ **Time Complexity:** O(n log n) mainly due to sorting videos by end time or relevance.  
-- 🧠 **Space Complexity:** O(n) for storing video metadata and schedules.
-
-**Visual Representation:**  
-Imagine intervals representing videos with start and end times. The algorithm picks the largest compatible set of videos that don’t overlap.
-
-![Activity Selection](https://example.com/activity_selection_image.png)
-
-**Code Snippet:**  
-Explore here:  
-[Activity Selection Implementation](https://github.com/yourusername/activity-selection-youtube)
-
----
-
-## 9. Managing YouTube Ad Placements with Interval Scheduling Problem 📅
-
-**Overview:**  
-YouTube places ads within videos at different timestamps. To maximize ad revenue while avoiding user annoyance due to overlapping ads, YouTube models the problem as an **Interval Scheduling** optimization.
-
-**Application:**  
-Using interval scheduling algorithms, YouTube can:
-
-- Schedule ads so they don’t overlap or cluster too closely.
-- Ensure maximum number of ads shown in available ad slots.
-
-- ⏳ **Time Complexity:** O(n log n) due to sorting intervals by finish time.  
-- 🧠 **Space Complexity:** O(n) to track scheduled ads.
-
-**Visual Representation:**  
-Intervals represent ads with start and end times inside videos. The algorithm schedules the largest subset without overlap.
-
-![Interval Scheduling](https://example.com/interval_scheduling_image.png)
-
-**Code Snippet:**  
-See detailed code here:  
-[Interval Scheduling Implementation](https://github.com/yourusername/interval-scheduling-youtube)
-
----
-
-## 11. Network Traffic Management Using Min-Cut Max-Flow Algorithm 🌐
-
-**Overview:**  
-Google’s massive data centers and network infrastructure require efficient traffic management to avoid bottlenecks. The **Min-Cut Max-Flow** theorem provides a way to understand the maximum data that can flow through a network without congestion, and the smallest “cut” that separates the network.
-
-**Application:**  
-Google applies Min-Cut Max-Flow algorithms to:
-
-- Optimize data transfer across servers and between data centers.
-- Identify bottlenecks and critical links in network infrastructure.
-- Manage bandwidth allocation dynamically to maximize throughput.
-
-- ⏳ **Time Complexity:** Dependent on the max-flow algorithm used; typically O(V³) for classical algorithms on graphs with V vertices.  
-- 🧠 **Space Complexity:** O(V²) or more depending on graph representation.
-
-**Visual Representation:**  
-Think of the network as a graph where edges have capacities (bandwidth). The min-cut represents the smallest set of edges that, if removed, disrupt the maximum flow.
-
-![Min-Cut Max-Flow](https://example.com/min_cut_max_flow.png)
-
-**Code Snippet:**  
-Explore the implementation here:  
-[Min-Cut Max-Flow Implementation](https://github.com/yourusername/min-cut-max-flow)
-
----
-
-## 12. Optimizing Flow in Networks with Ford-Fulkerson Algorithm 🚦
-
-**Overview:**  
-The **Ford-Fulkerson** method is a fundamental approach to compute maximum flow in a flow network. Google uses such algorithms to optimize routing, load balancing, and resource allocation in their large-scale infrastructure.
-
-**Application:**  
-Ford-Fulkerson helps Google:
-
-- Allocate traffic in data center networks efficiently.
-- Solve problems like matching, scheduling, and resource allocation.
-- Model and improve flow in distributed systems.
-
-- ⏳ **Time Complexity:** O(E * max_flow), where E is the number of edges. Though not polynomial, it performs well in practice.  
-- 🧠 **Space Complexity:** O(V + E) to store graph structure.
-
-**Visual Representation:**  
-Visualize the algorithm augmenting flow along paths iteratively until no more augmenting paths exist.
-
-![Ford-Fulkerson Algorithm](https://example.com/ford_fulkerson.png)
-
-**Code Snippet:**  
-Check out the full code here:  
-[Ford-Fulkerson Implementation](https://github.com/yourusername/ford-fulkerson)
-
----
-
-## 13. Fast and Informed Pathfinding with A* Search Algorithm 🚀
-
-**Overview:**  
-Google Maps and navigation systems use the **A* Search Algorithm** to find the shortest and fastest route from one point to another by combining path cost and heuristics. It is an informed search that significantly improves efficiency over uninformed methods.
-
-**Application:**  
-A* helps Google Maps:
-
-- Quickly find routes considering distance, traffic, and travel time.
-- Incorporate heuristic estimates (like straight-line distance) to guide search efficiently.
-- Adapt dynamically to changing conditions.
-
-- ⏳ **Time Complexity:** O(b^d), where b is branching factor, d is depth; typically efficient with good heuristics.  
-- 🧠 **Space Complexity:** O(b^d) as it stores nodes in memory.
-
-**Visual Representation:**  
-Imagine a graph where each node is a location. A* expands nodes with the lowest estimated total cost (path so far + heuristic).
-
-![A* Search Algorithm](https://example.com/a_star.png)
-
-**Code Snippet:**  
-Explore the detailed implementation here:  
-[A* Algorithm Implementation](https://github.com/yourusername/a-star-google-maps)
-
----
-
-## 14. Optimal Cost Pathfinding Using Uniform Cost Search (UCS) 🏞️
-
-**Overview:**  
-Uniform Cost Search is a variant of BFS that always expands the lowest cost node first. It is used when all step costs are positive but may vary. Google employs UCS for pathfinding in cases where cost optimizations are crucial without heuristics.
-
-**Application:**  
-UCS is used to:
-
-- Find the cheapest route between two points in maps and logistics.
-- Serve as a base for other search algorithms like A*.
-- Ensure guaranteed shortest path in weighted graphs.
-
-- ⏳ **Time Complexity:** O(b^(1 + floor(C*/ε))) where C* is cost of optimal solution and ε smallest edge cost.  
-- 🧠 **Space Complexity:** Can be large due to maintaining frontier queue.
-
-**Visual Representation:**  
-The algorithm expands nodes based on cumulative path cost, ensuring the least expensive path is always considered first.
-
-![Uniform Cost Search](https://example.com/ucs.png)
-
-**Code Snippet:**  
-See full implementation:  
-[Uniform Cost Search Implementation](https://github.com/yourusername/ucs-pathfinding)
-
----
-
-
-
-### References
-
-- [Assignment Problem & Dynamic Programming - 33rd Square](https://www.33rdsquare.com/ase-studies-10x-faster-using-dynamic-programming/?utm_source=chatgpt.com)  
-- [Google AI Optimization - WIRED](https://www.wired.com/story/google-vizier-black-box-optimisation-machine-learning-cookies?utm_source=chatgpt.com)
-
----
 
 
 > 👣 **Let DevQuest continue...** Stay tuned for deeper case studies and solutions in this exploration of how algorithms quietly shape the tech we rely on daily.
