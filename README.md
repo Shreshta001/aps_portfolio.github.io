@@ -220,7 +220,7 @@ And what powers this massive ecosystem? 🤯
 
 ---
 
-## 💼 Business Case Studies powered by DevQuest
+# 💼 **Business Case Studies powered by DevQuest**
 (Tap each feature to dive deeper)
 
 1. [🎯 **Optimizing Google Ads Allocation with the Assignment Problem**](./1.md)
