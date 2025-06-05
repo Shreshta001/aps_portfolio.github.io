@@ -140,7 +140,9 @@ And what powers this massive ecosystem? 🤯
 ---
 
   <h2>How These Principles Drive Some of Google's Most Impactful Systems</h2>
+  
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
+           
   <h3>🔍 <strong>Google Search</strong></h3>
   <ul>
     <li>Handles a <strong>majority of global search queries</strong> every day.</li>
