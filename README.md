@@ -150,11 +150,12 @@ And what powers this massive ecosystem? 🤯
   </ul>
 
   <figure style="text-align: center; margin-top: 20px;">
-    <img src="https://github.com/Shreshta001/aps_portfolio.github.io/blob/main/images/img1.png" alt="Google Search Flowchart" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
+    <img src="https://raw.githubusercontent.com/Shreshta001/aps_portfolio.github.io/main/images/img1.png" alt="Google Search Flowchart" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
     <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">🧭 Flowchart: How Google Search Works</figcaption>
   </figure>
 </div>
 
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
   <h3>📺 <strong>YouTube</strong></h3>
   <ul>
     <li>Serves <strong>2.7+ billion monthly users</strong> with <strong>billions of watch hours daily</strong>.</li>
@@ -168,7 +169,7 @@ And what powers this massive ecosystem? 🤯
     <li>Uses <strong>collaborative filtering</strong> and <strong>graph-based algorithms</strong> for personalization.</li>
     <li>📚 <a href="https://research.google/pubs/deep-neural-networks-for-youtube-recommendations/" target="_blank" rel="noopener noreferrer">Deep Neural Networks for YouTube Recommendations – Google Research</a></li>
   </ul>
-
+</div>
   <hr>
 
   <h3>📧 <strong>Gmail</strong></h3>
@@ -185,7 +186,7 @@ And what powers this massive ecosystem? 🤯
   </ul>
 
   <hr>
-
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
   <h3>🗺️ <strong>Google Maps</strong></h3>
   <ul>
     <li>Trusted by <strong>over 1 billion users</strong> for navigation and commute.</li>
@@ -197,8 +198,11 @@ And what powers this massive ecosystem? 🤯
     </li>
     <li>📚 <a href="https://www.ncesc.com/geographic-pedia/how-does-google-maps-routing-algorithm-work/" target="_blank" rel="noopener noreferrer">How Does Google Maps Routing Algorithm Work? – NCESC</a></li>
   </ul>
-
+           
+</div>
   <hr>
+
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
 
   <h3>☁️ <strong>Google Cloud</strong></h3>
   <ul>
@@ -213,7 +217,7 @@ And what powers this massive ecosystem? 🤯
     <li>Built on strong foundations of <strong>DSA</strong>, <strong>system design</strong>, and <strong>APS</strong>.</li>
     <li>📚 <a href="https://cloud.google.com/blog/products/networking/increasing-resiliency-load-balancers" target="_blank" rel="noopener noreferrer">Increasing Resiliency with Load Balancers – Google Cloud</a></li>
   </ul>
-
+</div>
   <hr>
 
   <blockquote style="font-style: italic; border-left: 4px solid #3b82f6; padding-left: 12px; color: #101b3b; margin-top: 20px;">
