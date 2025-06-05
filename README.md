@@ -150,9 +150,10 @@ And what powers this massive ecosystem? 🤯
   </ul>
 
   <figure style="text-align: center; margin-top: 20px;">
-    <img src="https://raw.githubusercontent.com/Shreshta001/aps_portfolio.github.io/main/images/img1.png" alt="Google Search Flowchart" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
-    <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">🧭 Flowchart: How Google Search Works</figcaption>
-  </figure>
+  <img src="https://shreshta001.github.io/images/img1.png" alt="Google Search Flowchart" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
+  <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">🧭 Flowchart: How Google Search Works</figcaption>
+</figure>
+
 </div>
 
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
@@ -171,7 +172,7 @@ And what powers this massive ecosystem? 🤯
   </ul>
 </div>
   <hr>
-
+<div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
   <h3>📧 <strong>Gmail</strong></h3>
   <ul>
     <li>Manages email for <strong>1.8+ billion users</strong> globally.</li>
@@ -184,7 +185,7 @@ And what powers this massive ecosystem? 🤯
     </li>
     <li>📚 <a href="https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow" target="_blank" rel="noopener noreferrer">Ridding Gmail of 100 Million More Spam Messages with TensorFlow – Google Workspace Blog</a></li>
   </ul>
-
+</div>
   <hr>
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.6; color: #222;">
   <h3>🗺️ <strong>Google Maps</strong></h3>
@@ -224,7 +225,7 @@ And what powers this massive ecosystem? 🤯
     🧠 These examples show how <strong>algorithmic thinking</strong> isn’t optional at Google scale — it’s the foundation.
   </blockquote>
 
-</div>
+
 
 ---
 
