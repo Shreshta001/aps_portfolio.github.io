@@ -66,7 +66,7 @@
 🧾 <strong>In-Semester Assessment Management System</strong>  
 <em>ReactJS • Express • MySQL • CSS</em> | Dec 2024 – Jan 2025  
 <ul style="padding-left: 20px; line-height: 1.6;">
-  <li>Created a <strong>student seating allocation system</strong> assigning students to classrooms/labs by roll number.</li>
+  <li>Created a <strong>student seating allocation system</strong> ; assigning students to classrooms/labs by roll number.</li>
   <li>Enabled manual adjustments by ISA coordinators and automated <strong>question paper count</strong>.</li>
   <li>Supported export of allocations in <strong>CSV</strong> and <strong>HTML</strong> formats.</li>
 </ul>
@@ -105,7 +105,7 @@ And what powers this massive ecosystem? 🤯
 ---
 
 ## 🚀 Google’s Universe of Services  
-> (A curated, condensed, and clean list of Google’s major offerings 🔥)
+> (A  condensed and clean list of Google’s major offerings 🔥)
 
 | 🌍 **Category**              | 🚀 **Top Services**                                                                                      |
 |-----------------------------|--------------------------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ And what powers this massive ecosystem? 🤯
 
   <h3>📺 <strong>YouTube</strong></h3>
   <ul>
-    <li>Serves <strong>2+ billion monthly users</strong> with <strong>billions of watch hours daily</strong>.</li>
+    <li>Serves <strong>2.7+ billion monthly users</strong> with <strong>billions of watch hours daily</strong>.</li>
     <li>Recommendation engine powered by:
       <ul>
         <li><strong>Candidate Generation Model</strong></li>
