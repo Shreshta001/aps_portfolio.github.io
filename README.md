@@ -151,10 +151,11 @@ And what powers this massive ecosystem? 🤯
     <li>📚 <a href="https://searchengineland.com/how-google-search-ranking-works-pandu-nayak-435395" target="_blank" rel="noopener noreferrer">How Google Search Works – Search Engine Land</a></li>
   </ul>
 
-  <figure style="text-align: center; margin-top: 20px;">
-  <img src="" alt="Google Search Flowchart" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
+ <figure style="text-align: center; margin-top: 20px;">
+  <img src="https://shreshta001.github.io/images/img1.png" alt="Google Search Flowchart" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
   <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">🧭 Flowchart: How Google Search Works</figcaption>
 </figure>
+
 
 </div>
 
