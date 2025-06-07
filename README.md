@@ -15,7 +15,7 @@
 
 ---
 
-## 🧾 Portfolio Details
+# 🧾 Portfolio Details
 
 > 👩‍🎓 Student     : **Shreshta S. Majalikar (SSM)**  
 > 🎓 SRN         : **01FE22BCS277**  
@@ -26,7 +26,7 @@
 > 🏛 University   : **KLE Technological University, Hubballi**
 
 ---
-## 🛠️ Technical Skills
+# 🛠️ Technical Skills
 
 - **Languages & Frameworks**:  
   `C/C++`, `Python`, `HTML`, `CSS`, `JavaScript`, `Node.js`, `Express.js`, `React`, `Bootstrap` 
@@ -47,7 +47,7 @@
 ---
 
 
-## 🧪 Projects
+# 🧪 Projects
 
 <div style="border: 1px solid #e1e4e8; border-radius: 10px; padding: 16px; background-color: #fafbfc; margin-bottom: 20px;">
 
@@ -78,7 +78,7 @@
 🤖 <strong>AI-Generated Face Detection using RvAI Classifier</strong>  
 <em>Machine Learning • Deep Learning</em> | Feb 2025  
 <ul style="padding-left: 20px; line-height: 1.6;">
-  <li>Built an <strong>RvAI classifier</strong> to detect <em>AI-generated faces</em> with high accuracy.</li>
+  <li>Built a novel <strong>RvAI classifier</strong> to detect <em>AI-generated faces</em> with high accuracy.</li>
   <li>Tested extensively on real and synthetic datasets to improve model robustness.</li>
   <li>Presented research at <strong>CRM 2025 (SR University, Warangal)</strong> and published with <strong>Springer</strong>.</li>
 </ul>
@@ -86,7 +86,7 @@
 </div>
 
 ---
-## 🧭 Overview
+# 🧭 Domain
 
 <p align="center">
   <img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" width="240"/>
@@ -95,7 +95,7 @@
 
 
 
-### 🌐 **Why Google?**
+## 🌐 **Why Google?**
 
 Google stands tall as a **beacon of digital evolution** — from smart searches to seamless maps, robust cloud platforms to tools that power classrooms worldwide.  
 Billions depend on Google daily...  
@@ -123,7 +123,7 @@ And what powers this massive ecosystem? 🤯
 ---
 
 
-## ⚙️ Why DSA & Algorithmic Problem Solving Matter
+# ⚙️ Why DSA & Algorithmic Problem Solving Matter
 
 > Writing code that *works* is a great start — but writing code that’s **fast, scalable, and elegant** is what truly defines a skilled engineer.  
 > That’s where **Data Structures & Algorithms (DSA)** and **Algorithmic Problem Solving (APS)** make all the difference.  
@@ -131,7 +131,7 @@ And what powers this massive ecosystem? 🤯
 
 ---
 
-## 🚀 Engineering at Scale: The Google Mindset
+# 🚀 Engineering at Scale: The Google Mindset
 
 > Building products for billions isn’t just about writing working code — it's about writing code that **performs**, **scales effortlessly**, and handles **complexity with elegance**.  
 > This is where **DSA** and **APS** become indispensable.
@@ -233,7 +233,7 @@ And what powers this massive ecosystem? 🤯
 ---
 
 # 💼 **Business Case Studies powered by DevQuest**
-(Tap each feature to dive deeper)
+##**(Explore each use case to uncover its real-world impact)**
 
 1. [🎯 **Optimizing Google Ads Allocation with the Assignment Problem**](./1.md)
 2. [🔒 **Enhancing Data Security with the Stolen Values Problem**](./2.md)
@@ -289,7 +289,29 @@ And what powers this massive ecosystem? 🤯
 ---
 
 
+
+
+
+
+
+
+
+
 > 👣 **Let DevQuest continue...** Stay tuned for deeper case studies and solutions in this exploration of how algorithms quietly shape the tech we rely on daily.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--commeneted-->
