@@ -119,9 +119,14 @@
 # 🧭 **Domain**
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1200px-Googleplex_HQ_%28cropped%29.jpg" alt="Google Logo" width="240"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1200px-Googleplex_HQ_%28cropped%29.jpg" 
+       alt="Google HQ" 
+       width="420" 
+       height="auto" 
+       style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
   <br><br>
 </p>
+
 
 
 ---
@@ -183,9 +188,13 @@ And what powers this massive ecosystem? 🤯
   </ul>
 
  <figure style="text-align: center; margin-top: 20px;">
-  <img src="images/gsearch.png" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
-  <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">🧭 Flowchart: How Google Search Works</figcaption>
+  <img src="images/gsearch.png" 
+       style="width: 300px; height: auto; border: 1px solid #ccc; border-radius: 8px;" />
+  <figcaption style="font-size: 13px; color: #555; margin-top: 6px;">
+    🧭 Flowchart: How Google Search Works
+  </figcaption>
 </figure>
+
 
 
 </div>
