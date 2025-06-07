@@ -13,26 +13,20 @@
 
 
 <div align="center" style="
-  border: 2px solid #007acc;
+  border: 1.5px solid #d0d7de;
   border-radius: 12px;
   padding: 16px 24px;
-  background: #f0f8ff;
-  font-size: 1.2rem;
+  background-color: #f9f9f9;
   font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
   color: #333;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  display: inline-block;
   max-width: 90%;
-  margin: 20px auto;
-  line-height: 1.6;
+  margin: 1.5rem auto;
+  box-shadow: 2px 4px 12px rgba(0,0,0,0.05);
 ">
-  <strong>
-    <span style="color:#007acc;">D</span>riven to 
-    <span style="color:#007acc;">E</span>levate 
-    <span style="color:#007acc;">V</span>isions through a 
-    <span style="color:#007acc;">Quest</span> of innovation, creation, and exploration.
-  </strong>
+  ✨ <em>Driven to</em> <strong>Elevate</strong> <em>Visions through a</em> <strong>Quest</strong> <em>of innovation, creation, and exploration.</em>
 </div>
+
 
 
 
