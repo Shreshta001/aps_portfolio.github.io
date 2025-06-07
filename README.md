@@ -17,22 +17,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;">
-  D
-</span>riven to 
+  D</span>riven to 
 <span style="
   background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;">
-  E
-</span>levate 
+  E</span>levate 
 <span style="
   background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;">
-  V
-</span>isions through a 
+  V</span>isions through a 
 <span style="
   background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
   -webkit-background-clip: text;
