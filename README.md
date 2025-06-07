@@ -183,7 +183,7 @@ And what powers this massive ecosystem? 🤯
   </ul>
 
  <figure style="text-align: center; margin-top: 20px;">
-  <img src="" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
+  <img src="images/gsearch.png" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;" />
   <figcaption style="font-size: 14px; color: #555; margin-top: 8px;">🧭 Flowchart: How Google Search Works</figcaption>
 </figure>
 
