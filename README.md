@@ -119,11 +119,12 @@
 # 🧭 **Domain**
 
 <p align="center">
-  <img src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" width="240"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1200px-Googleplex_HQ_%28cropped%29.jpg" alt="Google Logo" width="240"/>
   <br><br>
 </p>
 
 
+---
 
 ## 🌐 **Why Google?**
 
