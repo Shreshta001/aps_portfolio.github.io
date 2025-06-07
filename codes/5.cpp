@@ -1,41 +1,55 @@
-// A Naive recursive implementation of LCS problem
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <string>
 using namespace std;
 
-// Returns length of LCS for s1[0..m-1], s2[0..n-1]
-int lcsRec(string &s1, string &s2,int m,int n) {
-    
-    // Base case: If either string is empty, the length of LCS is 0
-    if (m == 0 || n == 0)
-        return 0;
+// Function to find the longest common substring between two strings
+string longestCommonSubstring(const string& s1, const string& s2) {
+    int m = s1.length();
+    int n = s2.length();
 
-    // If the last characters of both substrings match
-    if (s1[m - 1] == s2[n - 1])
-      
-        // Include this character in LCS and recur for remaining substrings
-        return 1 + lcsRec(s1, s2, m - 1, n - 1);
+    // Create a DP table to store lengths of longest common suffixes
+    vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
 
-    else
-        // If the last characters do not match
-        // Recur for two cases:
-        // 1. Exclude the last character of s1 
-        // 2. Exclude the last character of s2 
-        // Take the maximum of these two recursive calls
-        return max(lcsRec(s1, s2, m, n - 1), lcsRec(s1, s2, m - 1, n));
+    int maxLen = 0;
+    int endIndex = 0;  // Index of last character of LCS in s1
+
+    // Fill the DP table
+    for (int i = 1; i <= m; ++i) {
+        for (int j = 1; j <= n; ++j) {
+            if (s1[i - 1] == s2[j - 1]) {
+                dp[i][j] = 1 + dp[i - 1][j - 1];
+
+                if (dp[i][j] > maxLen) {
+                    maxLen = dp[i][j];
+                    endIndex = i;
+                }
+            }
+        }
+    }
+
+    // Extract the longest common substring
+    return s1.substr(endIndex - maxLen, maxLen);
 }
-int lcs(string &s1,string &s2){
-    
-    int m = s1.size(), n = s2.size();
-    return lcsRec(s1,s2,m,n);
-}
 
+// Demo usage with dictionary simulation
 int main() {
-    string s1 = "AGGTAB";
-    string s2 = "GXTXAYB";
-    int m = s1.size();
-    int n = s2.size();
+    string input = "applw";  // Misspelled input
+    vector<string> dictionary = {"apple", "apply", "ape", "angle"};
 
-    cout << lcs(s1, s2) << endl;
+    string bestMatch = "";
+    int maxLength = 0;
+
+    for (const string& word : dictionary) {
+        string lcs = longestCommonSubstring(input, word);
+        if (lcs.length() > maxLength) {
+            maxLength = lcs.length();
+            bestMatch = word;
+        }
+    }
+
+    cout << "Input: " << input << endl;
+    cout << "Suggested correction: " << bestMatch << endl;
 
     return 0;
 }
