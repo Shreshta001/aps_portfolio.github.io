@@ -233,7 +233,7 @@ And what powers this massive ecosystem? 🤯
 ---
 
 # 💼 **Business Case Studies powered by DevQuest**
-##**(Explore each use case to uncover its real-world impact)**
+## **(Explore each use case to uncover its real-world impact)**
 
 1. [🎯 **Optimizing Google Ads Allocation with the Assignment Problem**](./1.md)
 2. [🔒 **Enhancing Data Security with the Stolen Values Problem**](./2.md)
