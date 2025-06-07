@@ -14,6 +14,16 @@
 > **D**riven to **E**levate **V**isions through a **Quest** of innovation, creation and exploration.
 
 ---
+<p align="center" style="font-size: 1.2rem; font-family: 'Segoe UI', sans-serif; color: #444;">
+  <strong>
+    <span style="color:#007acc;">D</span>riven to 
+    <span style="color:#007acc;">E</span>levate 
+    <span style="color:#007acc;">V</span>isions through a 
+    <span style="color:#007acc;">Quest</span> of innovation, creation, and exploration.
+  </strong>
+</p>
+
+---
 
 # 🧾 **Portfolio Details**
 
