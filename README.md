@@ -280,11 +280,11 @@ And what powers this massive ecosystem? 🤯
 43. [🌐 **Edmonds-Karp Algorithm for Maximum Bandwidth Optimization**](./43.md)
 44. [🌐 **Kruskal’s Algorithm for Optimizing Global Fiber Networks**](./44.md)
 45. [💧 **Reservoir Sampling for Real-Time Data Stream Analytics**](./45.md)
-46. [](./46.md)
-47. [](./47.md)
-48. [](./48.md)
-49. [](./49.md)
-50. [](./50.md)
+46. [🧮 **Square Root Decomposition for Efficient Time-Series Aggregation in Google Systems**](./46.md)
+47. [🌌 **Persistent Segment Trees for Time-Travel Queries in Google Knowledge & Ads Systems**](./47.md)
+48. [⚡ **Look-up Tables (LUTs) for Ultra-Fast Inference in Google’s AI Systems**](./48.md)
+49. [🗃️ **Sparse Tables for Immutable Range Queries in Google’s Big Data Systems**](./49.md)
+50. [🧠 **Dynamic Knowledge Graph Compression using Tree Decomposition & MO’s Algorithm**](./50.md)
 
 ---
 
