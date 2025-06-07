@@ -23,6 +23,8 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   display: inline-block;
   max-width: 90%;
+  margin: 20px auto;
+  line-height: 1.6;
 ">
   <strong>
     <span style="color:#007acc;">D</span>riven to 
@@ -31,6 +33,7 @@
     <span style="color:#007acc;">Quest</span> of innovation, creation, and exploration.
   </strong>
 </div>
+
 
 
 ---
