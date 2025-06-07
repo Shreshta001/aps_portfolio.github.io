@@ -12,14 +12,26 @@
 ---
 
 
-> <p align="center" style="font-size: 1.2rem; font-family: 'Segoe UI', sans-serif; color: #444;">
+<div align="center" style="
+  border: 2px solid #007acc;
+  border-radius: 12px;
+  padding: 16px 24px;
+  background: #f0f8ff;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: inline-block;
+  max-width: 90%;
+">
   <strong>
     <span style="color:#007acc;">D</span>riven to 
     <span style="color:#007acc;">E</span>levate 
     <span style="color:#007acc;">V</span>isions through a 
     <span style="color:#007acc;">Quest</span> of innovation, creation, and exploration.
   </strong>
-</p>
+</div>
+
 
 ---
 
