@@ -12,29 +12,37 @@
 ---
 
 
-<div align="center" style="
-  border: 1.5px solid #d0d7de;
-  border-radius: 12px;
-  padding: 16px 24px;
-  background-color: #f9f9f9;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 1.1rem;
-  color: #333;
-  max-width: 90%;
-  margin: 1.5rem auto;
-  box-shadow: 2px 4px 12px rgba(0,0,0,0.05);
-">
-  >
-  ✨ <strong><span style="color:#007acc;">D</span></strong>riven to 
-  <strong><span style="color:#007acc;">E</span></strong>levate 
-  <strong><span style="color:#007acc;">V</span></strong>isions through a 
-  <strong style="color:#007acc;">Quest</strong> of innovation, creation, and exploration.
-</div>
+<span style="
+  background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;">
+  D
+</span>riven to 
+<span style="
+  background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;">
+  E
+</span>levate 
+<span style="
+  background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;">
+  V
+</span>isions through a 
+<span style="
+  background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;">
+  Quest
+</span> of innovation, creation, and exploration.
 
 
 
-
----
 
 
 ---
