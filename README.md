@@ -24,7 +24,11 @@
   margin: 1.5rem auto;
   box-shadow: 2px 4px 12px rgba(0,0,0,0.05);
 ">
-  ✨ <em>Driven to</em> <strong>Elevate</strong> <em>Visions through a</em> <strong>Quest</strong> <em>of innovation, creation, and exploration.</em>
+  >
+  ✨ <strong><span style="color:#007acc;">D</span></strong>riven to 
+  <strong><span style="color:#007acc;">E</span></strong>levate 
+  <strong><span style="color:#007acc;">V</span></strong>isions through a 
+  <strong style="color:#007acc;">Quest</strong> of innovation, creation, and exploration.
 </div>
 
 
