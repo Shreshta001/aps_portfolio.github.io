@@ -1,64 +1,52 @@
 #include <iostream>
-#include <queue>
 #include <vector>
-#include <unordered_map>
-#include <climits>
-
 using namespace std;
 
-// Pair of (cost, node)
-typedef pair<int, int> pii;
+// Build the LPS (Longest Prefix Suffix) array
+vector<int> buildLPS(const string& pattern) {
+    int m = pattern.size();
+    vector<int> lps(m);
+    int len = 0;
+    lps[0] = 0; // first value is always 0
 
-// Graph as adjacency list: node -> vector of (neighbor, cost)
-unordered_map<int, vector<pii>> graph;
-
-// Uniform Cost Search
-void uniformCostSearch(int start, int goal) {
-    // Min-heap based on cost
-    priority_queue<pii, vector<pii>, greater<pii>> pq;
-
-    // Distance from start to each node
-    unordered_map<int, int> dist;
-
-    for (auto& node : graph)
-        dist[node.first] = INT_MAX;
-
-    dist[start] = 0;
-    pq.push({0, start});
-
-    while (!pq.empty()) {
-        int cost = pq.top().first;
-        int node = pq.top().second;
-        pq.pop();
-
-        if (node == goal) {
-            cout << "Reached goal " << goal << " with cost: " << cost << endl;
-            return;
-        }
-
-        for (auto& neighbor : graph[node]) {
-            int nextNode = neighbor.first;
-            int edgeCost = neighbor.second;
-
-            if (cost + edgeCost < dist[nextNode]) {
-                dist[nextNode] = cost + edgeCost;
-                pq.push({dist[nextNode], nextNode});
+    int i = 1;
+    while (i < m) {
+        if (pattern[i] == pattern[len]) {
+            len++;
+            lps[i] = len;
+            i++;
+        } else {
+            if (len != 0) {
+                len = lps[len - 1]; // backtrack
+            } else {
+                lps[i] = 0;
+                i++;
             }
         }
     }
-
-    cout << "Goal not reachable." << endl;
+    return lps;
 }
 
-int main() {
-    // Sample graph
-    graph[0] = {{1, 4}, {2, 1}};
-    graph[1] = {{3, 1}};
-    graph[2] = {{1, 2}, {3, 5}};
-    graph[3] = {};
+// KMP Search Algorithm
+void KMPsearch(const string& text, const string& pattern) {
+    int n = text.size();
+    int m = pattern.size();
+    vector<int> lps = buildLPS(pattern);
 
-    int start = 0, goal = 3;
-    uniformCostSearch(start, goal);
+    int i = 0, j = 0; // i -> text, j -> pattern
+    while (i < n) {
+        if (text[i] == pattern[j]) {
+            i++; j++;
+        }
 
-    return 0;
+        if (j == m) {
+            cout << "Pattern found at index " << i - j << endl;
+            j = lps[j - 1]; // continue searching
+        } else if (i < n && text[i] != pattern[j]) {
+            if (j != 0)
+                j = lps[j - 1];
+            else
+                i++;
+        }
+    }
 }
